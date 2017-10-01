@@ -21,9 +21,9 @@
     a:hover {text-decoration: none; color: gray};
 </style>
 
-    </head>
-    <body>
-        <header class="container-fluid">
+<body>
+
+<header class="container-fluid">
         <!-- FIRST PART OUT OF 3 OF THE HEADER -->    
             <nav class="row dots" style="background-image: url('images/blue-dots.jpg')">
                 
@@ -84,170 +84,7 @@
         </header>
     <!-- ENDS HEADER -->    
         
-    <!-- INITIATES SLIDER -->        
-    <section class="jumbotron" style="background-image: url('images/tablet3.jpg')">
-        
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
-                <div class="big-title">
-                    <h1>Connecting anything,<br/>Anywhere.</h1>
-                </div>
-                
-                <div class="little-text">
-                    <h3>Mowisat Corporation commercializes Satellite<br/>
-                        Broadband in Latin America for versatile use.<br/>
-                        Powered by cutting edge connectivity solutions<br/>
-                        for business processes optimization.</h3>
-                </div>
-                
-                
-                <div class="lrn-more-btn">
-                <button>LEARN MORE</button>
-                </div>   
-                
-            </div>
-                
-            <div class="col-sm-1"></div>
-        </div>
-    </section>    
-    
-    <!-- ENDS SLIDER -->
-    
-    <!-- CONTAINERS SECTION BEGINS -->
-    
-        <!-- INITIATES INFO-BAR -->
-    
-        <section class="container-fluid info-bar">
-            
-            <!-- FIRST INFO-BAR LINE -->
-            <div class="row">
-                
-                <div class="col-sm-2"></div>
-                
-                <div class="col-sm-4 inline-box">
-                    <div><img src="images/icon1.png" alt="schedular" />Schedular</div>
-                    <div><img src="images/icon2.png" alt="IoT" />IoT Real Time View</div>
-                    <div><img src="images/icon3.png" alt="streaming" />Streaming: Broadcast and Multicast</div>
-                </div>
-                <div class="col-sm-4 inline-box">
-                    <div><img src="images/icon4.png" alt="Wi-Fi" />Wi-Fi Hotspots</div>
-                    <div><img src="images/icon5.png" alt="education" />Online Education Platforms</div>
-                    <div><img src="images/icon6.png" alt="sensor" />Sensor Desing</div>                    
-                </div>
-                
-                <div class="col-sm-2"></div>
-                
-            </div>
-                    
-          
-        </section>
-    
-    
-        <!-- ENDS INFO-BAR -->
-    
-    
-    
-        
-        <!-- INITIATES CONTACT US BOX -->
-        <!--
-        <section class="container contact-us-box">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h4>Contact Us</h4>
-                </div>
-            </div>
-            
-            <div class="row">
-                
-                <div class="col-sm-1"></div>
-                
-                <div class="col-sm-5">
-                    <div>formulario</div>
-                </div>
-                
-                <div class="col-sm-5">
-                    <div>mapa</div>
-                </div>
-                
-                <div class="col-sm-1"></div>
-                
-            </div>
-            
-        </section>
-        
-        -->
-    
-        <!-- ENDS CONTACT US BOX -->
-    
-    
-    
-    
-    
-        <!-- INITIATES BLOG BOX -->
-        
-        <!-- FIRST BLOG BOX -->
-        <section class="container-fluid blog-box">
-            <div class="row">
-                
-                <div class="col-sm-1"></div>
-                
-                <div class="col-sm-5 blog-new">
-                    <h4  class="margin">BLOG</h4>
-                    <h5 class="blue">Title of entry</h5>
-                    <p class="blog-p padding-right">Mowisat Corporation is a company which works with satellite internet connectivity
-to deliver digital services and versatile platforms for human capacity
-development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities. Mowisat Corporation is a company which
-works with satellite internet connectivity to deliver digital services and versatile
-platforms for human capacity development to different sectors, industries,
-and sociocultural initiatives such as marginalized communities.</p>
-                    <button>Read more</button>
-                </div>
-                
-                
-                
-        <!-- SECOND BLOG BOX -->        
-                <div class="col-sm-5 blog-second">
-                    <p class="blog-p margin padding-left">Mowisat Corporation is a company which works with satellite internet connectivity
-to deliver digital services and versatile platforms for human capacity
-development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities. Mowisat Corporation is a company which
-works with satellite internet connectivity to deliver digital services and versatile
-platforms for human capacity development to different sectors, industries,
-and sociocultural initiatives such as marginalized communities.</p>
-                    <div>
-                        <div></div>
-                        
-                            <div class="blue padding-left">Name</div><div class="padding-left">Location</div>
-                         
-                        
-                    </div>
-                </div>
-        
-                <div class="col-sm-1"></div>
-                 
-            </div>
-        </section>
-        
-        <!-- ENDS BLOG BOX -->
-        
-        
-        <!-- INITIATES WORK WITH US BOX -->
-        
-        <section class="container-fluid work-with-us-box">
-            <div>
-                <h4 class="work-title">WANNA WORK WITH US?</h4>
-            </div>
-            
-            <div class="vacancies-btn">
-                <button>See our vacancies</button>
-            </div>
-        </section>
-        <!-- ENDS WORK WITH US BOX -->
-    
-    <!-- CONTAINERS SECTION ENDS -->
-    
+
 
 
 
@@ -322,6 +159,8 @@ and sociocultural initiatives such as marginalized communities.</p>
                 </nav>
         </div>    
     </footer>    
-    <!-- ENDS FOOTER -->
-    </body>
-</html>
+    <!-- ENDS FOOTER -->    
+
+</body>
+
+<html>
