@@ -193,12 +193,13 @@ div.style-box {
     .float-center {
         text-align: center;
         position: relative;
+        margin: auto;
     }
-    /*
+    
     .float-right {
         float: right;
     }
-    */
+    
 
 }
 
