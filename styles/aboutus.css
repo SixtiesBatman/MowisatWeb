@@ -1,3 +1,18 @@
+.aboutus-pic {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+section.aboutus-pic {
+    height: 16em;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
 .know-more {
     width: 100% !important;
     background-color: #DADADA;
