@@ -35,16 +35,23 @@ a {
 }
 
 @media only screen and (max-width: 420px) {
-    font-size: 16px;
+    .login-btn button { 
+        font-size: 16px;
+    }    
 }
 
 @media only screen and (min-width: 420px) and (max-width: 800px) {
-    font-size: 20px;
+    .login-btn button { 
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 800px) {
-    font-size: 26px;
+    .login-btn button { 
+        font-size: 26px;
+    }
 }
+
 /* 2nd part */
 
 .header-two {
@@ -146,34 +153,51 @@ div.style-box {
 
 }
 
-@media only screen and (min-width: 435px) and (max-width: 800px) {
-
+@media only screen and (min-width: 435px) and (max-width: 767px) {
+    
     div.style-box {
         font-size: 1.25em;
     }
+    
+    .style-box img {
+        width: 5.6em;
+        height: 5.6em;
+        margin: 0;
+    }    
+            
+    .inline-display {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 837px) {
+
+    div.style-box {
+        font-size: 1.15em;
+    }
 
     .style-box img {
-        width: 6em;
-        height: 6em;
+        width: 5.6em;
+        height: 5.6em;
         margin: 0;
     }    
         
     .inline-display {
         display: inline-block;
     }
+  
 
-    /*
-    .float-right {
-        float: right;
-    }
-    */
 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 837px) {
 
     div.style-box {
         font-size: 1.25em;
+        text-align: center;
     }
 
     .style-box img {
@@ -185,22 +209,7 @@ div.style-box {
     .inline-display {
         display: inline-block;
     }
-
-    .float-left {
-        float: left;
-    } 
-
-    .float-center {
-        text-align: center;
-        position: relative;
-        margin: auto;
-    }
     
-    .float-right {
-        float: right;
-    }
-    
-
 }
 
 
@@ -219,7 +228,7 @@ div.style-box {
     overflow: visible;
 }
 
-h1, h3 {
+jumbotron h1, h3 {
     text-align: left;
     color: black;
 }
