@@ -3,10 +3,10 @@
 include ''.dirname(__FILE__).'/../utils/conexion.php';
 include ''.dirname(__FILE__).'/../utils/functions.php';
 
-$nameContact =  $_POST["nameContact"];
-$numberContact =  $_POST["numberContact"];
-$emailContact =  $_POST["emailContact"];
-$commentContact =  $_POST["commentContact"];
+$nameContact =  base_de_datos_scape($_POST["nameContact"]);
+$numberContact =  base_de_datos_scape($_POST["numberContact"]);
+$emailContact =  base_de_datos_scape($_POST["emailContact"]);
+$commentContact =  base_de_datos_scape($_POST["commentContact"]);
 
 $obj = new stdclass();
 $obj->success = "";

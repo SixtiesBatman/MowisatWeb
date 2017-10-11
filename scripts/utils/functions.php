@@ -73,6 +73,12 @@ function strip_tags_content($text) {
     $text = str_replace("<br />","\r",$text);
    return $text;
 }
+function limpiartextoDeHtml($texto, $tam){
+
+  //tam = tamaño de caracteres a dejar.
+
+  return csubstr(strip_tags($texto,"<strong><br>"),0,$tam);
+}
 function csubstr($string, $start, $length=false) { 
     //substring sin quitar html
     $pattern = '/(\[\w+[^\]]*?\]|\[\/\w+\]|<\w+[^>]*?>|<\/\w+>)/i'; 
