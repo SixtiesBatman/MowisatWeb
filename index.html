@@ -2,23 +2,83 @@
 <html>
     <head>
         <title>Mowisat Corporation</title>
-        <meta charset="windows-1252">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles/style.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="images/favicon_mowisat.png">
         <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- jQuery library -->
+        <script src="js/jquery.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="js/bootstrap.js"></script>
 
-<style>
-    a {color: gray}
-    a:hover {text-decoration: none; color: gray};
-</style>
+
+        <script src="js/toastr.js"></script>
+        <link rel="stylesheet" href="styles/toastr.css">
+
+        <link rel="stylesheet" href="styles/font-awesome.css">
+        
+
+        <style>
+            a {color: gray}
+            a:hover {text-decoration: none; color: gray};
+        </style>
+
+        <script>
+            function sendContact(){
+                //alert("entro");
+                console.log("entro");
+                console.log(document.getElementById("nameContact").value);
+                console.log($("#nameContact").val());
+                console.log($("#numberContact").val());
+                console.log($("#emailContact").val());
+                console.log($("#commentContact").val());
+
+                if($("#nameContact").val()==""){
+                    toastr["error"]("Write your name", "");
+                } else if($("#numberContact").val()==""){
+                    toastr["error"]("Write your number", "");
+
+                }  else if($("#emailContact").val()==""){
+                    toastr["error"]("Write your email", "");
+
+                }  else if($("#commentContact").val()==""){
+                    toastr["error"]("Write your comments", "");
+
+                } else {
+                    //ajax
+                    
+                    $.ajax({  url : "scripts/actions/contacto.php",
+                              type : "post",
+                              data : {  nameContact : $("#nameContact").val(),
+                                        numberContact : $("#numberContact").val(),
+                                        emailContact: $("#emailContact").val(),
+                                        commentContact: $("#commentContact").val()
+                              },
+                              success : function(data) {
+                                  console.log("se envio");
+                                  var response = JSON.parse(data);
+                                  console.log(response);
+                                  if(response.success=="true"){
+                                    toastr["success"]("We have recieved you data. we will contact you soon.", "");
+                                  } else {
+                                    toastr["error"](response.description, "");
+                                  }
+                              },
+                              error : function(response) {
+                                toastr["error"]("Error you dont have internet", "");
+                              }
+                    });
+                    
+
+        
+                }
+
+            }
+        </script>
 
     </head>
     <body>
@@ -94,7 +154,7 @@
 
 
     <!-- INITIATES SLIDER -->        
-    <section class="jumbotron" style="background-image: url('images/tablet3.jpg')">
+    <section class="jumbotron" style="margin-bottom: 0; background-image: url('images/tablet3.jpg')">
         
         <div class="row">
             <div class="col-sm-1"></div>
@@ -170,11 +230,51 @@
                 <div class="col-sm-1"></div>
                 
                 <div class="col-sm-5">
-                    <div>formulario</div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            Name<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="nameContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="col-md-12">
+                        <div class="col-md-6">
+                            Mobile Number<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="numberContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="col-md-12">
+                        <div class="col-md-6">
+                            E-Mail<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="emailContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="col-md-12">
+                        <div class="col-md-6">
+                            Comments<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea id="commentContact" value="" style="background-color: #DADADA; height: 150px;" class="form-control"></textarea>
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
+                       <button onclick="sendContact();" id="sendContact" class="btn fa fa-paper-plane"> Send</button> 
+                    </div>
                 </div>
                 
                 <div class="col-sm-5 text-center">
-                    <div>mapa</div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.965285898797!2d-79.38306128450236!3d43.64889057912149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cd578a5c61%3A0xea0589912e09cc06!2sFirst+Canadian+Place%2C+Toronto%2C+ON%2C+Canad%C3%A1!5e0!3m2!1ses-419!2smx!4v1507737368429" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
                 
                 <div class="col-sm-1"></div>
@@ -247,8 +347,8 @@ and sociocultural initiatives such as marginalized communities.</p>
                 <h4 class="work-title">WANNA WORK WITH US?</h4>
             </div>
             
-            <div class="vacancies-btn">
-                <button>See our vacancies</button>
+            <div style="color: black !important;" class="vacancies-btn">
+                <button style="color: black !important;">See our vacancies</button>
             </div>
         </section>
         <!-- ENDS WORK WITH US BOX -->
@@ -308,8 +408,8 @@ and sociocultural initiatives such as marginalized communities.</p>
                 <div class="blue-letter mexico">Mexico</div>
                 <div class="last-paragraph">Mowisat Corporation<br />
                      Mexico City, Mexico<br />
-                     Calle Bah�a de las Palmas 1 Ver�nica Anzures<br />
-                     113000, Ciudad de M�xico, CDMX</div>
+                     Calle Bahía de las Palmas 1 Verónica Anzures<br />
+                     113000, Ciudad de México, CDMX</div>
                
             </div>
             
