@@ -22,3 +22,14 @@
 
 <link rel="stylesheet" href="styles/font-awesome.css">
 <link rel="stylesheet" href="styles/fonts-apply.css">
+
+<style>
+.container-fluid{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+</style>

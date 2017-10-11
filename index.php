@@ -111,7 +111,7 @@
     <!-- INITIATES SLIDER -->        
     <section class="jumbotron" style="margin-bottom: 0; background-image: url('images/tablet3.jpg')">
         
-        <div class="row">
+        <div style="margin-right: 0;" class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="big-title">

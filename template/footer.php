@@ -36,8 +36,8 @@
             </div>
 
             <div class="col-sm-6">
-                <div class="blue-letter">STAY IN TOUCH</div>
-                <div class="special2">info@mowisatcorp.com</div>
+                <div style="padding-left: 15px;" class="blue-letter">STAY IN TOUCH</div>
+                <div style="padding-left: 15px;" class="special2">info@mowisatcorp.com</div>
 
                 <div class="row">
                   <div class="col-sm-6">
