@@ -1,4 +1,8 @@
 <?php
+    include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    
+    $log = new LoggerPhp();
+    $log->write_log("[Index]","Debug");
 ?>
 
 <!DOCTYPE html>
