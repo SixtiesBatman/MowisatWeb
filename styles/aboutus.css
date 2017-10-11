@@ -1,11 +1,11 @@
 .aboutus-pic {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 section.aboutus-pic {
-    height: 16em;
+    height: 20em;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 .know-more {
     width: 100% !important;
     background-color: #DADADA;
-} 
+}
 
 .margin-line {
     display: block;
@@ -28,4 +28,8 @@ h1 {
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
+}
+
+.vision-sec {
+  background-color: #569EB6;
 }
