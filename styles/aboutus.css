@@ -5,17 +5,48 @@
 }
 
 section.aboutus-pic {
-    height: 20em;
+    height: 30em;
 }
 
-h1 {
+.aboutus-pic h1 {
     text-align: center;
-    margin: auto;
+    margin: 1.7em;
+    color: white;
+    font-size: 6em;
 }
 
 .know-more {
     width: 100% !important;
     background-color: #DADADA;
+}
+
+.letter-size {
+    margin: 1.5em 0;
+}
+
+.letter-size h3 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+  
+}
+
+.letter-size h4 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    height: 15em;
+    width: 15em;
+    margin: 1em;
+    text-align: center;
+    border-radius: 100%;    
 }
 
 .margin-line {
