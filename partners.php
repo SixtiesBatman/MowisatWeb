@@ -2,7 +2,7 @@
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
     
     $log = new LoggerPhp();
-    $log->write_log("[Aboutus]","Debug");
+    $log->write_log("[Partners]","Debug");
 ?>
 
 <!DOCTYPE html>
