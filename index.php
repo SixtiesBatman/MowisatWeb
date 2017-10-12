@@ -88,7 +88,9 @@
                                     $("#titleBlog").html(response.title);
                                     $("#contentBlog").html(response.content + "...");
                                     $("#readBlog").attr("href","blog/" + readBlog[1]);
+                                    $("#readBlog").css("display","");
                                   } else {
+                                    $("#titleBlog").html("Error :( we connot load the blog right now.");
                                   }
                               },
                               error : function(response) {
@@ -262,7 +264,7 @@
                     <h4  class="margin">BLOG</h4>
                     <h5 class="blue" id="titleBlog">Loading....</h5>
                     <p class="blog-p padding-right" id="contentBlog"></p>
-                    <a href="" id="readBlog">
+                    <a style="display: none;" href="" id="readBlog">
                         <button>Read more</button>
                     </a>
                 </div>
@@ -303,7 +305,9 @@ and sociocultural initiatives such as marginalized communities.</p>
             </div>
             
             <div style="color: black !important;" class="vacancies-btn">
-                <button style="color: black !important;">See our vacancies</button>
+                <a href="carrers.php">
+                    <button style="color: black !important;">See our vacancies</button>
+                </a>
             </div>
         </section>
         <!-- ENDS WORK WITH US BOX -->

@@ -45,8 +45,8 @@
                 <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
                     <li><a style="color: black;" href="#">satellite broadband</a></li>
                     <li><a style="color: black;" href="#">social responsability</a></li>
-                    <li><a style="color: black;" href="#">news</a></li>
-                    <li><a style="color: black;" href="#">investors</a></li>
+                    <li><a style="color: black;" href="/blog">news</a></li>
+                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">investors</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">EN</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li></ul>
               </div>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><img src="images/icon9.png" alt="partners" />our partners</div>
+                <div class="inline-display"><a href="./partners.php"><img src="images/icon9.png" alt="partners" />our partners</a></div>
             </div>
 
         </div>
