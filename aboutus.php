@@ -1,166 +1,202 @@
+<?php
+    include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    
+    $log = new LoggerPhp();
+    $log->write_log("[Aboutus]","Debug");
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mowisat Corporation</title>
+        <title>About Us</title>
 
-        
-        <meta charset="windows-1252">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <?PHP
+            include ''.dirname(__FILE__).'/template/meta.php';
+        ?>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<style>
-    a {color: gray}
-    a:hover {text-decoration: none; color: gray};
-</style>
-
-<body>
-
-<header class="container-fluid">
-        <!-- FIRST PART OUT OF 3 OF THE HEADER -->    
-            <nav class="row dots" style="background-image: url('images/blue-dots.jpg')">
-                
-                <div class="col-sm-1"></div>
-                
-                <div class="col-sm-10">
-                    
-                    <div class="login-btn">
-                        <button>Login</button>
-                    </div>
-                        
-                </div>
-                
-                <div class="col-sm-1"></div>
-                
-            </nav>
-        
-        <!-- SECOND PART OUT OF 3 OF THE HEADER -->
-            <div class="row">
-                
-                <nav class="col-sm-1"></nav>
-                
-                <nav class="col-sm-3 header-two">
-                    <div class="mowisat-logo">
-                        <img src="images/mowisat-corp-logo.png" alt="mowisat corp logo" />
-                    </div>
-                </nav>
-                
-                <nav class="col-sm-7" id="nav-style-header">
-                    <ul>
-                        <li><a href="#">satellite broadband</a></li>
-                        <li><a href="#">internet of thing</a></li>
-                        <li><a href="#">social responsability</a></li>
-                        <li><a href="#">investors</a></li>
-                        <li class="round"><a href="#">EN</a></li>
-                        <li class="round"><a href="#">ES</a></li>
-                    </ul>
-                </nav>  
-                
-                <nav class="col-sm-1"></nav>
-                
-            </div>    
-        
-        <!-- THIRD PART OUT OF 3 OF THE HEADER -->  
-            
-            <nav class="row header-three-style">
-                <div id="third-header">
-                    
-                    <div class="col-sm-1 style-box"></div>
-                    <div class="col-sm-10 style-box">
-                        <div class="inline-display float-left"><img src="images/icon7.png" alt="question mark" />why mowisat?</div>
-                        <div class="inline-display float-center"><img src="images/icon8.png" alt="gears" />how it works?</div>
-                        <div class="inline-display float-right"><img src="images/icon9.png" alt="partners" />who we work with</div>
-                    <div class="col-sm-1 style-box"></div>
-                </div>
-            </nav>
-            
-        </header>
-    <!-- ENDS HEADER -->    
-        
-
-
-
-
-    <!-- INITIATES FOOTER -->
+        <link href="styles/aboutus.css" rel="stylesheet" type="text/css">
     
-    <footer class="footer">
-        
-        <div class="row">
-            <div class="col-sm-12 social-network">
-                <ul>
-                    <li><div class="logos-sm1"><a href="#"><img src="images/twitter-logo.png" alt="twitter" />@MowisatCorp</a></div></li>
-                    <li><div class="logos-sm"><a href="#"><img src="images/fb-logo.png" alt="facebook" />Facebook.com/MowisatCorporation</a></div></li>
-                    <li><div class="logos-sm2"><a href="#"><img src="images/linkedin-logo.png" alt="linkedin" />Linkedin</a></div></li>
-                </ul>    
+        <style>
+            a {color: gray}
+            a:hover {text-decoration: none; color: gray};
+        </style>
+    </head>
+    <body>
+
+    <?PHP
+        include ''.dirname(__FILE__).'/template/header.php';
+    ?>
+
+    <!-- INITIATES CONTAINER SECTION -->
+
+    <section class='container-fluid aboutus-pic' style="background-image: url('images/aboutus-sat.jpg')">
+        <div class='row'>
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-10'>
+                <h1>About us</h1>
             </div>
+            <div class="col-md-1"></div>
+
         </div>
-        
-        <div class="row">
-            
-            <div class="col-sm-1"></div>
-            
-            <div class="col-sm-2 other-list">
-                <ul>
-                    <li class="blue-letter">Meet Mowisat</li>
-                    <li>Mision</li>
-                    <li>Vision</li>
-                    <li>Our team</li>
-                    <li>Section partners</li>
-                </ul>
+    </section>
+
+    <section class='container-fluid know-more'>
+        <div class='row'>
+
+            <div class="col-md-1"></div>
+            <div class='col-xs-12 col-sm-3 image'>
+                <img src="images/dish1.jpg" />
             </div>
-            
-            <div class="col-sm-2">
-                <div class="blue-letter special">NEWS</div>
-                <div class="blue-letter special">CARRERS</div>
-                
+
+            <div class='col-xs-12 col-sm-7 letter-size'>
+                <h3 class="big">Know more about us:</h3>
+                <hr class='margin-line' />
+                <h4 class="small">MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.</h3>
             </div>
-            
-            <div class="col-sm-3">
-                <div class="blue-letter">STAY IN TOUCH</div>
-                <div class="special2">info@mowisatcorp.com</div>
-                <div class="blue-letter">Canada</div>
-                <div class="last-paragraph">First Canadian Place<br />
-                    100 King Street West Suite 5700<br />
-                    Toronto, ON<br />
-                    M5X 1C7</div>
-            </div>
-            
-            <div class="col-sm-3">
-             
-                    
-                <div class="blue-letter mexico">Mexico</div>
-                <div class="last-paragraph">Mowisat Corporation<br />
-                     Mexico City, Mexico<br />
-                     Calle Bah�a de las Palmas 1 Ver�nica Anzures<br />
-                     113000, Ciudad de M�xico, CDMX</div>
-               
-            </div>
-            
-            <div class="col-sm-1"></div>
-            
+
+            <div class="col-md-1"></div>
+
         </div>
-           
+
+    </section>
+
+
+
+
+    <section class='container-fluid big-box'>
+        <div class='row'>
+
+            <div class="col-xs-1 col-sm-1 col-md-1"></div>
+
+            <div class='col-xs-10 col-sm-10 col-md-10 team'>
+                <h2>Management</h2>
+                <h3>Mowisat Corporation is formed by an experienced team with extensive expertise in telecommunications, satellite broadband operations, and management.</h3>
+            </div>
+
+            <div class="col-xs-1 col-sm-1 col-md-1"></div>
+        </div>
+
         
-        
-        <div class="row">
-                <nav class="col-sm-12" id="other-links">
-                    <ul>
-                        <li><a href="#">2017 Mowisat Corporation</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Policies and Terms</a></li>
-                    </ul>
-                </nav>
+
+        <div class='row'>
+
+            
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='nombre'>
+                        <h3>R.SCOTT ZIMMER</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>President to the Board of Directors - Founder of LEAP, former Chairman of EchoStar Satellite Corporation and Vice Chairman of EchoStar Communications Corporation.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>STEVEN HOFFMAN</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>CFO – Chief Financial Officer and Board Member for Mowisat. Director and Board Member of of Bridgemark Financial & Advisors Ltd., a boutique Private Equity & advisory firm with operations in Canada and London, UK. Entrepreneurial and founder of a collection of companies in the Renewable Energy, Encryption and Energy Storage companies (Both Private, Public).</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+
         </div>    
-    </footer>    
-    <!-- ENDS FOOTER -->    
 
-</body>
 
-<html>
+        <div class='row'>
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>VLATKO GIGOV</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>COO - Formerly Officer for Economic affairs at UNOG Mission in Geneva. Has worked as project leader in charge of communications projects at Sovereign Solutions. Experienced in business development and telecommunications related projects</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>EMILIANO TERÁN</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>CTO - Vast expirience in networks and programming, developing infrastructure and IT operations: network operations, application development and maintenance. Advance technology knowledge, competitive analysis, technology assassment, partnering and planning.</p>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>
+
+    </section>
+
+
+    <section class='container-fluid'>
+        <div class='row vision-sec'>
+            <div class="col-md-1"></div>
+            <div class='col-sx-12 col-md-7 vision-text'>
+                <h2>Our Vision</h2>
+                <hr class='margin-line' />
+                <p>The Mowisat mission is to be the first to provide the highest speed satellite Internet broadband capacity to Mexico, in conjunction with a new satellite launch, Echostar XIX / Jupiter 2. Mowisat intends to capitalize on emerging markets growth opportunity, with it's unique access broadband enabled services, and to provide affordable communications.</p>
+            </div>
+
+            <div class='col-sx-12 col-md-3 image'>
+                <img src="images/dish2.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+    </section>
+
+
+    <!-- ENDS CONTAINER SECTION -->
+
+
+    <?PHP
+    include ''.dirname(__FILE__).'/template/footer.php';
+    ?>

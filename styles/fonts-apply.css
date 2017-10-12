@@ -1,0 +1,64 @@
+
+@font-face {
+	font-family: 'mowisat';
+	src:url('../fonts/mowisat/Roboto-Black.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BlackItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Bold.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BoldCondensed.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BoldCondensedItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-BoldItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Condensed.ttf') format('truetype'), 
+            url('../fonts/mowisat/Roboto-CondensedItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Italic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Light.ttf') format('truetype')
+            url('../fonts/mowisat/Roboto-LightItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Medium.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-MediumItalic.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Regular.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-Thin.ttf') format('truetype'),
+            url('../fonts/mowisat/Roboto-ThinItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+'Montserrat', sans-serif;
+'mowisat', 'roboto'
+*/
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+span {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+b {
+    font-family: 'Montserrat', sans-serif;
+}
+i {
+    font-family: 'Montserrat', sans-serif;
+}
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    font-family: 'Montserrat', sans-serif;
+}

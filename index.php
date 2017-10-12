@@ -1,93 +1,121 @@
+<?php
+    include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    
+    $log = new LoggerPhp();
+    $log->write_log("[Index]","Debug");
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Mowisat Corporation</title>
 
+        <?PHP
+            include ''.dirname(__FILE__).'/template/meta.php';
+        ?>
+
+        <style>
+            a {color: gray}
+            a:hover {text-decoration: none; color: gray};
+        </style>
+
+        <script>
+
+            function sendContact(){
+                //alert("entro");
+                console.log("entro");
+                console.log(document.getElementById("nameContact").value);
+                console.log($("#nameContact").val());
+                console.log($("#numberContact").val());
+                console.log($("#emailContact").val());
+                console.log($("#commentContact").val());
+
+                if($("#nameContact").val()==""){
+                    toastr["error"]("Write your name", "");
+                } else if($("#numberContact").val()==""){
+                    toastr["error"]("Write your number", "");
+
+                }  else if($("#emailContact").val()==""){
+                    toastr["error"]("Write your email", "");
+
+                }  else if($("#commentContact").val()==""){
+                    toastr["error"]("Write your comments", "");
+
+                } else {
+                    //ajax
+                    
+                    $.ajax({  url : "scripts/dao/contacto.php",
+                              type : "post",
+                              data : {  nameContact : $("#nameContact").val(),
+                                        numberContact : $("#numberContact").val(),
+                                        emailContact: $("#emailContact").val(),
+                                        commentContact: $("#commentContact").val()
+                              },
+                              success : function(data) {
+                                  console.log("se envio");
+                                  var response = JSON.parse(data);
+                                  console.log(response);
+                                  if(response.success=="true"){
+                                    toastr["success"]("We have recieved you data. we will contact you soon.", "");
+                                  } else {
+                                    toastr["error"](response.description, "");
+                                  }
+                              },
+                              error : function(response) {
+                                toastr["error"]("Error you dont have internet", "");
+                              }
+                    });
+                    
+
         
-        <meta charset="windows-1252">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                }
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            }
+            function getLastPostBlog(){
+                    //ajax
+                    
+                    $.ajax({  url : "scripts/dao/getLastPostBlog.php",
+                              type : "post",
+                              success : function(data) {
+                                  console.log("se envio");
+                                  var response = JSON.parse(data);
+                                  console.log(response);
+                                  if(response.success=="true"){
+                                    console.log(response);
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                                    var readBlog = response.guid.split("/blog/");
 
-<style>
-    a {color: gray}
-    a:hover {text-decoration: none; color: gray};
-</style>
+                                    $("#titleBlog").html(response.title);
+                                    $("#contentBlog").html(response.content + "...");
+                                    $("#readBlog").attr("href","blog/" + readBlog[1]);
+                                  } else {
+                                  }
+                              },
+                              error : function(response) {
+                                toastr["error"]("Error you dont have internet", "");
+                              }
+                    });
+
+            }
+
+
+            $( document ).ready(function() {
+            // Handler for .ready() called.
+                getLastPostBlog();
+            });
+        </script>
 
     </head>
-    <body>
-        <header class="container-fluid">
-        <!-- FIRST PART OUT OF 3 OF THE HEADER -->    
-            <nav class="row dots" style="background-image: url('images/blue-dots.jpg')">
-                
-                <div class="col-sm-1"></div>
-                
-                <div class="col-sm-10">
-                    
-                    <div class="login-btn">
-                        <button>Login</button>
-                    </div>
-                        
-                </div>
-                
-                <div class="col-sm-1"></div>
-                
-            </nav>
-        
-        <!-- SECOND PART OUT OF 3 OF THE HEADER -->
-            <div class="row">
-                
-                <nav class="col-sm-1"></nav>
-                
-                <nav class="col-sm-3 header-two">
-                    <div class="mowisat-logo">
-                        <img src="images/mowisat-corp-logo.png" alt="mowisat corp logo" />
-                    </div>
-                </nav>
-                
-                <nav class="col-sm-7" id="nav-style-header">
-                    <ul>
-                        <li><a href="#">satellite broadband</a></li>
-                        <li><a href="#">internet of thing</a></li>
-                        <li><a href="#">social responsability</a></li>
-                        <li><a href="#">investors</a></li>
-                        <li class="round"><a href="#">EN</a></li>
-                        <li class="round"><a href="#">ES</a></li>
-                    </ul>
-                </nav>  
-                
-                <nav class="col-sm-1"></nav>
-                
-            </div>    
-        
-        <!-- THIRD PART OUT OF 3 OF THE HEADER -->  
-            
-            <nav class="row header-three-style">
-                <div id="third-header">
-                    
-                    <div class="col-sm-1 style-box"></div>
-                    <div class="col-sm-10 style-box">
-                        <div class="inline-display float-left"><img src="images/icon7.png" alt="question mark" />why mowisat?</div>
-                        <div class="inline-display float-center"><img src="images/icon8.png" alt="gears" />how it works?</div>
-                        <div class="inline-display float-right"><img src="images/icon9.png" alt="partners" />who we work with</div>
-                    <div class="col-sm-1 style-box"></div>
-                </div>
-            </nav>
-            
-        </header>
-    <!-- ENDS HEADER -->    
-        
+    <body>   
+
+    <?PHP
+        include ''.dirname(__FILE__).'/template/header.php';
+    ?>
+
     <!-- INITIATES SLIDER -->        
-    <section class="jumbotron" style="background-image: url('images/tablet3.jpg')">
+    <section class="jumbotron" style="margin-bottom: 0; background-image: url('images/tablet3.jpg')">
         
-        <div class="row">
+        <div style="margin-right: 0;" class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div class="big-title">
@@ -128,12 +156,10 @@
                 <div class="col-sm-4 inline-box">
                     <div><img src="images/icon1.png" alt="schedular" />Schedular</div>
                     <div><img src="images/icon2.png" alt="IoT" />IoT Real Time View</div>
-                    <div><img src="images/icon3.png" alt="streaming" />Streaming: Broadcast and Multicast</div>
                 </div>
                 <div class="col-sm-4 inline-box">
                     <div><img src="images/icon4.png" alt="Wi-Fi" />Wi-Fi Hotspots</div>
-                    <div><img src="images/icon5.png" alt="education" />Online Education Platforms</div>
-                    <div><img src="images/icon6.png" alt="sensor" />Sensor Desing</div>                    
+                    <div><img src="images/icon5.png" alt="education" />Online Education Platforms</div>                
                 </div>
                 
                 <div class="col-sm-2"></div>
@@ -150,7 +176,7 @@
     
         
         <!-- INITIATES CONTACT US BOX -->
-        <!--
+        
         <section class="container contact-us-box">
             <div class="row">
                 <div class="col-sm-12">
@@ -163,11 +189,51 @@
                 <div class="col-sm-1"></div>
                 
                 <div class="col-sm-5">
-                    <div>formulario</div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            Name<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="nameContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="col-md-12">
+                        <div class="col-md-6">
+                            Mobile Number<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="numberContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="col-md-12">
+                        <div class="col-md-6">
+                            E-Mail<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="emailContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="col-md-12">
+                        <div class="col-md-6">
+                            Comments<font color="red">*</font>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea id="commentContact" value="" style="background-color: #DADADA; height: 150px;" class="form-control"></textarea>
+                    
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
+                       <button onclick="sendContact();" id="sendContact" class="btn fa fa-paper-plane"> Send</button> 
+                    </div>
                 </div>
                 
-                <div class="col-sm-5">
-                    <div>mapa</div>
+                <div class="col-sm-5 text-center">
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.965285898797!2d-79.38306128450236!3d43.64889057912149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cd578a5c61%3A0xea0589912e09cc06!2sFirst+Canadian+Place%2C+Toronto%2C+ON%2C+Canad%C3%A1!5e0!3m2!1ses-419!2smx!4v1507737368429" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
                 
                 <div class="col-sm-1"></div>
@@ -176,7 +242,7 @@
             
         </section>
         
-        -->
+        
     
         <!-- ENDS CONTACT US BOX -->
     
@@ -194,15 +260,11 @@
                 
                 <div class="col-sm-5 blog-new">
                     <h4  class="margin">BLOG</h4>
-                    <h5 class="blue">Title of entry</h5>
-                    <p class="blog-p padding-right">Mowisat Corporation is a company which works with satellite internet connectivity
-to deliver digital services and versatile platforms for human capacity
-development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities. Mowisat Corporation is a company which
-works with satellite internet connectivity to deliver digital services and versatile
-platforms for human capacity development to different sectors, industries,
-and sociocultural initiatives such as marginalized communities.</p>
-                    <button>Read more</button>
+                    <h5 class="blue" id="titleBlog">Loading....</h5>
+                    <p class="blog-p padding-right" id="contentBlog"></p>
+                    <a href="" id="readBlog">
+                        <button>Read more</button>
+                    </a>
                 </div>
                 
                 
@@ -240,88 +302,14 @@ and sociocultural initiatives such as marginalized communities.</p>
                 <h4 class="work-title">WANNA WORK WITH US?</h4>
             </div>
             
-            <div class="vacancies-btn">
-                <button>See our vacancies</button>
+            <div style="color: black !important;" class="vacancies-btn">
+                <button style="color: black !important;">See our vacancies</button>
             </div>
         </section>
         <!-- ENDS WORK WITH US BOX -->
     
     <!-- CONTAINERS SECTION ENDS -->
-    
 
-
-
-    <!-- INITIATES FOOTER -->
-    
-    <footer class="footer">
-        
-        <div class="row">
-            <div class="col-sm-12 social-network">
-                <ul>
-                    <li><div class="logos-sm1"><a href="#"><img src="images/twitter-logo.png" alt="twitter" />@MowisatCorp</a></div></li>
-                    <li><div class="logos-sm"><a href="#"><img src="images/fb-logo.png" alt="facebook" />Facebook.com/MowisatCorporation</a></div></li>
-                    <li><div class="logos-sm2"><a href="#"><img src="images/linkedin-logo.png" alt="linkedin" />Linkedin</a></div></li>
-                </ul>    
-            </div>
-        </div>
-        
-        <div class="row">
-            
-            <div class="col-sm-1"></div>
-            
-            <div class="col-sm-2 other-list">
-                <ul>
-                    <li class="blue-letter">Meet Mowisat</li>
-                    <li>Mision</li>
-                    <li>Vision</li>
-                    <li>Our team</li>
-                    <li>Section partners</li>
-                </ul>
-            </div>
-            
-            <div class="col-sm-2">
-                <div class="blue-letter special">NEWS</div>
-                <div class="blue-letter special">CARRERS</div>
-                
-            </div>
-            
-            <div class="col-sm-3">
-                <div class="blue-letter">STAY IN TOUCH</div>
-                <div class="special2">info@mowisatcorp.com</div>
-                <div class="blue-letter">Canada</div>
-                <div class="last-paragraph">First Canadian Place<br />
-                    100 King Street West Suite 5700<br />
-                    Toronto, ON<br />
-                    M5X 1C7</div>
-            </div>
-            
-            <div class="col-sm-3">
-             
-                    
-                <div class="blue-letter mexico">Mexico</div>
-                <div class="last-paragraph">Mowisat Corporation<br />
-                     Mexico City, Mexico<br />
-                     Calle Bah�a de las Palmas 1 Ver�nica Anzures<br />
-                     113000, Ciudad de M�xico, CDMX</div>
-               
-            </div>
-            
-            <div class="col-sm-1"></div>
-            
-        </div>
-           
-        
-        
-        <div class="row">
-                <nav class="col-sm-12" id="other-links">
-                    <ul>
-                        <li><a href="#">2017 Mowisat Corporation</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Policies and Terms</a></li>
-                    </ul>
-                </nav>
-        </div>    
-    </footer>    
-    <!-- ENDS FOOTER -->
-    </body>
-</html>
+    <?PHP
+    include ''.dirname(__FILE__).'/template/footer.php';
+    ?>
