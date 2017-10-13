@@ -358,22 +358,26 @@ jumbotron h1, h3 {
 
 .logos-sm {
     margin: 0 2em;
+    color: #85A0CF !important;
 }
 
 .logos-sm img {
     width: 3em;
     height: 3em;
+    color: #85A0CF !important;
 }
 
 .logos-sm1 img {
     width: 2.4em;
     height: 2.4em;
+    color: #85A0CF !important;
 }
 
 .logos-sm2 img {
     width: 2.4em;
     height: 2.4em;
     margin-right: 0.3em;
+    color: #85A0CF !important;
 }
 
 .blue-letter {

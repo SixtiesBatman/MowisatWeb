@@ -70,7 +70,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><a href="./partners.php"><img src="images/icon9.png" alt="partners" />our partners</a></div>
+                <div class="inline-display"><a href="./partners.php"><img style="margin-right: 14px;" src="images/icon9.png" alt="partners" />our partners</a></div>
             </div>
 
         </div>

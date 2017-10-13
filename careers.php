@@ -42,56 +42,84 @@
             </div>           
         </div>
 
-    </section>    
+    </section> 
 
-<div class="row">
-    <div class="col s12">
-        <ul class="tabs">
-            <li class="tab col s6"><a class="active" href="#tab1">All</a></li>
-            <li class="tab col s6"><a href="#tab2">Commercial</a></li>
-        </ul>
-    </div>
-    <div style="margin-top: 20px;" id="tab1" class="col-md-12">
-        <div style="background-color: #444; color: white;" class="col-md-4">
-            <div class="col-md-12 text-center" style="margin-top: 20px;">
-                Financial / Commercial Analyst & Researcher
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3">
+                <li class="tab col s6"><a class="active" href="#tab1">Contact From</a></li>
+                <li class="tab col s3">
+            </ul>
+        </div>
+        <div style="margin-top: 40px;" id="tab1" class="col-md-12">
+            <div class="col-md-4"></div>
+            <div style="background-color: #444; color: white;" class="col-md-4">
+                <div class="col-md-12 text-center" style="margin-top: 20px;">
+                    Financial / Commercial Analyst & Researcher
+                </div>
+                <div class="col-md-12" style="margin-top: 20px;">
+                    <p>
+                        • Data mining<br> 
+                        • Report Generation and interpretation<br> 
+                        • Trend Analysis, opportunity identification<br>
+                        • Research - macro (industry) and micro (customer) trends, future developments etc.
+                    </p>
+                </div>
             </div>
-            <div class="col-md-12" style="margin-top: 20px;">
-                <p>
-                    • Data mining<br> 
-                    • Report Generation and interpretation<br> 
-                    • Trend Analysis, opportunity identification<br>
-                    • Research - macro (industry) and micro (customer) trends, future developments etc.
-                </p>
-            </div>
-        </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
-        </div>
-    </div>
+            <div class="col-md-4"></div>
+        </div>   
 
-    <div style="margin-top: 20px;" id="tab2" class="col-md-12">
-        <div style="background-color: #444; color: white;" class="col-md-4">
-            <div class="col-md-12 text-center" style="margin-top: 20px;">
-                Financial / Commercial Analyst & Researcher
+    <!--
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s6"><a class="active" href="#tab1">All</a></li>
+                <li class="tab col s6"><a href="#tab2">Commercial</a></li>
+            </ul>
+        </div>
+        <div style="margin-top: 20px;" id="tab1" class="col-md-12">
+            <div style="background-color: #444; color: white;" class="col-md-4">
+                <div class="col-md-12 text-center" style="margin-top: 20px;">
+                    Financial / Commercial Analyst & Researcher
+                </div>
+                <div class="col-md-12" style="margin-top: 20px;">
+                    <p>
+                        • Data mining<br> 
+                        • Report Generation and interpretation<br> 
+                        • Trend Analysis, opportunity identification<br>
+                        • Research - macro (industry) and micro (customer) trends, future developments etc.
+                    </p>
+                </div>
             </div>
-            <div class="col-md-12" style="margin-top: 20px;">
-                <p>
-                    • Data mining<br> 
-                    • Report Generation and interpretation<br> 
-                    • Trend Analysis, opportunity identification<br>
-                    • Research - macro (industry) and micro (customer) trends, future developments etc.
-                </p>
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
             </div>
         </div>
-        <div class="col-md-4">
+
+        <div style="margin-top: 20px;" id="tab2" class="col-md-12">
+            <div style="background-color: #444; color: white;" class="col-md-4">
+                <div class="col-md-12 text-center" style="margin-top: 20px;">
+                    Financial / Commercial Analyst & Researcher
+                </div>
+                <div class="col-md-12" style="margin-top: 20px;">
+                    <p>
+                        • Data mining<br> 
+                        • Report Generation and interpretation<br> 
+                        • Trend Analysis, opportunity identification<br>
+                        • Research - macro (industry) and micro (customer) trends, future developments etc.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+            </div>
         </div>
-        <div class="col-md-4">
-        </div>
-    </div>
     
-</div>
+    </div>
+     -->
 
     <!-- ENDS SECTION -->
 
