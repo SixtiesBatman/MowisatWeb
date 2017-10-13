@@ -26,8 +26,8 @@
                     <li class="blue-letter">MEET MOWISAT</li>
                     <li><a style="color: #333;" href="mission.php">Mission</a></li>
                     <li><a style="color: #333;" href="vision.php">Vision</a></li>
-                    <li>Our team</li>
-                    <li>Section partners</li>
+                    <li><a style="color: #333;" href="aboutus.php">Our team</a></li>
+                    <li><a style="color: #333;" href="partners.php">Section partners</a></li>
                 </ul>
             </div>
 
