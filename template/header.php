@@ -22,42 +22,39 @@
 
 
     <!-- SECOND PART OUT OF 3 OF THE HEADER -->
-    <div class="row">
+    <nav style="padding: 0 !important; margin-bottom: 0 !important; border: 0 !important; background-color: #FFF !important; border-radius: 0 !important;" class="navbar navbar-inverse col-md-12">
     
-        <nav class="col-sm-1"></nav>
+        <div class="hidden-xs col-md-1"></div>
 
-        <nav style="padding: 0 !important; margin-bottom: 0 !important; border: 0 !important; background-color: #FFF !important; border-radius: 0 !important;" class="navbar navbar-inverse col-sm-10">
-            
-            <div class="container-fluid">
+        <div class="container-fluid col-md-10">
 
-              <div class="navbar-header">
+            <div class="navbar-header">
                 <button style="background-color: black;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>                        
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
                 </button>
                 <a class="header-two" href="index.php">
                     <img src="images/mowisat-corp-logo.png" alt="mowisat corp logo" />        
                 </a>
-              </div>
+            </div>
 
-              <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
+            <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
                 <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
-                    <li><a style="color: black;" href="#">satellite broadband</a></li>
-                    <li><a style="color: black;" href="#">social responsability</a></li>
+                    <li><a style="color: black;" href="satellite.php">satellite broadband</a></li>
+                    <li><a style="color: black;" href="social.php">social responsability</a></li>
                     <li><a style="color: black;" href="/blog">news</a></li>
                     <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">investors</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">EN</a></li>
-                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li></ul>
-              </div>
-
+                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li>
+                </ul>
             </div>
 
-        </nav>
-        
-        <nav class="col-sm-1"></nav>
-        
-    </div>   
+        </div>
+
+        <div class="hidden-xs col-md-1"></div>
+
+    </nav>
 
     <!-- THIRD PART OUT OF 3 OF THE HEADER -->
 
@@ -65,11 +62,11 @@
         <div id="third-header">
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><img src="images/icon7.png" alt="question mark" />why mowisat?</div>
+                <div class="inline-display"><a href="./aboutus.php"><img src="images/icon7.png" alt="question mark" />why mowisat?</a></div>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><img src="images/icon8.png" alt="gears" />how it works?</div>
+                <div class="inline-display"><a href="./how-works.php"><img src="images/icon8.png" alt="gears" />how it works?</a></div>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
