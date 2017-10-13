@@ -101,9 +101,7 @@
             
             <div class="row">
                 
-                <div class="col-sm-1"></div>
-                
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <div class="col-md-12">
                         <div class="col-md-6">
                             Name<font color="red">*</font>
@@ -145,13 +143,11 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-5 text-center">
+                <div class="col-sm-6 text-center">
                     <div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.965285898797!2d-79.38306128450236!3d43.64889057912149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cd578a5c61%3A0xea0589912e09cc06!2sFirst+Canadian+Place%2C+Toronto%2C+ON%2C+Canad%C3%A1!5e0!3m2!1ses-419!2smx!4v1507737368429" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-                
-                <div class="col-sm-1"></div>
                 
             </div>
             
@@ -185,7 +181,7 @@
                 
                 
         <!-- SECOND BLOG BOX -->        
-                <div class="col-sm-5 blog-second">
+                <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
                     <p class="blog-p margin padding-left">Mowisat Corporation is a company which works with satellite internet connectivity
 to deliver digital services and versatile platforms for human capacity
 development to different sectors, industries, and sociocultural initiatives
@@ -194,9 +190,10 @@ works with satellite internet connectivity to deliver digital services and versa
 platforms for human capacity development to different sectors, industries,
 and sociocultural initiatives such as marginalized communities.</p>
                     <div>
-                        <div></div>
                         
-                            <div class="blue padding-left">Name</div><div class="padding-left">Location</div>
+                            <div class="">
+                                <img src="images/name-location.png" />
+                            </div>
                          
                         
                     </div>
