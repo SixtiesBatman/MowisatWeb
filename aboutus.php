@@ -30,7 +30,7 @@
     <!-- INITIATES CONTAINER SECTION -->
 
     <section class='container-fluid aboutus-pic' style="padding-top: 0; margin-top: 0; height: 300px !important; margin-bottom: 0; background-image: url('images/aboutus-sat.jpg')">
-        <div style="margin-right: 0; margin-top: 0px; height: 300px; background-color: black; opacity: 0.5;" class='row'>
+        <div style="margin-right: 0; margin-top: 0px; height: 300px; background-color: black;  background: rgba(0,0,0,0.5)" class='row'>
 
             <div class="col-md-1"></div>
 

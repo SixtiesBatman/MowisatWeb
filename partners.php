@@ -36,7 +36,7 @@ include ''.dirname(__FILE__).'/template/header.php';
             
        <div class='row'>
             <div class='col-xs-12 partners-img' style="top: 0; padding: 0; margin: 0; background-image: url('images/partners.jpg')">
-                <div style="margin-top: 0px; height: 300px; background-color: black; opacity: 0.5;">
+                <div style="margin-top: 0px; height: 300px; background-color: black;  background: rgba(0,0,0,0.5)">
                     <h1 style="margin: 0; padding-top: 150px;">PARTNERS</h1>
                 </div>
             </div>           

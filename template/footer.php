@@ -24,8 +24,8 @@
             <div class="col-sm-3 other-list">
                 <ul>
                     <li class="blue-letter">MEET MOWISAT</li>
-                    <li>Mission</li>
-                    <li>Vision</li>
+                    <li><a style="color: #333;" href="mission.php">Mission</a></li>
+                    <li><a style="color: #333;" href="vision.php">Vision</a></li>
                     <li>Our team</li>
                     <li>Section partners</li>
                 </ul>
@@ -65,8 +65,8 @@
 
 
 
-        <div class="row">
-                <nav class="col-sm-12" id="other-links">
+        <div class="row" style="padding-bottom: 0; margin-bottom: 0;">
+                <nav style="margin-bottom: 0;" class="col-sm-12 z-depth-4 card-panel" id="other-links">
                     <ul>
                         <li><a href="#">2017 Mowisat Corporation</a></li>
                         <li><a href="#">Privacy Policy</a></li>

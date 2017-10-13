@@ -29,7 +29,7 @@
     <!-- INITIATES SLIDER -->        
     <section class="jumbotron" style="padding-top: 0; margin-top: 0; height: 600px !important; margin-bottom: 0; background-image: url('images/tablet3.jpg')">
 
-        <div style="margin-right: 0; margin-top: 0px; height: 600px; background-color: black; opacity: 0.5;" class="row">
+        <div style="margin-right: 0; margin-top: 0px; height: 600px; background-color: black;  background: rgba(0,0,0,0.5)" class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div style="margin-top: 6em !important; " class="big-title">
