@@ -9,8 +9,8 @@
             <div class="xs-hidden sm-hidden col-md-2"></div>
             <div class="col-xs-12 col-sm-12 col-md-8 social-network">
                 <ul style="text-align: center; !important;">
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm1 col-xs-12"><a style="color: #85A0CF !important;" href="#"><img src="images/twitter-logo.png" alt="twitter" />@MowisatCorp</a></div></li>
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm col-xs-12"><a style="color: #85A0CF !important;" href="#"><img src="images/fb-logo.png" alt="facebook" />Facebook.com/MowisatCorporation</a></div></li>
+                    <li><div style="margin: 0 0 0 10px;" class="logos-sm1 col-xs-12"><a style="color: #85A0CF !important;" href="http://twitter.com/MowisatCorp"><img src="images/twitter-logo.png" alt="twitter" />@MowisatCorp</a></div></li>
+                    <li><div style="margin: 0 0 0 10px;" class="logos-sm col-xs-12"><a style="color: #85A0CF !important;" href="http://facebook.com/MowisatCorporation"><img src="images/fb-logo.png" alt="facebook" />Facebook.com/MowisatCorporation</a></div></li>
                     <li><div style="margin: 0 0 0 10px;" class="logos-sm2 col-xs-12"><a style="color: #85A0CF !important;" href="#"><img src="images/linkedin-logo.png" alt="linkedin" />Linkedin</a></div></li>
                 </ul>
             </div>
