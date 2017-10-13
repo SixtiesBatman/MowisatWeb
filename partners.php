@@ -76,7 +76,7 @@ include ''.dirname(__FILE__).'/template/header.php';
             
             
                     
-            <div class="col-md-7 black big-box">
+            <div style="background-color: white !important;" class="col-md-7 black big-box">
 
                 <div>
                     <p>PIG.GI IS A MARKETPLACE FOR CONSUMER DATA AND ENGAGEMENT. THROUGH PIG.GI COINS, THE APP WILL PROVIDE A WAY FOR PEOPLE TO ACCESS TO MOWISAT'S WI-FI NETWORKS.</p>

@@ -14,6 +14,9 @@
 <!-- Latest compiled JavaScript -->
 <script src="js/bootstrap.js"></script>
 
+<!-- Latest compiled JavaScript -->
+<script src="js/materialize.js"></script>
+<link rel="stylesheet" href="styles/materialize.css">
 
 <script src="js/toastr.js"></script>
 <link rel="stylesheet" href="styles/toastr.css">
@@ -31,5 +34,6 @@
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-bottom: 0 !important;
 }
 </style>
