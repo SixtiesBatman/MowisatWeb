@@ -45,7 +45,9 @@
                 
                 
                 <div class="lrn-more-btn">
-                    <button style="color: white;">LEARN MORE</button>
+                    <a href="how-works.php">
+                        <button style="color: white;">LEARN MORE</button>
+                    </a>
                 </div>   
                 
             </div>
