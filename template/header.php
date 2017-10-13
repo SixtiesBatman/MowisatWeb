@@ -3,7 +3,7 @@
 
 <header class="container-fluid">
         
-    <!-- FIRST PART OUT OF 3 OF THE HEADER -->
+    <!-- FIRST PART OUT OF 3 OF THE HEADER
     <nav class="row dots" style="background-image: url('images/blue-dots.jpg')">
 
         <div class="col-sm-1"></div>
@@ -19,7 +19,7 @@
         <div class="col-sm-1"></div>
 
     </nav>
-
+    -->
 
     <!-- SECOND PART OUT OF 3 OF THE HEADER -->
     <nav style="padding: 0 !important; margin-bottom: 0 !important; border: 0 !important; background-color: #FFF !important; border-radius: 0 !important;" class="navbar navbar-inverse col-md-12">
@@ -28,7 +28,7 @@
 
         <div class="container-fluid col-md-10">
 
-            <div class="navbar-header">
+            <div style="margin-left: 24px;" class="navbar-header">
                 <button style="background-color: black;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -41,10 +41,10 @@
 
             <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
                 <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
-                    <li><a style="color: black;" href="#">satellite broadband</a></li>
-                    <li><a style="color: black;" href="#">social responsability</a></li>
-                    <li><a style="color: black;" href="/blog">news</a></li>
-                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">investors</a></li>
+                    <li><a style="color: black;" href="#">SATELLITE BROADBAND</a></li>
+                    <li><a style="color: black;" href="#">SOCIAL RESPONSABILITY</a></li>
+                    <li><a style="color: black;" href="/blog">NEWS</a></li>
+                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">INVESTORS</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">EN</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li>
                 </ul>
@@ -59,7 +59,7 @@
     <!-- THIRD PART OUT OF 3 OF THE HEADER -->
 
     <nav class="row header-three-style">
-        <div id="third-header">
+        <div style="padding: 0; margin: 0; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); " class="col-md-12" id="third-header">
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
                 <div class="inline-display"><img src="images/icon7.png" alt="question mark" />why mowisat?</div>

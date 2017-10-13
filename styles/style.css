@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 a {
@@ -201,8 +201,8 @@ div.style-box {
     }
 
     .style-box img {
-        width: 6em;
-        height: 6em;
+        width: 4.7em;
+        height: 4.7em;
         margin: 0;
     }
 
@@ -338,7 +338,7 @@ jumbotron h1, h3 {
 .vacancies-btn button {
     color: gray;
     background-color: transparent;
-    border: 4px solid black;
+    border: 4px solid #3e3e3f;
     border-radius: 2em;
     font-size: 1em;
     text-align: center;

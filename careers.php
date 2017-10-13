@@ -14,7 +14,7 @@
         include ''.dirname(__FILE__).'/template/meta.php';
     ?>
 
-    <link href="styles/partners.css" rel="stylesheet" type="text/css">
+    <link href="styles/careers.css" rel="stylesheet" type="text/css">
 
     <style>
         a {color: gray}
@@ -30,18 +30,19 @@
 ?>
 
         
-    <!-- INITIATES SECTION 
+    <!-- INITIATES SECTION -->
 
     <section class='container-fluid'>
             
        <div class='row'>
-            <div class='col-xs-12 partners-img' style="background-image: url('images/partners.jpg')">
-                <h1>PARTNERS</h1>
+            <div class='col-xs-12 careers-img' style="top: 0; padding: 0; margin: 0; background-image: url('images/careers.jpg'); opacity: 1;">
+                <div style="margin-top: 0px; height: 300px; background-color: black; opacity: 0.5;">
+                    <h1 style="margin: 0; padding-top: 150px;">VACANCIES</h1>
+                </div>
             </div>           
         </div>
 
     </section>    
--->
 
 <div class="row">
     <div class="col s12">

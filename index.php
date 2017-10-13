@@ -115,17 +115,17 @@
     ?>
 
     <!-- INITIATES SLIDER -->        
-    <section class="jumbotron" style="margin-bottom: 0; background-image: url('images/tablet3.jpg')">
-        
-        <div style="margin-right: 0;" class="row">
+    <section class="jumbotron" style="padding-top: 0; margin-top: 0; height: 600px !important; margin-bottom: 0; background-image: url('images/tablet3.jpg')">
+
+        <div style="margin-right: 0; margin-top: 0px; height: 600px; background-color: black; opacity: 0.5;" class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
-                <div class="big-title">
-                    <h1>Connecting anything,<br/>Anywhere.</h1>
+                <div style="margin-top: 6em !important; " class="big-title">
+                    <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 0px;">Connecting Anything,<br/>Anywhere.</h1>
                 </div>
                 
                 <div class="little-text">
-                    <h3>Mowisat Corporation commercializes Satellite<br/>
+                    <h3 style="font-weight: 200; color: white; margin: 0; padding-top: 50px;">Mowisat Corporation commercializes Satellite<br/>
                         Broadband in Latin America for versatile use.<br/>
                         Powered by cutting edge connectivity solutions<br/>
                         for business processes optimization.</h3>
@@ -133,7 +133,7 @@
                 
                 
                 <div class="lrn-more-btn">
-                <button>LEARN MORE</button>
+                    <button style="color: white;">LEARN MORE</button>
                 </div>   
                 
             </div>
@@ -228,7 +228,7 @@
                         </div>
                     </div>
                     <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
-                       <button onclick="sendContact();" id="sendContact" class="btn fa fa-paper-plane"> Send</button> 
+                       <button onclick="sendContact();" id="sendContact" class="btn"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
                     </div>
                 </div>
                 
@@ -261,7 +261,7 @@
                 <div class="col-sm-1"></div>
                 
                 <div class="col-sm-5 blog-new">
-                    <h4  class="margin">BLOG</h4>
+                    <h4 class="margin">BLOG</h4>
                     <h5 class="blue" id="titleBlog">Loading....</h5>
                     <p class="blog-p padding-right" id="contentBlog"></p>
                     <a style="display: none;" href="" id="readBlog">
@@ -301,12 +301,12 @@ and sociocultural initiatives such as marginalized communities.</p>
         
         <section class="container-fluid work-with-us-box">
             <div>
-                <h4 class="work-title">WANNA WORK WITH US?</h4>
+                <h4 style="color: #3e3e3f !important;" class="work-title">WANTS TO WORK WITH US?</h4>
             </div>
             
-            <div style="color: black !important;" class="vacancies-btn">
-                <a href="carrers.php">
-                    <button style="color: black !important;">See our vacancies</button>
+            <div style="color: #3e3e3f !important;" class="vacancies-btn">
+                <a href="careers.php">
+                    <button style="color: #3e3e3f !important;">See our vacancies</button>
                 </a>
             </div>
         </section>

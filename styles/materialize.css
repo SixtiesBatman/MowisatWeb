@@ -4325,7 +4325,6 @@ nav ul {
 nav ul li {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
-  float: left;
   padding: 0;
 }
 

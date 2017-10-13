@@ -21,8 +21,8 @@
 
             <div class="col-sm-3 other-list">
                 <ul>
-                    <li class="blue-letter">Meet Mowisat</li>
-                    <li>Mision</li>
+                    <li class="blue-letter">MEET MOWISAT</li>
+                    <li>Mission</li>
                     <li>Vision</li>
                     <li>Our team</li>
                     <li>Section partners</li>
@@ -36,21 +36,21 @@
             </div>
 
             <div class="col-sm-6">
-                <div style="padding-left: 15px;" class="blue-letter">STAY IN TOUCH</div>
-                <div style="padding-left: 15px;" class="special2">info@mowisatcorp.com</div>
+                <div style="" class="blue-letter">STAY IN TOUCH</div>
+                <div style="" class="special2">info@mowisatcorp.com</div>
 
                 <div class="row">
-                  <div class="col-sm-6">
-                      <div class="blue-letter">Canada</div>
+                  <div style="padding-left: 0;" class="col-sm-6">
+                      <div class="blue-letter">CANADA</div>
                       <div class="last-paragraph">First Canadian Place<br />
                           100 King Street West Suite 5700<br />
                           Toronto, ON<br />
                           M5X 1C7</div>
                   </div>
 
-                  <div class="col-sm-6">
+                  <div style="padding-left: 0;" class="col-sm-6">
 
-                      <div class="blue-letter mexico">Mexico</div>
+                      <div class="blue-letter mexico">MEXICO</div>
                       <div class="last-paragraph">Mowisat Corporation<br />
                            Mexico City, Mexico<br />
                            Calle Bahía de las Palmas 1 Verónica Anzures<br />
