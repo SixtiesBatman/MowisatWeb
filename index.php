@@ -19,94 +19,6 @@
             a:hover {text-decoration: none; color: gray};
         </style>
 
-        <script>
-
-            function sendContact(){
-                //alert("entro");
-                console.log("entro");
-                console.log(document.getElementById("nameContact").value);
-                console.log($("#nameContact").val());
-                console.log($("#numberContact").val());
-                console.log($("#emailContact").val());
-                console.log($("#commentContact").val());
-
-                if($("#nameContact").val()==""){
-                    toastr["error"]("Write your name", "");
-                } else if($("#numberContact").val()==""){
-                    toastr["error"]("Write your number", "");
-
-                }  else if($("#emailContact").val()==""){
-                    toastr["error"]("Write your email", "");
-
-                }  else if($("#commentContact").val()==""){
-                    toastr["error"]("Write your comments", "");
-
-                } else {
-                    //ajax
-                    
-                    $.ajax({  url : "scripts/dao/contacto.php",
-                              type : "post",
-                              data : {  nameContact : $("#nameContact").val(),
-                                        numberContact : $("#numberContact").val(),
-                                        emailContact: $("#emailContact").val(),
-                                        commentContact: $("#commentContact").val()
-                              },
-                              success : function(data) {
-                                  console.log("se envio");
-                                  var response = JSON.parse(data);
-                                  console.log(response);
-                                  if(response.success=="true"){
-                                    toastr["success"]("We have recieved you data. we will contact you soon.", "");
-                                  } else {
-                                    toastr["error"](response.description, "");
-                                  }
-                              },
-                              error : function(response) {
-                                toastr["error"]("Error you dont have internet", "");
-                              }
-                    });
-                    
-
-        
-                }
-
-            }
-            function getLastPostBlog(){
-                    //ajax
-                    
-                    $.ajax({  url : "scripts/dao/getLastPostBlog.php",
-                              type : "post",
-                              success : function(data) {
-                                  console.log("se envio");
-                                  var response = JSON.parse(data);
-                                  console.log(response);
-                                  if(response.success=="true"){
-                                    console.log(response);
-
-                                    var readBlog = response.guid.split("/blog/");
-
-                                    $("#titleBlog").html(response.title);
-                                    $("#contentBlog").html(response.content + "...");
-                                    $("#readBlog").attr("href","blog/" + readBlog[1]);
-                                    $("#readBlog").css("display","");
-                                  } else {
-                                    $("#titleBlog").html("Error :( we connot load the blog right now.");
-                                  }
-                              },
-                              error : function(response) {
-                                toastr["error"]("Error you dont have internet", "");
-                              }
-                    });
-
-            }
-
-
-            $( document ).ready(function() {
-            // Handler for .ready() called.
-                getLastPostBlog();
-            });
-        </script>
-
     </head>
     <body>   
 
@@ -140,7 +52,7 @@
                 
             <div class="col-sm-1"></div>
         </div>
-        
+
     </section>    
     
     <!-- ENDS SLIDER -->
@@ -229,7 +141,7 @@
                         </div>
                     </div>
                     <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
-                       <button onclick="sendContact();" id="sendContact" class="btn"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
+                       <button onclick="sendContact();" id="sendContact" class="btn btn-primary"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
                     </div>
                 </div>
                 

@@ -54,17 +54,53 @@
         </div>
         <div style="margin-top: 40px;" id="tab1" class="col-md-12">
             <div class="col-md-4"></div>
-            <div style="background-color: #444; color: white;" class="col-md-4">
-                <div class="col-md-12 text-center" style="margin-top: 20px;">
-                    Financial / Commercial Analyst & Researcher
-                </div>
-                <div class="col-md-12" style="margin-top: 20px;">
-                    <p>
-                        • Data mining<br> 
-                        • Report Generation and interpretation<br> 
-                        • Trend Analysis, opportunity identification<br>
-                        • Research - macro (industry) and micro (customer) trends, future developments etc.
-                    </p>
+            <div style="background-color: white; color: black;" class="col-md-4 z-depth-4 card-panel">
+                
+                <div class="row">
+                    
+                    <div class="col-sm-12">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                Name<font color="red">*</font>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="nameContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                        
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px;" class="col-md-12">
+                            <div class="col-md-6">
+                                Mobile Number<font color="red">*</font>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="numberContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                        
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px;" class="col-md-12">
+                            <div class="col-md-6">
+                                E-Mail<font color="red">*</font>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="emailContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
+                        
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px;" class="col-md-12">
+                            <div class="col-md-6">
+                                Comments<font color="red">*</font>
+                            </div>
+                            <div class="col-md-6">
+                                <textarea id="commentContact" value="" style="background-color: #DADADA; height: 150px;" class="form-control"></textarea>
+                        
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
+                        <button onclick="sendContact();" id="sendContact" class="btn btn-primary"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
             <div class="col-md-4"></div>
