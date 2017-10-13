@@ -3,7 +3,7 @@
 
 <header class="container-fluid">
         
-    <!-- FIRST PART OUT OF 3 OF THE HEADER
+    <!-- FIRST PART OUT OF 3 OF THE HEADER 
     <nav class="row dots" style="background-image: url('images/blue-dots.jpg')">
 
         <div class="col-sm-1"></div>
@@ -41,10 +41,10 @@
 
             <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
                 <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
-                    <li><a style="color: black;" href="#">SATELLITE BROADBAND</a></li>
-                    <li><a style="color: black;" href="#">SOCIAL RESPONSABILITY</a></li>
-                    <li><a style="color: black;" href="/blog">NEWS</a></li>
-                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">INVESTORS</a></li>
+                    <li><a style="color: black;" href="satellite.php">satellite broadband</a></li>
+                    <li><a style="color: black;" href="social.php">social responsability</a></li>
+                    <li><a style="color: black;" href="/blog">news</a></li>
+                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">investors</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">EN</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li>
                 </ul>
@@ -62,15 +62,15 @@
         <div style="padding: 0; margin: 0; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); " class="col-md-12" id="third-header">
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><img src="images/icon7.png" alt="question mark" />why mowisat?</div>
+                <div class="inline-display"><a href="./aboutus.php"><img src="images/icon7.png" alt="question mark" />why mowisat?</a></div>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><img src="images/icon8.png" alt="gears" />how it works?</div>
+                <div class="inline-display"><a href="./how-works.php"><img src="images/icon8.png" alt="gears" />how it works?</a></div>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><a href="./partners.php"><img style="margin-right: 14px;" src="images/icon9.png" alt="partners" />our partners</a></div>
+                <div class="inline-display"><a href="./partners.php"><img src="images/icon9.png" alt="partners" />our partners</a></div>
             </div>
 
         </div>

@@ -1,0 +1,23 @@
+.box {
+    padding: 4em;
+    height: 40em;
+}
+
+.box h2 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.box p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.dg {
+    background-color: #569EB6;
+    color: white;
+}
+
+.cc {
+    background-color: #C3E7F1;
+}
