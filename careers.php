@@ -38,6 +38,7 @@
             <div class='col-xs-12 careers-img' style="top: 0; padding: 0; margin: 0; background-image: url('images/careers.jpg'); opacity: 1;">
                 <div style="margin-top: 0px; height: 300px; background-color: black; opacity: 0.5;">
                     <h1 style="margin: 0; padding-top: 150px;">VACANCIES</h1>
+                    <h1 style="margin: 0; padding-top: 50px;">Love Where You Work</h1>
                 </div>
             </div>           
         </div>
