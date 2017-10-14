@@ -33,7 +33,7 @@
 
             <div class="col-sm-2">
                 <div class="blue-letter special">NEWS</div>
-                <div class="blue-letter special">CARRERS</div>
+                <div class="blue-letter special">CAREERS</div>
 
             </div>
 
