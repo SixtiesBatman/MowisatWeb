@@ -43,7 +43,7 @@
                 <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
                     <li><a style="color: black;" href="satellite.php">SATELLITE BROADBAND</a></li>
                     <li><a style="color: black;" href="social.php">SOCIAL RESPOSABILITY</a></li>
-                    <li><a style="color: black;" href="/blog">NEWS</a></li>
+                    <li><a style="color: black;" href="./blog">NEWS</a></li>
                     <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">INVESTORS</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">EN</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li>
@@ -59,7 +59,7 @@
     <!-- THIRD PART OUT OF 3 OF THE HEADER -->
 
     <nav class="row header-three-style">
-        <div style="padding: 0; margin: 0; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); " class="col-md-12" id="third-header">
+        <div style="z-index: 9999; padding: 0; margin: 0; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); " class="col-md-12" id="third-header">
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
                 <div class="inline-display"><a href="./aboutus.php"><img src="images/icon7.png" alt="question mark" />why mowisat?</a></div>

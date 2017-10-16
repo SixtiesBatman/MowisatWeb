@@ -36,6 +36,12 @@
     margin-left: 0 !important;
     margin-bottom: 0 !important;
 }
+.bgMesh{
+    margin-top: 0px; height: 300px; background-color: black;  background: rgba(0,0,0,0.5);
+} 
+.bgMeshParent{
+    top: 0; padding: 0; margin: 0; 
+} 
 </style>
 
 

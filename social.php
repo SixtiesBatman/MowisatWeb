@@ -38,13 +38,13 @@
         <div class='row'>
             
             <div class='col-xs-12 col-md-6 box dg'>
-                <h2>Digital Library</h2>
-                <p>The Digital Library acts as a time capsule, downloading selected content, which is delivered to the customers through a new generation of hardware. It is a storage device, serving as an intermediary between real-time internet connectivity and access to information in rural areas. Our solution is a substitute to cabling vast areas with internet connectivity, the Digital Library provides internet content previously stored in servers distributed through box receivers.</p>               
+                <h2 style="font-size: 3em;">Digital Library</h2>
+                <p id="textoSocial">The Digital Library acts as a time capsule, downloading selected content, which is delivered to the customers through a new generation of hardware. It is a storage device, serving as an intermediary between real-time internet connectivity and access to information in rural areas. Our solution is a substitute to cabling vast areas with internet connectivity, the Digital Library provides internet content previously stored in servers distributed through box receivers.</p>               
             </div>
 
             <div class='col-xs-12 col-md-6 box cc'>
-                <h2>Codecademy</h2>
-                <p>Codecademy is an education initiative aimed at developing programming professionals through unconventional methods of learning. It is a web platform, both with offline and online abilities that is geared towards creating professionals within six months. Mowisat is bringing tailored education for the future programmers of Mexico.</p>               
+                <h2 style="font-size: 3em;">Codecademy</h2>
+                <p id="textoSocial">Codecademy is an education initiative aimed at developing programming professionals through unconventional methods of learning. It is a web platform, both with offline and online abilities that is geared towards creating professionals within six months. Mowisat is bringing tailored education for the future programmers of Mexico.</p>               
             </div>
 
             <div class="clearfix col-md-12"></div>
