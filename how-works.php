@@ -1,5 +1,6 @@
 <?php
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     
     $log = new LoggerPhp();
     $log->write_log("[how-works]","Debug");
@@ -37,10 +38,11 @@
     <section class='container-fluid connectivity-img'>
 
         <div class='row'>
-            <div class='col-xs-12 sat' style="background-image: url('images/works.png')">
-                <h1>How it works</h1>
+            <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/works.png')">
+                <div class="bgMesh">
+                    <h1 style="margin: 0; padding-top: 110px;"><?PHP echo $txt["how"]; ?></h1>
+                </div>
             </div>
-
         </div>
 
     </section>
@@ -50,7 +52,7 @@
 
         <div class='row'>
             <div class='col-xs-12 col-md-12 description'>
-                <h3>Improving Mexico quality of life</h3>
+                <h3><?PHP echo $txt["description-how"]; ?></h3>
             </div>
         </div>
 
@@ -73,7 +75,7 @@
         <div class="col-md-7 big-box margin-short">
 
             <div>
-                <p>Connecting Mexico's unconnected areas to the internet</p>  
+                <p><?PHP echo $txt["how-text1"]; ?></p>  
             </div>
 
         </div>
@@ -92,7 +94,7 @@
         <div class="col-md-7 big-box margin-big">
 
             <div>
-                <p>Bringing digital services: banking, saving, news, entertainment...</p>
+                <p><?PHP echo $txt["how-text2"]; ?></p>
             </div>    
 
         </div>
@@ -129,7 +131,7 @@
         <div class="col-md-7 big-box margin-short">
 
             <div>
-                <p>Educational initiatives: learning how to code, freelancing jobs...</p>  
+                <p><?PHP echo $txt["how-text3"]; ?></p>  
             </div>
 
         </div>
@@ -148,7 +150,7 @@
         <div class="col-md-7 big-box margin-big">
 
             <div>
-                <p>Deployment of Mexiico.in criptocurrency to fully integrate a rural Digital Economy</p>
+                <p><?PHP echo $txt["how-text4"]; ?></p>
             </div>    
 
         </div>

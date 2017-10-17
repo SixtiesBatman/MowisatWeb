@@ -29,13 +29,13 @@
 
     <!-- INITIATES CONTAINER SECTION -->
 
-    <section class='container-fluid aboutus-pic' style="background-image: url('images/aboutus-sat.jpg')">
-        <div class='row'>
+    <section class='container-fluid aboutus-pic' style="padding-top: 0; margin-top: 0; height: 300px !important; margin-bottom: 0; background-image: url('images/aboutus-sat.jpg')">
+        <div style="margin-right: 0; margin-top: 0px; height: 300px; background-color: black;  background: rgba(0,0,0,0.5)" class='row'>
 
             <div class="col-md-1"></div>
 
             <div class='col-xs-10'>
-                <h1>About us</h1>
+                <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 100px;">About us</h1>
             </div>
             <div class="col-md-1"></div>
 
@@ -51,9 +51,9 @@
             </div>
 
             <div class='col-xs-12 col-sm-7 letter-size'>
-                <h3 class="big">Know more about us:</h3>
+                <h3 style="color: black !important;" class="big">Know more about us:</h3>
                 <hr class='margin-line' />
-                <h4 class="small">MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.</h3>
+                <h4 style="color: black !important;" class="small">MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.</h3>
             </div>
 
             <div class="col-md-1"></div>
@@ -70,9 +70,9 @@
 
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
 
-            <div class='col-xs-10 col-sm-10 col-md-10 team'>
+            <div class='col-xs-10 col-sm-10 col-md-10 team z-depth-4 card-panel'>
                 <h2>Management</h2>
-                <h3>Mowisat Corporation is formed by an experienced team with extensive expertise in telecommunications, satellite broadband operations, and management.</h3>
+                <h3 style="text-align: left !important; padding: 0 0 0 10px !important;">Mowisat Corporation is formed by an experienced team with extensive expertise in telecommunications, satellite broadband operations, and management.</h3>
             </div>
 
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
@@ -88,7 +88,7 @@
 
             <div class='col-xs-12 col-md-5 box right'>
 
-                <div class="box-important">
+                <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
                         <img src="images/empresario.jpg" />
                     </div>
@@ -107,7 +107,7 @@
 
             <div class='col-xs-12 col-md-5 box left'>
 
-                <div class="box-important">
+                <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
                         <img src="images/empresario.jpg" />
                     </div>
@@ -134,7 +134,7 @@
 
             <div class='col-xs-12 col-md-5 box right'>
 
-                <div class="box-important">
+                <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
                         <img src="images/empresario.jpg" />
                     </div>
@@ -154,7 +154,7 @@
 
             <div class='col-xs-12 col-md-5 box left'>
 
-                <div class="box-important">
+                <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
                         <img src="images/empresario.jpg" />
                     </div>

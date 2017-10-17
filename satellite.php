@@ -1,5 +1,6 @@
 <?php
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     
     $log = new LoggerPhp();
     $log->write_log("[Satellite]","Debug");
@@ -37,10 +38,12 @@
     <section class='container-fluid connectivity-img'>
 
         <div class='row'>
-            <div class='col-xs-12 sat' style="background-image: url('images/sat.jpg')">
-                <h1>Connectivity</h1>
+            <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/sat.jpg')">
+                <div class="bgMesh">
+                    <h1 style="margin: 0; padding-top: 140px;">Connectivity</h1>
+            
+                </div>
             </div>
-
         </div>
 
     </section>

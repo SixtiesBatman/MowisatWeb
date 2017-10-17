@@ -1,5 +1,6 @@
 <?php
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     
     $log = new LoggerPhp();
     $log->write_log("[Partners]","Debug");
@@ -35,8 +36,10 @@ include ''.dirname(__FILE__).'/template/header.php';
     <section class='container-fluid'>
             
        <div class='row'>
-            <div class='col-xs-12 partners-img' style="background-image: url('images/partners.jpg')">
-                <h1>Partners</h1>
+            <div class='col-xs-12 partners-img bgMeshParent' style="background-image: url('images/partners.jpg')">
+                <div class="bgMesh">
+                    <h1 style="margin: 0; padding-top: 150px;"><?PHP echo $txt["part-ners"]; ?></h1>
+                </div>
             </div>           
         </div>
 
@@ -59,8 +62,10 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class="col-md-7 big-box">
 
                 <div>
-                    <p>HUGHES COMMUNICATIONS PROVIDES SATELLITE BROADBAND MANAGED NETWORK SERVICES AND DIGITAL MEDIA SOLUTIONS WORLDWIDE, WITH A PARTICULAR FOCUS TO DELIVERING BROADBAND AND EQUIPMENT SOLUTIONS TO RURAL REGIONS.</p>  
-                    <button>More information</button>
+                    <p><?PHP echo $txt["hughes"]; ?></p>  
+                    <a href="https://www.hughes.com/">
+                        <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    </a>
                 </div>
 
             </div>
@@ -79,8 +84,10 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div style="background-color: white !important;" class="col-md-7 black big-box">
 
                 <div>
-                    <p>PIG.GI IS A MARKETPLACE FOR CONSUMER DATA AND ENGAGEMENT. THROUGH PIG.GI COINS, THE APP WILL PROVIDE A WAY FOR PEOPLE TO ACCESS TO MOWISAT'S WI-FI NETWORKS.</p>
-                    <button>More information</button>
+                    <p><?PHP echo $txt["piggi"]; ?></p>
+                    <a href="https://pig.gi/">
+                        <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    </a>
                 </div>    
 
             </div>
@@ -117,8 +124,10 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class="col-md-7 big-box">
 
                 <div>
-                    <p>STARGO PROVIDES SATELLITE INTERNET TO CLIENTS LOCATED IN AREAS OF DIFFICULT ACCESS. STARGO IS A STRATEGIC PARTNER WITH INFRASTRUCTURE, SALES AND INSTALLATION TEAMS SUPPORT.</p>
-                    <button>More information</button>
+                    <p><?PHP echo $txt["stargo"]; ?></p>
+                    <a href="http://www.stargomexico.com/">
+                        <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    </a>
                 </div>
 
             </div>

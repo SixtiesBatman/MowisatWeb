@@ -26,39 +26,57 @@
 'mowisat', 'roboto'
 */
 
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+h1 {
+    font-family: 'roboto', sans-serif !important;
+}
+h2 {
+    font-family: 'roboto', sans-serif !important;
+}
+h3 {
+    font-family: 'roboto', sans-serif !important;
+}
+h4 {
+    font-family: 'roboto', sans-serif !important;
+}
+h5 {
+    font-family: 'roboto', sans-serif !important;
+}
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 label {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 div {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 span {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 b {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 i {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 input {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }
 ul {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif !important;
 }

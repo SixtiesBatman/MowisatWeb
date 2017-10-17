@@ -3,7 +3,7 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-.materialize-red {
+ .materialize-red {
   background-color: #e51c23 !important;
 }
 
@@ -4325,7 +4325,6 @@ nav ul {
 nav ul li {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
-  float: left;
   padding: 0;
 }
 
