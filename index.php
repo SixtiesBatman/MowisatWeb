@@ -35,14 +35,11 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div style="margin-top: 6em !important; " class="big-title">
-                    <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 0px;">Connecting Anything,<br/>Anywhere.</h1>
+                    <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 0px;"><?PHP echo $txt["propuestaDeValor"]; ?></h1>
                 </div>
                 
                 <div class="little-text">
-                    <h3 style="font-weight: 200; color: white; margin: 0; padding-top: 50px;">Mowisat Corporation commercializes Satellite<br/>
-                        Broadband in Latin America for versatile use.<br/>
-                        Powered by cutting edge connectivity solutions<br/>
-                        for business processes optimization.</h3>
+                    <h3 style="font-weight: 200; color: white; margin: 0; padding-top: 50px;"><?PHP echo $txt["descripcionPropuestaDeValor"]; ?></h3>
                 </div>
                 
                 
