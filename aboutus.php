@@ -1,4 +1,6 @@
 <?php
+
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
     
     $log = new LoggerPhp();
@@ -8,7 +10,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Us</title>
+        <title><?PHP echo $txt["aboutusTitle"]; ?></title>
 
         <?PHP
             include ''.dirname(__FILE__).'/template/meta.php';
@@ -35,7 +37,7 @@
             <div class="col-md-1"></div>
 
             <div class='col-xs-10'>
-                <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 100px;">About us</h1>
+                <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 100px;"><?PHP echo $txt["aboutusTitle"]; ?></h1>
             </div>
             <div class="col-md-1"></div>
 
@@ -51,7 +53,7 @@
             </div>
 
             <div class='col-xs-12 col-sm-7 letter-size'>
-                <h3 style="color: black !important;" class="big">Know more about us:</h3>
+                <h3 style="color: black !important;" class="big"><?PHP echo $txt["aboutusTxt1"]; ?></h3>
                 <hr class='margin-line' />
                 <h4 style="color: black !important;" class="small">MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.</h3>
             </div>

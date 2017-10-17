@@ -11,7 +11,7 @@
 <html>
    
 <head>
-    <title>Satellite Broadband</title>
+    <title><?PHP echo $txt["satelliteTitle"] ?></title>
 
     
     <?PHP
@@ -54,7 +54,7 @@
 
         <div class='row'>
             <div class='col-xs-12 col-md-12 last-mile'>
-                <h3>Connecting the last mile of Mexico to internet</h3>
+                <h3><?PHP echo $txt["satelliteSubTitle"]; ?></h3>
             </div>
         </div>
 
@@ -77,7 +77,7 @@
         <div class="col-md-7 big-box margin-short">
 
             <div>
-                <p>Localization of rural low-income communities with no internet connectivity</p>  
+                <p><?PHP echo $txt["satelliteTxt1"]; ?></p>  
             </div>
 
         </div>
@@ -96,7 +96,7 @@
         <div class="col-md-7 big-box margin-big">
 
             <div>
-                <p>Instalation of Wi-Fi hotspots power by satellite internet manage by the community</p>
+                <p><?PHP echo $txt["satelliteTxt2"]; ?></p>
             </div>    
 
         </div>
@@ -133,7 +133,7 @@
         <div class="col-md-7 big-box margin-short">
 
             <div>
-                <p>Access to the Wi-Fi network via different methods</p>  
+                <p><?PHP echo $txt["satelliteTxt3"]; ?></p>  
             </div>
 
         </div>
@@ -152,7 +152,7 @@
         <div class="col-md-7 big-box margin-big">
 
             <div>
-                <p>Internet brings different services and integrates communities to the Digital Economy</p>
+                <p><?PHP echo $txt["satelliteTxt4"]; ?></p>
             </div>    
 
         </div>
