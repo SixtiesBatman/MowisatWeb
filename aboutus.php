@@ -55,7 +55,7 @@
             <div class='col-xs-12 col-sm-7 letter-size'>
                 <h3 style="color: black !important;" class="big"><?PHP echo $txt["aboutusTxt1"]; ?></h3>
                 <hr class='margin-line' />
-                <h4 style="color: black !important;" class="small">MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.</h3>
+                <h4 style="color: black !important;" class="small"><?PHP echo $txt["aboutusTxt2"]; ?></h3>
             </div>
 
             <div class="col-md-1"></div>
@@ -73,8 +73,8 @@
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
 
             <div class='col-xs-10 col-sm-10 col-md-10 team z-depth-4 card-panel'>
-                <h2>Management</h2>
-                <h3 style="text-align: left !important; padding: 0 0 0 10px !important;">Mowisat Corporation is formed by an experienced team with extensive expertise in telecommunications, satellite broadband operations, and management.</h3>
+                <h2><?PHP echo $txt["aboutusTxt3"]; ?></h2>
+                <h3 style="text-align: left !important; padding: 0 0 0 10px !important;"><?PHP echo $txt["aboutusTxt4"]; ?></h3>
             </div>
 
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
@@ -88,7 +88,7 @@
 
             <div class="col-md-1"></div>
 
-            <div class='col-xs-12 col-md-5 box right'>
+            <div class='col-xs-12 col-md-5 box left'>
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
@@ -100,7 +100,7 @@
                     </div>
 
                     <div class='description'>
-                        <p>President to the Board of Directors - Founder of LEAP, former Chairman of EchoStar Satellite Corporation and Vice Chairman of EchoStar Communications Corporation.</p>
+                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt5"]; ?></p>
                     </div>
                 </div>
 
@@ -119,7 +119,7 @@
                     </div>
 
                     <div class='description'>
-                        <p>CFO – Chief Financial Officer and Board Member for Mowisat. Director and Board Member of of Bridgemark Financial & Advisors Ltd., a boutique Private Equity & advisory firm with operations in Canada and London, UK. Entrepreneurial and founder of a collection of companies in the Renewable Energy, Encryption and Energy Storage companies (Both Private, Public).</p>
+                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt6"]; ?></p>
                     </div>
                 </div>
 
@@ -134,7 +134,7 @@
 
             <div class="col-md-1"></div>
 
-            <div class='col-xs-12 col-md-5 box right'>
+            <div class='col-xs-12 col-md-5 box left'>
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
@@ -146,7 +146,7 @@
                     </div>
 
                     <div class='description'>
-                        <p>COO - Formerly Officer for Economic affairs at UNOG Mission in Geneva. Has worked as project leader in charge of communications projects at Sovereign Solutions. Experienced in business development and telecommunications related projects</p>
+                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt7"]; ?></p>
                     </div>
                 </div>
 
@@ -166,7 +166,7 @@
                     </div>
 
                     <div class='description'>
-                        <p>CTO - Vast expirience in networks and programming, developing infrastructure and IT operations: network operations, application development and maintenance. Advance technology knowledge, competitive analysis, technology assassment, partnering and planning.</p>
+                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt8"]; ?></p>
                     </div>
                 </div>    
             </div>
