@@ -1,5 +1,6 @@
 <?php
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     
     $log = new LoggerPhp();
     $log->write_log("[Aboutus]","Debug");
@@ -112,6 +113,101 @@
                         <img src="images/empresario.jpg" />
                     </div>
 
+                    <div class='nombre'>
+                    <h3>STEVE SCHAVER</h3>
+                </div>
+
+                <div class='description'>
+                    <p>Member, Board of Directors - Former Chief Financial Officer of EchoStar Satellite Broadcasting Corporation and former President of EchoStar International Corporation, a subsidiary of Dish Network Corp (formerly EchoStar Communications Corporation). Former Chief Financial Officer of Dish Network, a holding
+                    company of EchoStar Corp and Chief Operating Officer. 33 year career with EchoStar : served as a director on boards in Paris, Hong Kong, Denver, Cheseaux, and Mexico City.  Served for more than 8 years on the board of Dish Mexico for EchoStar.    </p>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>    
+
+        <div class='row'>
+
+            
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='nombre'>
+                        <h3>CHRIS ERGEN</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>CO-FOUNDER – Angel investor and an innovation advisor to startups. International business development for Dish. Extensive experience in satellite communications, mobile connectivity, and pay television around the globe.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>CHASE ERGEN</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>Serial entrepreneur, philanthropist, consultant and expert in telecommunications, international relations, and innovation. Executive Director of Sovereign Solutions SA, leading company focused on governance strategy, business development solutions, risk management and foreign direct investment strategies. Formerly strategic Advisor for A Human Right, an international NGO, advocated for the expansion of economic opportunities through internet access and bridging the digital divide by expanding global satellite internet coverage.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>   
+
+
+
+        <div class='row'>
+
+            
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='nombre'>
+                        <h3>DAVID MITCHELL</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>BOARD OF DIRECTORS – 30 years of experience in financial industry; In the 90’s worked at a number of Bay street firms such as Canarim Securities ( now Canaccord), Levesque Beaubien Securities,  and Research Capital ( now Mackie Research Capital)  as a desk trader and as an investment advisor. In 2000 Mr Mitchell moved to Octagon Capital as a VP and Director managed the Toronto retail division and conducted financings for CPC’s, and small and microcap companies. Founder of the WhiteKnight series of Capital Pool Companies (3 have gone to market and listed on the TSXV). BOD member for two other CPC’s and the CEO and director in addition to 3 TSXV listed companies in the sectors of technology, healthcare and alternative finance. </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
                     <div class='name'>
                         <h3>STEVEN HOFFMAN</h3>
                     </div>
@@ -125,7 +221,56 @@
 
             <div class="col-md-1"></div>
 
-        </div>    
+        </div>
+
+
+        <div class='row'>
+
+            
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='nombre'>
+                        <h3>DR. ANTONIO ULISES DE LA GARZA VALDES</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former member of the Council of Technological Transfer of the Autonomous University of Nuevo Leon. Participated in numerous government entities. Formerly Managing Directorof the Association of Information Technology Companies (AETI) and President and CEO of the North American International Trade Corridor Partnership (NAITCP). Holds a PhD in Philosophy with Specialization in Administration. Is developing The World Energy Services Integration and Investment Network (WESII Network).</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>DIEGO STEWART</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>SALES DIRECTOR – Extensive management experience across multi-functional Commercial, Latin America and Sales. Experience in international markets and cultures. Competent in liaising, negotiating and reporting at B2B and Government level. Strong skills in process development and implementation, as well as analysis, strategy planning and staff development. </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>
+
 
 
         <div class='row'>
@@ -165,6 +310,96 @@
 
                     <div class='description'>
                         <p>CTO - Vast expirience in networks and programming, developing infrastructure and IT operations: network operations, application development and maintenance. Advance technology knowledge, competitive analysis, technology assassment, partnering and planning.</p>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>
+
+        <div class='row'>
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>EDER PEREZ</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>PROJECT MANAGER - Specialized in social development, sustainability and technology with more than 9 years of experience volunteering and working in periurban, rural and urban communities. Educated in U.A.M, he is responsible to identify and create bonds with new communities for business opportunities, and generate links between social and technological organizations.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>DAVID YAO</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>BUSINESS DEVELOPMENT - Young talented executive with a diverse background in technology, business development strategies, market research, and financial economics. Trained as an economist at ITAM, Mexico, he is responsible for identifying new sales leads, pitching Mowisat´s services, and maintaining fruitful relationships with existing customers</p>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>
+
+        <div class='row'>
+
+            <div class="col-md-1"></div>
+
+            <div class='col-xs-12 col-md-5 box right'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>FABIOLA LOPEZ</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>Industrial Design Clerk - Formerly Officer for Economic affairs at UNOG Mission in Geneva. Has worked as project leader in charge of communications projects at Sovereign Solutions. Experienced in business development and telecommunications related projects</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class='col-xs-12 col-md-5 box left'>
+
+                <div class="box-important z-depth-4 card-panel">
+                    <div class='image'>
+                        <img src="images/empresario.jpg" />
+                    </div>
+
+                    <div class='name'>
+                        <h3>RICARDO ZEPEDA</h3>
+                    </div>
+
+                    <div class='description'>
+                        <p>Marketing Communication Clerk - Recieved his education at the National Autonomous University of Mexico (UNAM) with studies in communications, marketing and advertisement. Experienced in Digital Marketing projects and self-thought programmer.</p>
                     </div>
                 </div>    
             </div>
