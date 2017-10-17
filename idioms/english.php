@@ -7,4 +7,9 @@ $txt["descripcionPropuestaDeValor"] = "Mowisat Corporation commercializes Satell
 Broadband in Latin America for versatile use.<br />
 Powered by cutting edge connectivity solutions<br />
 for business processes optimization.";
+
+//satellite.php
+$txt["satelliteImageTitle"] = "Connectivity";
+
+
 ?>

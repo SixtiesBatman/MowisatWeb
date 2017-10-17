@@ -1,4 +1,6 @@
 <?php
+
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
     
     $log = new LoggerPhp();
@@ -13,7 +15,7 @@
 
     
     <?PHP
-    include ''.dirname(__FILE__).'/template/meta.php';
+        include ''.dirname(__FILE__).'/template/meta.php';
     ?>
 
     <link href="styles/satellite.css" rel="stylesheet" type="text/css">
@@ -39,7 +41,7 @@
         <div class='row'>
             <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/sat.jpg')">
                 <div class="bgMesh">
-                    <h1 style="margin: 0; padding-top: 140px;">Connectivity</h1>
+                    <h1 style="margin: 0; padding-top: 140px;"><?PHP echo $txt["satelliteImageTitle"]; ?></h1>
             
                 </div>
             </div>

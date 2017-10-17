@@ -45,8 +45,8 @@
                     <li><a style="color: black;" href="social.php">SOCIAL RESPOSABILITY</a></li>
                     <li><a style="color: black;" href="./blog">NEWS</a></li>
                     <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">INVESTORS</a></li>
-                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">EN</a></li>
-                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="#">ES</a></li>
+                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="?idiom=en">EN</a></li>
+                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="?idiom=es">ES</a></li>
                 </ul>
             </div>
 
