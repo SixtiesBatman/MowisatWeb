@@ -103,8 +103,10 @@ $txt["description-vision"] = "The vision of Mowisat Corporation is to bring affo
 $txt["vacancies"] = "VACANCIES";
 $txt["vac-phrase"] = "Love Where You Work";
 $txt["contactForm"] = "Contact Form";
+
 //aboutus.php
 $txt["aboutusTitle"] = "About us";
+$txt["aboutusTitle2"] = "<center><h2 style='color: white;'>About us</h2></center>";
 $txt["aboutusTxt1"] = "Know more about us:";
 $txt["aboutusTxt2"] = "MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.";
 $txt["aboutusTxt3"] = "Management";
@@ -113,9 +115,17 @@ $txt["aboutusTxt5"] = "President to the Board of Directors - Founder of LEAP, fo
 $txt["aboutusTxt6"] = "CFO – Chief Financial Officer and Board Member for Mowisat. Director and Board Member of of Bridgemark Financial & Advisors Ltd., a boutique Private Equity & advisory firm with operations in Canada and London, UK. Entrepreneurial and founder of a collection of companies in the Renewable Energy, Encryption and Energy Storage companies (Both Private, Public).";
 $txt["aboutusTxt7"] = "COO - Formerly Officer for Economic affairs at UNOG Mission in Geneva. Has worked as project leader in charge of communications projects at Sovereign Solutions. Experienced in business development and telecommunications related projects";
 $txt["aboutusTxt8"] = "CTO - Vast expirience in networks and programming, developing infrastructure and IT operations: network operations, application development and maintenance. Advance technology knowledge, competitive analysis, technology assassment, partnering and planning.";
-$txt["aboutusTxt9"] = "";
-$txt["aboutusTxt10"] = "";
-$txt["aboutusTxt11"] = "";
+$txt["aboutusTxt9"] = "Member, Board of Directors - Former Chief Financial Officer of EchoStar Satellite Broadcasting Corporation and former President of EchoStar International Corporation, a subsidiary of Dish Network Corp (formerly EchoStar Communications Corporation). Former Chief Financial Officer of Dish Network, a holding company of EchoStar Corp and Chief Operating Officer. 33 year career with EchoStar : served as a director on boards in Paris, Hong Kong, Denver, Cheseaux, and Mexico City.  Served for more than 8 years on the board of Dish Mexico for EchoStar. ";
+$txt["aboutusTxt10"] = "CO-FOUNDER – Angel investor and an innovation advisor to startups. International business development for Dish. Extensive experience in satellite communications, mobile connectivity, and pay television around the globe.";
+$txt["aboutusTxt11"] = "Serial entrepreneur, philanthropist, consultant and expert in telecommunications, international relations, and innovation. Executive Director of Sovereign Solutions SA, leading company focused on governance strategy, business development solutions, risk management and foreign direct investment strategies. Formerly strategic Advisor for A Human Right, an international NGO, advocated for the expansion of economic opportunities through internet access and bridging the digital divide by expanding global satellite internet coverage.";
+$txt["aboutusTxt12"] = "BOARD OF DIRECTORS – 30 years of experience in financial industry; In the 90’s worked at a number of Bay street firms such as Canarim Securities ( now Canaccord), Levesque Beaubien Securities,  and Research Capital ( now Mackie Research Capital)  as a desk trader and as an investment advisor. In 2000 Mr Mitchell moved to Octagon Capital as a VP and Director managed the Toronto retail division and conducted financings for CPC’s, and small and microcap companies. Founder of the WhiteKnight series of Capital Pool Companies (3 have gone to market and listed on the TSXV).";
+// BOD member for two other CPC’s and the CEO and director in addition to 3 TSXV listed companies in the sectors of technology, healthcare and alternative finance.
+$txt["aboutusTxt13"] = "SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former member of the Council of Technological Transfer of the Autonomous University of Nuevo Leon. Participated in numerous government entities. Formerly Managing Directorof the Association of Information Technology Companies (AETI) and President and CEO of the North American International Trade Corridor Partnership (NAITCP). Holds a PhD in Philosophy with Specialization in Administration. Is developing The World Energy Services Integration and Investment Network (WESII Network).";
+$txt["aboutusTxt14"] = "SALES DIRECTOR – Extensive management experience across multi-functional Commercial, Latin America and Sales. Experience in international markets and cultures. Competent in liaising, negotiating and reporting at B2B and Government level. Strong skills in process development and implementation, as well as analysis, strategy planning and staff development. ";
+$txt["aboutusTxt15"] = "PROJECT MANAGER - Specialized in social development, sustainability and technology with more than 9 years of experience volunteering and working in periurban, rural and urban communities. Educated in U.A.M, he is responsible to identify and create bonds with new communities for business opportunities, and generate links between social and technological organizations.";
+$txt["aboutusTxt16"] = "BUSINESS DEVELOPMENT - Young talented executive with a diverse background in technology, business development strategies, market research, and financial economics. Trained as an economist at ITAM, Mexico, he is responsible for identifying new sales leads, pitching Mowisat´s services, and maintaining fruitful relationships with existing customers";
+$txt["aboutusTxt17"] = "Industrial designer at CIDI UNAM, México. With previous experience at solutions for products, services and executive presentations; as well as social rural projects for CCADET. She is responsible of design matters such as web design, corporate Identity, and products or services research within the strategic planning process.";
+$txt["aboutusTxt18"] = "Marketing Communication - Recieved his education at the National Autonomous University of Mexico (UNAM) with studies in communications, marketing and advertisement. Experienced in Digital Marketing projects and self-thought programmer.";
 
 
 //satellite.php
