@@ -23,27 +23,27 @@
 
             <div class="col-sm-3 other-list">
                 <ul>
-                    <li class="blue-letter">MEET MOWISAT</li>
-                    <li><a style="color: #333;" href="mission.php">Mission</a></li>
-                    <li><a style="color: #333;" href="vision.php">Vision</a></li>
-                    <li><a style="color: #333;" href="aboutus.php">Our team</a></li>
-                    <li><a style="color: #333;" href="partners.php">Section partners</a></li>
+                    <li class="blue-letter"><?PHP echo $txt["meetMowi"]; ?></li>
+                    <li><a style="color: #333;" href="mission.php"><?PHP echo $txt["mission"]; ?></a></li>
+                    <li><a style="color: #333;" href="vision.php"><?PHP echo $txt["vision"]; ?></a></li>
+                    <li><a style="color: #333;" href="aboutus.php"><?PHP echo $txt["team"]; ?></a></li>
+                    <li><a style="color: #333;" href="partners.php"><?PHP echo $txt["sec-partners"]; ?></a></li>
                 </ul>
             </div>
 
             <div class="col-sm-2">
-                <div class="blue-letter special">NEWS</div>
-                <div class="blue-letter special">CAREERS</div>
+                <div class="blue-letter special"><?PHP echo $txt["news"]; ?></div>
+                <div class="blue-letter special"><?PHP echo $txt["carrers"]; ?></div>
 
             </div>
 
             <div class="col-sm-6">
-                <div style="" class="blue-letter">STAY IN TOUCH</div>
+                <div style="" class="blue-letter"><?PHP echo $txt["stayInTouch"]; ?></div>
                 <div style="" class="special2">info@mowisatcorp.com</div>
 
                 <div class="row">
                   <div style="padding-left: 0;" class="col-sm-6">
-                      <div class="blue-letter">CANADA</div>
+                      <div class="blue-letter"><?PHP echo $txt["canada"]; ?></div>
                       <div class="last-paragraph">First Canadian Place<br />
                           100 King Street West Suite 5700<br />
                           Toronto, ON<br />
@@ -52,7 +52,7 @@
 
                   <div style="padding-left: 0;" class="col-sm-6">
 
-                      <div class="blue-letter mexico">MEXICO</div>
+                      <div class="blue-letter mexico"><?PHP echo $txt["mexico"]; ?></div>
                       <div class="last-paragraph">Mowisat Corporation<br />
                            Mexico City, Mexico<br />
                            Calle Bahía de las Palmas 1 Verónica Anzures<br />
@@ -69,8 +69,8 @@
                 <nav style="margin-bottom: 0;" class="col-sm-12 z-depth-4 card-panel" id="other-links">
                     <ul>
                         <li><a href="#">2017 Mowisat Corporation</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Policies and Terms</a></li>
+                        <li><a href="#"><?PHP echo $txt["privacyPolicy"]; ?></a></li>
+                        <li><a href="#"><?PHP echo $txt["policiesTerms"]; ?></a></li>
                     </ul>
                 </nav>
         </div>

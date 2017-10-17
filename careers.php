@@ -1,4 +1,5 @@
 <?php
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
     
     $log = new LoggerPhp();
@@ -37,8 +38,8 @@
        <div class='row'>
             <div class='col-xs-12 careers-img' style="top: 0; padding: 0; margin: 0; background-image: url('images/careers.jpg'); opacity: 1;">
                 <div style="margin-top: 0px; height: 300px; background-color: black; background: rgba(0,0,0,0.5);">
-                    <h1 style="margin: 0; padding-top: 150px;">VACANCIES</h1>
-                    <h1 style="margin: 0; padding-top: 50px;">Love Where You Work</h1>
+                    <h1 style="margin: 0; padding-top: 150px;"><?PHP echo $txt["vacancies"]; ?></h1>
+                    <h1 style="margin: 0; padding-top: 50px;"><?PHP echo $txt["vac-phrase"]; ?></h1>
                 </div>
             </div>           
         </div>
@@ -49,7 +50,7 @@
         <div class="col s12">
             <ul class="tabs">
                 <li class="tab col s3">
-                <li class="tab col s6"><a class="active" href="#tab1">Contact From</a></li>
+                <li class="tab col s6"><a class="active" href="#tab1"><?PHP echo $txt["contactForm"]; ?></a></li>
                 <li class="tab col s3">
             </ul>
         </div>
@@ -62,7 +63,7 @@
                     <div class="col-sm-12">
                         <div class="col-md-12">
                             <div class="col-md-6">
-                                Name<font color="red">*</font>
+                                <?PHP echo $txt["name"]; ?><font color="red">*</font>
                             </div>
                             <div class="col-md-6">
                                 <input id="nameContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
@@ -71,7 +72,7 @@
                         </div>
                         <div style="margin-top: 10px;" class="col-md-12">
                             <div class="col-md-6">
-                                Mobile Number<font color="red">*</font>
+                                <?PHP echo $txt["mobileNumber"]; ?><font color="red">*</font>
                             </div>
                             <div class="col-md-6">
                                 <input id="numberContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
@@ -80,7 +81,7 @@
                         </div>
                         <div style="margin-top: 10px;" class="col-md-12">
                             <div class="col-md-6">
-                                E-Mail<font color="red">*</font>
+                                <?PHP echo $txt["eMail"]; ?><font color="red">*</font>
                             </div>
                             <div class="col-md-6">
                                 <input id="emailContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
@@ -89,7 +90,7 @@
                         </div>
                         <div style="margin-top: 10px;" class="col-md-12">
                             <div class="col-md-6">
-                                Comments<font color="red">*</font>
+                                <?PHP echo $txt["comments"]; ?><font color="red">*</font>
                             </div>
                             <div class="col-md-6">
                                 <textarea id="commentContact" value="" style="background-color: #DADADA; height: 150px;" class="form-control"></textarea>
@@ -97,7 +98,7 @@
                             </div>
                         </div>
                         <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
-                        <button onclick="sendContact();" id="sendContact" class="btn btn-primary"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
+                        <button onclick="sendContact();" id="sendContact" class="btn btn-primary"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> <?PHP echo $txt["botonEnviar"]; ?></button> 
                         </div>
                     </div>
                     
@@ -157,6 +158,8 @@
     
     </div>
      -->
+
+    </section>
 
     <!-- ENDS SECTION -->
 

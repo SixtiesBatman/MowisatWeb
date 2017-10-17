@@ -1,4 +1,5 @@
 <?php
+    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
     
     $log = new LoggerPhp();
@@ -36,11 +37,9 @@
         <div class="col-md-10">
             <div style="padding: 0; width: 100%; height: 600px; background: url('images/Mission.jpg') rgba(0,0,0,0.5);" class="z-depth-4 card-panel">
                 <div style="margin-top: 0px; height: 600px; background-color: black; background: rgba(0,0,0,0.5);">
-                    <h1 style="font-weight: 200; text-align: center; color: white; margin: 0; padding-top: 100px; opactiy: 1;">Our Vision</h1>
+                    <h1 style="font-weight: 200; text-align: center; color: white; margin: 0; padding-top: 100px; opactiy: 1;"><?PHP echo $txt["our-vision"]; ?></h1>
                     <h1 style="font-weight: 200; text-align: left; color: white; margin: 0 25px 0 25px; padding-top: 100px; opactiy: 1;">
-                    The vision of Mowisat Corporation is to bring affordable telecommunications,
-                    inter- net connectivity, educational platforms and applicable content to rural lowincome
-                    communities for human capacity development. 
+                        <?PHP echo $txt["description-vision"]; ?> 
                     </h1>
                 
                 </div>

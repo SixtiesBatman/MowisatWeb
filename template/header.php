@@ -41,10 +41,10 @@
 
             <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
                 <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
-                    <li><a style="color: black;" href="satellite.php">SATELLITE BROADBAND</a></li>
-                    <li><a style="color: black;" href="social.php">SOCIAL RESPOSABILITY</a></li>
-                    <li><a style="color: black;" href="./blog">NEWS</a></li>
-                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx">INVESTORS</a></li>
+                    <li><a style="color: black;" href="satellite.php"><?PHP echo $txt["toSatellite"]; ?></a></li>
+                    <li><a style="color: black;" href="social.php"><?PHP echo $txt["toSocial"]; ?></a></li>
+                    <li><a style="color: black;" href="./blog"><?PHP echo $txt["toNews"]; ?></a></li>
+                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx"><?PHP echo $txt["toInvestors"]; ?></a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="?idiom=en">EN</a></li>
                     <li class="hidden-xs hidden-sm round"><a style="color: black;" href="?idiom=es">ES</a></li>
                 </ul>
@@ -62,15 +62,15 @@
         <div style="z-index: 9999; padding: 0; margin: 0; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); " class="col-md-12" id="third-header">
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><a href="./aboutus.php"><img src="images/icon7.png" alt="question mark" />why mowisat?</a></div>
+                <div class="inline-display"><a href="./aboutus.php"><img src="images/icon7.png" alt="question mark" /><?PHP echo $txt["whyMowisat"]; ?></a></div>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><a href="./how-works.php"><img src="images/icon8.png" alt="gears" />how it works?</a></div>
+                <div class="inline-display"><a href="./how-works.php"><img src="images/icon8.png" alt="gears" /><?PHP echo $txt["howWorks"]; ?></a></div>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4 style-box">
-                <div class="inline-display"><a href="./partners.php"><img style="margin-right: 15px;" src="images/icon9.png" alt="partners" />our partners</a></div>
+                <div class="inline-display"><a href="./partners.php"><img style="margin-right: 15px;" src="images/icon9.png" alt="partners" /><?PHP echo $txt["partners"]; ?></a></div>
             </div>
 
         </div>

@@ -45,7 +45,7 @@
                 
                 <div class="lrn-more-btn">
                     <a href="how-works.php">
-                        <button style="color: white;">LEARN MORE</button>
+                        <button style="color: white;"><?PHP echo $txt["botonAprendeMas"]; ?></button>
                     </a>
                 </div>   
                 
@@ -70,12 +70,12 @@
                 <div class="col-sm-2"></div>
                 
                 <div class="col-sm-4 inline-box">
-                    <div><img src="images/icon1.png" alt="schedular" />Schedular</div>
-                    <div><img src="images/icon2.png" alt="IoT" />IoT Real Time View</div>
+                    <div><img src="images/icon1.png" alt="schedular" /><?PHP echo $txt["schedular"]; ?></div>
+                    <div><img src="images/icon2.png" alt="IoT" /><?PHP echo $txt["iot"]; ?></div>
                 </div>
                 <div class="col-sm-4 inline-box">
-                    <div><img src="images/icon4.png" alt="Wi-Fi" />Wi-Fi Hotspots</div>
-                    <div><img src="images/icon5.png" alt="education" />Online Education Platforms</div>                
+                    <div><img src="images/icon4.png" alt="Wi-Fi" /><?PHP echo $txt["wifi"]; ?></div>
+                    <div><img src="images/icon5.png" alt="education" /><?PHP echo $txt["onlineEdu"]; ?></div>                
                 </div>
                 
                 <div class="col-sm-2"></div>
@@ -96,7 +96,7 @@
         <section class="container contact-us-box">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4>Contact Us</h4>
+                    <h4><?PHP echo $txt["contactUs"]; ?></h4>
                 </div>
             </div>
             
@@ -105,7 +105,7 @@
                 <div class="col-sm-6">
                     <div class="col-md-12">
                         <div class="col-md-6">
-                            Name<font color="red">*</font>
+                            <?PHP echo $txt["name"]; ?><font color="red">*</font>
                         </div>
                         <div class="col-md-6">
                             <input id="nameContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
@@ -114,7 +114,7 @@
                     </div>
                     <div style="margin-top: 10px;" class="col-md-12">
                         <div class="col-md-6">
-                            Mobile Number<font color="red">*</font>
+                            <?PHP echo $txt["mobileNumber"]; ?><font color="red">*</font>
                         </div>
                         <div class="col-md-6">
                             <input id="numberContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
@@ -123,7 +123,7 @@
                     </div>
                     <div style="margin-top: 10px;" class="col-md-12">
                         <div class="col-md-6">
-                            E-Mail<font color="red">*</font>
+                            <?PHP echo $txt["eMail"]; ?><font color="red">*</font>
                         </div>
                         <div class="col-md-6">
                             <input id="emailContact" value="" type="text" style="background-color: #DADADA;" class="form-control" />
@@ -132,7 +132,7 @@
                     </div>
                     <div style="margin-top: 10px;" class="col-md-12">
                         <div class="col-md-6">
-                            Comments<font color="red">*</font>
+                            <?PHP echo $txt["comments"]; ?><font color="red">*</font>
                         </div>
                         <div class="col-md-6">
                             <textarea id="commentContact" value="" style="background-color: #DADADA; height: 150px;" class="form-control"></textarea>
@@ -140,7 +140,7 @@
                         </div>
                     </div>
                     <div style="margin-top: 10px; margin-bottom: 10px;" class="col-md-12 text-center">
-                       <button onclick="sendContact();" id="sendContact" class="btn btn-primary"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
+                       <button onclick="sendContact();" id="sendContact" class="btn btn-primary"><i style="font-family: 'fontawesome' !important; font-size: 1em;" class="fa fa-paper-plane" aria-hidden="true"></i> <?PHP echo $txt["botonEnviar"]; ?></button> 
                     </div>
                 </div>
                 
@@ -183,13 +183,7 @@
                 
         <!-- SECOND BLOG BOX -->        
                 <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
-                    <p class="blog-p margin padding-left">Mowisat Corporation is a company which works with satellite internet connectivity
-to deliver digital services and versatile platforms for human capacity
-development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities. Mowisat Corporation is a company which
-works with satellite internet connectivity to deliver digital services and versatile
-platforms for human capacity development to different sectors, industries,
-and sociocultural initiatives such as marginalized communities.</p>
+                    <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
                     <div>
                         
                             <div class="">
@@ -212,12 +206,12 @@ and sociocultural initiatives such as marginalized communities.</p>
         
         <section class="container-fluid work-with-us-box">
             <div>
-                <h4 style="color: #3e3e3f !important;" class="work-title">WANTS TO WORK WITH US?</h4>
+                <h4 style="color: #3e3e3f !important;" class="work-title"><?PHP echo $txt["workWith"]; ?></h4>
             </div>
             
             <div style="color: #3e3e3f !important;" class="vacancies-btn">
                 <a href="careers.php">
-                    <button style="color: #3e3e3f !important;">See our vacancies</button>
+                    <button style="color: #3e3e3f !important;"><?PHP echo $txt["botonVacantes"]; ?></button>
                 </a>
             </div>
         </section>
