@@ -68,9 +68,9 @@
         <div class="row" style="padding-bottom: 0; margin-bottom: 0;">
                 <nav style="margin-bottom: 0;" class="col-sm-12 z-depth-4 card-panel" id="other-links">
                     <ul>
-                        <li><a href="#">2017 Mowisat Corporation</a></li>
-                        <li><a href="#"><?PHP echo $txt["privacyPolicy"]; ?></a></li>
-                        <li><a href="#"><?PHP echo $txt["policiesTerms"]; ?></a></li>
+                        <li><a href="">2017 Mowisat Corporation</a></li>
+                        <li><a href="privacy.php"><?PHP echo $txt["privacyPolicy"]; ?></a></li>
+                        <li><a href="terms.php"><?PHP echo $txt["policiesTerms"]; ?></a></li>
                     </ul>
                 </nav>
         </div>

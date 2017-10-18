@@ -102,7 +102,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt5"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt5"]; ?></p>
                     </div>
                 </div>
 
@@ -121,7 +121,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt9"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt9"]; ?></p>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt10"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt10"]; ?></p>
                     </div>
                 </div>
 
@@ -166,7 +166,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt11"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt11"]; ?></p>
                     </div>
                 </div>
 
@@ -196,7 +196,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt12"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt12"]; ?></p>
                     </div>
                 </div>
 
@@ -215,7 +215,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt6"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt6"]; ?></p>
                     </div>
                 </div>
 
@@ -240,7 +240,7 @@
                     </div>
 
                     <div class='nombre'>
-                        <h3>DR. ANTONIO ULISES DE LA GARZA VALDES</h3>
+                        <h4 class="text-center">DR. ANTONIO ULISES DE LA GARZA VALDES</h4>
                     </div>
 
                     <div class='description'>
@@ -263,7 +263,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt14"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt14"]; ?></p>
                     </div>
                 </div>
 
@@ -282,8 +282,9 @@
             <div class='col-xs-12 col-md-5 box left'>
 
                 <div class="box-important z-depth-4 card-panel">
+                    
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/vlatko.jpg" />
                     </div>
 
                     <div class='name'>
@@ -291,8 +292,9 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt7"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt7"]; ?></p>
                     </div>
+
                 </div>
 
             </div>
@@ -311,7 +313,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt8"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt8"]; ?></p>
                     </div>
                 </div>    
             </div>
@@ -328,7 +330,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/eder.jpg" />
                     </div>
 
                     <div class='name'>
@@ -336,7 +338,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt15"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt15"]; ?></p>
                     </div>
                 </div>
 
@@ -348,7 +350,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/david.jpg" />
                     </div>
 
                     <div class='name'>
@@ -356,7 +358,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt16"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt16"]; ?></p>
                     </div>
                 </div>    
             </div>
@@ -373,7 +375,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/fabiola.jpg" />
                     </div>
 
                     <div class='name'>
@@ -381,7 +383,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt17"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt17"]; ?></p>
                     </div>
                 </div>
 
@@ -393,7 +395,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/ricardo.jpg" />
                     </div>
 
                     <div class='name'>
@@ -401,7 +403,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt18"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt18"]; ?></p>
                     </div>
                 </div>    
             </div>
