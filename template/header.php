@@ -40,13 +40,13 @@
             </div>
 
             <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
-                <ul style="margin: 1.2em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
+                <ul style="margin: 0.8em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
                     <li><a style="color: black;" href="satellite.php"><?PHP echo $txt["toSatellite"]; ?></a></li>
                     <li><a style="color: black;" href="social.php"><?PHP echo $txt["toSocial"]; ?></a></li>
                     <li><a style="color: black;" href="./blog"><?PHP echo $txt["toNews"]; ?></a></li>
                     <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx"><?PHP echo $txt["toInvestors"]; ?></a></li>
-                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="?idiom=en">EN</a></li>
-                    <li class="hidden-xs hidden-sm round"><a style="color: black;" href="?idiom=es">ES</a></li>
+                    <li style="margin-top: 7px;" class="hidden-xs hidden-sm round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=en">EN</a></li>
+                    <li style="margin-top: 7px;" class="hidden-xs hidden-sm round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=es">ES</a></li>
                 </ul>
             </div>
 

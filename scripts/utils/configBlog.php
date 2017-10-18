@@ -17,6 +17,7 @@ $db_passwd = "";
 //$db_user = "fguyer4398re";
 //$db_passwd = "eruthr3847r9weiug";
 $db_name = "mowisatwebblog";
+//$db_name = "mowisatinvest";
 /*Fin Base de datos*/
 
 ?>
