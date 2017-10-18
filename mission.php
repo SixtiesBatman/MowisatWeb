@@ -1,6 +1,6 @@
 <?php
-    include ''.dirname(__FILE__).'/scripts/utils/log.php';
     include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
+    include ''.dirname(__FILE__).'/scripts/utils/log.php';
     
     $log = new LoggerPhp();
     $log->write_log("[Mission]","Debug");
