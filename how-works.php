@@ -40,7 +40,7 @@
         <div class='row'>
             <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/works.png')">
                 <div class="bgMesh">
-                    <h1 style="margin: 0; padding-top: 110px;"><?PHP echo $txt["how"]; ?></h1>
+                    <h1 style="font-size: 2.0em !important; margin: 0; padding-top: 110px;"><?PHP echo $txt["how"]; ?></h1>
                 </div>
             </div>
         </div>

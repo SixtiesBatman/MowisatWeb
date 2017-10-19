@@ -77,7 +77,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
 
             <div class='col-xs-10 col-sm-10 col-md-10 team z-depth-4 card-panel'>
-                <h2><?PHP echo $txt["aboutusTxt3"]; ?></h2>
+                <h2 style="font-size: 2.5em !important;"><?PHP echo $txt["aboutusTxt3"]; ?></h2>
                 <h3 style="text-align: left !important; padding: 0 0 0 10px !important;"><?PHP echo $txt["aboutusTxt4"]; ?></h3>
             </div>
 
@@ -102,7 +102,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt5"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt5"]; ?></p>
                     </div>
                 </div>
 
@@ -121,7 +121,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt9"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt9"]; ?></p>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt10"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt10"]; ?></p>
                     </div>
                 </div>
 
@@ -166,7 +166,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt11"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt11"]; ?></p>
                     </div>
                 </div>
 
@@ -196,7 +196,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt12"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt12"]; ?></p>
                     </div>
                 </div>
 
@@ -215,7 +215,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt6"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt6"]; ?></p>
                     </div>
                 </div>
 
@@ -244,7 +244,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;"><?PHP echo $txt["aboutusTxt13"]; ?></p>
+                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt13"]; ?></p>
                     </div>
                 </div>
 
@@ -263,7 +263,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt14"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt14"]; ?></p>
                     </div>
                 </div>
 
@@ -292,7 +292,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt7"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt7"]; ?></p>
                     </div>
 
                 </div>
@@ -313,7 +313,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt8"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt8"]; ?></p>
                     </div>
                 </div>    
             </div>
@@ -338,7 +338,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt15"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt15"]; ?></p>
                     </div>
                 </div>
 
@@ -358,7 +358,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt16"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt16"]; ?></p>
                     </div>
                 </div>    
             </div>
@@ -383,7 +383,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt17"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt17"]; ?></p>
                     </div>
                 </div>
 
@@ -403,7 +403,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt18"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt18"]; ?></p>
                     </div>
                 </div>    
             </div>

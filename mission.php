@@ -38,7 +38,7 @@
             <div style="padding: 0; width: 100%; height: 600px; background: url('images/mission.jpg') rgba(0,0,0,0.5);" class="z-depth-4 card-panel">
                 <div style="margin-top: 0px; height: 600px; background-color: black; background: rgba(0,0,0,0.5);">
                     <h1 style="font-weight: 200; text-align: center; color: white; margin: 0; padding-top: 100px; opactiy: 1;"><?PHP echo $txt["our-mission"]; ?></h1>
-                    <h1 style="font-weight: 200; text-align: left; color: white; margin: 0 25px 0 25px; padding-top: 100px; opactiy: 1;">
+                    <h1 id="textoSocial" style="font-weight: 200; text-align: left; color: white; margin: 0 25px 0 25px; padding-top: 100px; opactiy: 1;">
                         <?PHP echo $txt["description-mission"]; ?>
                     </h1>
                 

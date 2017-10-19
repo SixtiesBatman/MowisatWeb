@@ -41,7 +41,7 @@
         <div class='row'>
             <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/sat.jpg')">
                 <div class="bgMesh">
-                    <h1 style="margin: 0; padding-top: 140px;"><?PHP echo $txt["satelliteImageTitle"]; ?></h1>
+                    <h1 style="font-size: 2.0em !important; margin: 0; padding-top: 140px;"><?PHP echo $txt["satelliteImageTitle"]; ?></h1>
             
                 </div>
             </div>
