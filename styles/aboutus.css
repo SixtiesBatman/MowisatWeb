@@ -119,6 +119,10 @@ section.aboutus-pic {
     color: black;
 }
 
+.box p {
+    font-size: 1em;
+}
+
 .vision-sec {
   background-color: #569EB6;
 }

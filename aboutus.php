@@ -94,7 +94,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/zimmer.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -139,7 +139,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/chris.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -240,7 +240,7 @@
                     </div>
 
                     <div class='nombre'>
-                        <h4 class="text-center">DR. ANTONIO ULISES DE LA GARZA VALDES</h4>
+                        <h4 class="text-center">DR. ANTONIO ULISES DE LA GARZA VALDÉS</h4>
                     </div>
 
                     <div class='description'>
@@ -305,7 +305,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img src="images/team/emiliano.jpg" />
                     </div>
 
                     <div class='name'>
@@ -334,7 +334,7 @@
                     </div>
 
                     <div class='name'>
-                        <h3>EDER PEREZ</h3>
+                        <h3>EDER PÉREZ</h3>
                     </div>
 
                     <div class='description'>
@@ -379,7 +379,7 @@
                     </div>
 
                     <div class='name'>
-                        <h3>FABIOLA LOPEZ</h3>
+                        <h3>FABIOLA LÓPEZ</h3>
                     </div>
 
                     <div class='description'>
@@ -439,3 +439,4 @@
     <?PHP
     include ''.dirname(__FILE__).'/template/footer.php';
     ?>
+

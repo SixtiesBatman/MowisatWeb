@@ -70,12 +70,12 @@
                 <div class="col-sm-2"></div>
                 
                 <div class="col-sm-4 inline-box">
-                    <div><img src="images/icon1.png" alt="schedular" /><?PHP echo $txt["schedular"]; ?></div>
-                    <div><img src="images/icon2.png" alt="IoT" /><?PHP echo $txt["iot"]; ?></div>
+                    <div><a href="how-works.php"><img src="images/icon1.png" alt="schedular" /><?PHP echo $txt["schedular"]; ?></a></div>
+                    <div><a href="mission.php"><img src="images/icon2.png" alt="IoT" /><?PHP echo $txt["iot"]; ?></a></div>
                 </div>
                 <div class="col-sm-4 inline-box">
-                    <div><img src="images/icon4.png" alt="Wi-Fi" /><?PHP echo $txt["wifi"]; ?></div>
-                    <div><img src="images/icon5.png" alt="education" /><?PHP echo $txt["onlineEdu"]; ?></div>                
+                    <div><a href="satellite.php"><img src="images/icon4.png" alt="Wi-Fi" /><?PHP echo $txt["wifi"]; ?></div>
+                    <div><a href="social.php"><img src="images/icon5.png" alt="education" /><?PHP echo $txt["onlineEdu"]; ?></a></div>                
                 </div>
                 
                 <div class="col-sm-2"></div>

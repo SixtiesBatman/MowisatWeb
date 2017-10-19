@@ -23,7 +23,7 @@ $txt["botonAprendeMas"] = "APRENDE MÁS";
 $txt["schedular"] = "Cronograma";
 $txt["iot"] = "IoT en tiempo real";
 $txt["wifi"] = "Conectividad Wi-Fi";
-$txt["onlineEdu"] = "Plataformas Educativas en línea";
+$txt["onlineEdu"] = "Plataformas Educativas";
 
 $txt["blogPost"] ="Mowisat Corporation es una compañía que trabaja con internet satelital
 para brindar servicios digitales y plataformas versátiles para la capacitación humana
@@ -77,20 +77,30 @@ $txt["description-how"] = "Mejorar la calidad de vida de México";
 $txt["how-text1"] = "Conectar las areas sin internet del país";
 $txt["how-text2"] = "Llevar servicios digitales: banca, ahorro, noticias, entretenimiento...";
 $txt["how-text3"] = "Iniciativas educativas: aprender a programar, trabajos de freelancer...";
-$txt["how-text4"] = "Despliegue de la criptomoneda Mexiico.in para integrar una Economía Digital rural completa";
+$txt["how-text4"] = "Despliegue de la criptomoneda Mexicoin para integrar una Economía Digital rural completa";
 
 //partners.php 
 
 $txt["part-ners"] = "Socios";
 $txt["hughes"] = "HUGHES COMMUNICATIONS PROPORCIONA SERVICIOS DE RED DE BANDA ANCHA POR SATÉLITE Y SOLUCIONES DE MEDIOS DIGITALES EN TODO EL MUNDO. SE ENFOCAN EN ENTREGAR SOLUCIONES DE BANDA ANCHA Y EQUIPO EN REGIONES RURALES.";
 $txt["piggi"] = "PIG.GI ES UNA APLICACIÓN PARA FIDELIZAR Y CONSEGUIR DATOS DE CONSUMIDORES. A TRAVÉS DE LAS MONEDAS PIG.GI, LA APLICACIÓN PROPORCIONARÁ UNA FORMA PARA QUE LAS PERSONAS ACCEDAN A LAS REDES WI-FI DE MOWISAT.";
+$txt["net"] = "NetFreedom Pioneers provee soluciones técnicas que generan una conexión para descargar data de un satélite SD de televisión. Su tecnología única permite el flujo de información y contenido en areas de acceso limitado.";
 $txt["stargo"] = "STARGO PROPORCIONA INTERNET POR SATÉLITE A CLIENTES SITUADOS EN ÁREAS DE ACCESO DIFÍCIL. STARGO ES UN SOCIO ESTRATÉGICO CON LA INFRAESTRUCTURA, LAS VENTAS Y EL SOPORTE DE EQUIPOS DE INSTALACIÓN.";
 $txt["botonMasInfo"] = "Más información";
+
+//mission.php 
+
+$txt["our-mission"] = "Misión";
+$txt["description-mission"] = "Mowisat Corporation lleva conectividad de banda ancha a áreas de difícil acceso en México con el objetivo de conectar al resto del país e insertarlas en la economía digital.<br /><br />
+
+Creemos que podemos ayudar a revertir la actual falta de conectividad en México y ayudar a sacar a las personas de la pobreza al brindarles herramientas que pueden mejorar su calidad de vida y crear nuevas oportunidades en la economía digital, a nivel local, nacional e internacional. <br />";
 
 //vision.php
 
 $txt["our-vision"] = "Visión";
-$txt["description-vision"] = "La visión de Mowisat Corporation es ofrecer telecomunicaciones accesibles, conectividad de Internet, plataformas educativas y contenido aplicable a las comunidades rurales de bajos ingresos para el desarrollo de las capacidades humana.";
+$txt["description-vision"] = "Nuestro objetivo es convertirnos en el proveedor más grande y más asequible de servicios de telecomunicaciones y soluciones de IoT PaaS en América Latina para optimizar procesos comerciales.<br /><br />
+
+Tenemos un fuerte compromiso con nuestros proyectos sociales: nuestro objetivo es ofrecer conectividad a internet, plataformas educativas y contenido de valor a las comunidades de bajos ingresos para que sus habitantes tengan mayores oportunidades de capacitación y crecimiento.";
 
 //carrers.php 
 
@@ -103,23 +113,23 @@ $txt["aboutusTitle"] = "Acerca de nosotros";
 $txt["aboutusTitle2"] = "<center><h2 style='color: white;'>Acerca de nosotros</h2></center>";
 $txt["aboutusTxt1"] = "Más acerca de nosotros:";
 $txt["aboutusTxt2"] = "MOWISAT CORPORATION ESTÁ COMPREMETIDO EN LA COMERCIALIZACIÓN DEL BANDA ANCHA DEL INTERNET SATELITAL Y LAS SOLUCIONES TECNOLÓGICAS A MEDIDA.";
-$txt["aboutusTxt3"] = "Administración";
-$txt["aboutusTxt4"] = "Mowisat Corporation está formado por un equipo experimentado con amplia experiencia en telecomunicaciones, operaciones de banda ancha satelital y administración.";
-$txt["aboutusTxt5"] = "PRESIDENTE DEL CONSEJO DE ADMINISTRACIÓN: fundador de LEAP, ex presidente de EchoStar Satellite Corporation y vicepresidente de EchoStar Communications Corporation.";
-$txt["aboutusTxt6"] = "DIRECTOR FINANCIERO - Director Financiero y Miembro de la Junta de Mowisat. Director y miembro de la junta directiva de Bridgemark Financial & Advisors Ltd., una empresa boutique de Private Equity & Advisory con operaciones en Canadá y Londres, Reino Unido. Emprendedor y fundador de una colección de empresas de Energía Renovable, Encriptación y Almacenamiento de Energía (tanto privadas como públicas).";
-$txt["aboutusTxt7"] = "DIRECTOR DE OPERACIONES - Anteriormente oficial de Asuntos Económicos en la Misión de la ONUG en Ginebra. Ha trabajado como líder del proyecto a cargo de proyectos de comunicaciones en Sovereign Solutions. Experiencia en desarrollo de negocios y proyectos relacionados con telecomunicaciones.";
-$txt["aboutusTxt8"] = "DIRECTOR DE TECNOLOGÍA - gran experiencia en redes y programación, desarrollo de infraestructura y operaciones de TI: operaciones de red, desarrollo de aplicaciones y mantenimiento. Conocimientos avanzados de tecnología, análisis competitivos, tareas tecnológicas, asociación y planificación.";
-$txt["aboutusTxt9"] = "MIEMBRO, JUNTA DIRECTIVA - Ex director financiero de EchoStar Satellite Broadcasting Corporation y ex presidente de EchoStar International Corporation, una subsidiaria de Dish Network Corp (anteriormente EchoStar Communications Corporation). Ex Director Financiero de Dish Network, una compañía holding de EchoStar Corp y Director de Operaciones. Carrera de 33 años con EchoStar: se desempeñó como director en juntas en París, Hong Kong, Denver, Cheseaux y Ciudad de México. Sirvió durante más de 8 años en el tablero de Dish Mexico para EchoStar.";
+$txt["aboutusTxt3"] = "Administración y Equipo";
+$txt["aboutusTxt4"] = "Estamos conformados por un grupo experimentado con amplia experiencia en telecomunicaciones, operaciones de banda ancha por satélite, administración y desarrollo social.";
+$txt["aboutusTxt5"] = "Presidente del Consejo de Administración: fundador de LEAP, ex presidente de EchoStar Satellite Corporation y vicepresidente de EchoStar Communications Corporation.";
+$txt["aboutusTxt6"] = "Director Financiero - Director Financiero y Miembro de la Junta de Mowisat. Director y miembro de la junta directiva de Bridgemark Financial & Advisors Ltd., una empresa boutique de Private Equity & Advisory con operaciones en Canadá y Londres, Reino Unido. Emprendedor y fundador de una colección de empresas de Energía Renovable, Encriptación y Almacenamiento de Energía (tanto privadas como públicas).";
+$txt["aboutusTxt7"] = "Director de operaciones - Anteriormente oficial de Asuntos Económicos en la Misión de la ONUG en Ginebra. Ha trabajado como líder del proyecto a cargo de proyectos de comunicaciones en Sovereign Solutions. Experiencia en desarrollo de negocios y proyectos relacionados con telecomunicaciones.";
+$txt["aboutusTxt8"] = "Director de tecnología: gran experiencia en redes y programación, desarrollo de infraestructura y operaciones de TI: operaciones de red, desarrollo de aplicaciones y mantenimiento. Conocimientos avanzados de tecnología, análisis competitivos, tareas tecnológicas, asociación y planificación.";
+$txt["aboutusTxt9"] = "Miembro, Junta Directiva - Ex director financiero de EchoStar Satellite Broadcasting Corporation y ex presidente de EchoStar International Corporation, una subsidiaria de Dish Network Corp (anteriormente EchoStar Communications Corporation). Ex Director Financiero de Dish Network, una compañía holding de EchoStar Corp y Director de Operaciones. Carrera de 33 años con EchoStar: se desempeñó como director en juntas en París, Hong Kong, Denver, Cheseaux y Ciudad de México. Sirvió durante más de 8 años en el tablero de Dish Mexico para EchoStar.";
 $txt["aboutusTxt10"] = "CO-FUNDADOR: inversor ángel y asesor de innovación para startups. Desarrollo comercial internacional para Dish. Amplia experiencia en comunicaciones por satélite, conectividad móvil y televisión de pago en todo el mundo.";
-$txt["aboutusTxt11"] = "CO-FUNDADOR: Empresario en serie, filántropo, consultor y experto en telecomunicaciones, relaciones internacionales e innovación. Director Ejecutivo de Sovereign Solutions SA, empresa líder centrada en estrategias de gobernanza, soluciones de desarrollo empresarial, gestión de riesgos y estrategias de inversión extranjera directa. Anteriormente Asesor estratégico para A Human Right, una ONG internacional, abogó por la expansión de las oportunidades económicas a través del acceso a internet y para cerrar la brecha digital mediante la expansión de la cobertura global de Internet por satélite.";
-$txt["aboutusTxt12"] = "MIEMBRO, JUNTA DIRECTIVA - 30 años de experiencia en la industria financiera; En la década de los 90 trabajó en varias firmas de Bay Street como Canarim Securities (ahora Canaccord), Levesque Beaubien Securities y Research Capital (ahora Mackie Research Capital) como trader de escritorio y como asesor de inversiones. En 2000, el Sr. Mitchell se mudó a Octagon Capital como Vicepresidente y Director administró la división minorista de Toronto y realizó financiamientos para empresas de CPC y pequeñas y microcap. Fundador de la serie WhiteKnight de Capital Pool Companies (3 han salido al mercado y cotizan en el TSXV).";
+$txt["aboutusTxt11"] = "Empresario en serie, filántropo, consultor y experto en telecomunicaciones, relaciones internacionales e innovación. Director Ejecutivo de Sovereign Solutions SA, empresa líder centrada en estrategias de gobernanza, soluciones de desarrollo empresarial, gestión de riesgos y estrategias de inversión extranjera directa. Anteriormente Asesor estratégico para A Human Right, una ONG internacional, abogó por la expansión de las oportunidades económicas a través del acceso a internet y para cerrar la brecha digital mediante la expansión de la cobertura global de Internet por satélite.";
+$txt["aboutusTxt12"] = "JUNTA DIRECTIVA - 30 años de experiencia en la industria financiera; En la década de los 90 trabajó en varias firmas de Bay Street como Canarim Securities (ahora Canaccord), Levesque Beaubien Securities y Research Capital (ahora Mackie Research Capital) como trader de escritorio y como asesor de inversiones. En 2000, el Sr. Mitchell se mudó a Octagon Capital como Vicepresidente y Director administró la división minorista de Toronto y realizó financiamientos para empresas de CPC y pequeñas y microcap. Fundador de la serie WhiteKnight de Capital Pool Companies (3 han salido al mercado y cotizan en el TSXV).";
 //Miembro de BOD para otros dos CPC y el CEO y director, además de 3 compañías listadas en TSXV en los sectores de tecnología, salud y finanzas alternativas.
 $txt["aboutusTxt13"] = "CONSEJERO SENIOR DEL CONSEJO DE ADMINISTRACIÓN - Ex miembro del Consejo de Transferencia Tecnológica de la Universidad Autónoma de Nuevo León. Participó en numerosas entidades gubernamentales. Anteriormente Director Gerente de la Asociación de Empresas de Tecnología de la Información (AETI) y Presidente y CEO de la Asociación de Corredores de Comercio Internacional de América del Norte (NAITCP). Posee un doctorado en Filosofía con especialización en Administración. Está desarrollando la Red de Integración e Inversión de Servicios Energéticos del Mundo (Red WESII).";
 $txt["aboutusTxt14"] = "DIRECTOR DE VENTAS - Amplia experiencia de gestión Comercial, América Latina y Ventas multifuncionales. Experiencia en mercados y culturas internacionales. Competente en enlace, negociación e informes a nivel B2B y de Gobierno. Habilidades fuertes en el desarrollo e implementación de procesos, así como en el análisis, la planificación estratégica y el desarrollo del personal.";
 $txt["aboutusTxt15"] = "GERENTE DE PROYECTOS - Especializado en desarrollo social, sustentabilidad y tecnología con más de 9 años de experiencia como voluntario y trabajador en comunidades periurbanas, rurales y urbanas. Educado en U.A.M., es responsable de identificar y crear vínculos con nuevas comunidades para oportunidades de negocios y generar vínculos entre organizaciones sociales y tecnológicas.";
 $txt["aboutusTxt16"] = "DESARROLLO DE NEGOCIOS - Joven ejecutivo talentoso con una amplia experiencia en tecnología, estrategias de desarrollo de negocios, investigación de mercado y economía financiera. Formado como economista en ITAM, México, es responsable de identificar nuevas oportunidades de ventas, lanzar servicios de Mowisat y mantener relaciones fructíferas con clientes existentes";
-$txt["aboutusTxt17"] = "DISEÑADORA INDUSTRIAL en CIDI UNAM, México. Con experiencia previa en soluciones para productos, servicios y presentaciones ejecutivas; así como proyectos rurales sociales para CCADET. Responsable de los asuntos de diseño, como el diseño web, la identidad corporativa y la investigación de productos o servicios dentro del proceso de planificación estratégica.";
-$txt["aboutusTxt18"] = "COMUNICACIÓN Y MARKETING - Recibió su educación en la Universidad Nacional Autónoma de México (UNAM) con estudios en comunicaciones, marketing y publicidad. Experimentado en proyectos de Marketing Digital y programador autodidacta.";
+$txt["aboutusTxt17"] = "Diseñadora industrial en CIDI UNAM, México. Con experiencia previa en soluciones para productos, servicios y presentaciones ejecutivas; así como proyectos rurales sociales para CCADET. Responsable de los asuntos de diseño, como el diseño web, la identidad corporativa y la investigación de productos o servicios dentro del proceso de planificación estratégica.";
+$txt["aboutusTxt18"] = "Comunicación y Marketing - Recibió su educación en la Universidad Nacional Autónoma de México (UNAM) con estudios en comunicaciones, marketing y publicidad. Experimentado en proyectos de Marketing Digital y programador autodidacta.";
 
 //satellite.php
 $txt["satelliteTitle"] = "Banda ancha por satélite";
@@ -130,60 +140,74 @@ $txt["satelliteTxt2"] = "Instalación de hotspots Wi-Fi por medio de internet sa
 $txt["satelliteTxt3"] = "Acceso a la red Wi-Fi a través de diferentes métodos.";
 $txt["satelliteTxt4"] = "El internet trae diferentes servicios y comunidades integradas a la economía digital";
 
+//terms.php 
+
 $txt["termsandconditions"] = "Términos y Condiciones";
 
-$txt["termsandconditionsDesc"] = "El Acuerdo de usuario de Mowisat se compone de estos Términos de servicio, de nuestra Política de privacidad, de las Reglas de Mowisat y de todas las políticas incorporadas a los mismos, si reside en la Unión Europea o fuera de los Estados Unidos. Si reside en Estados Unidos, el Acuerdo de usuario de Mowisat se compone de estos Términos de servicio, de nuestra Política de privacidad, de las Reglas de Mowisat y de todas las políticas incorporadas a estos.<br /><br />";
-$txt["termsandconditionsDesc"] = "".$txt["termsandconditionsDesc"]." (si reside fuera de Estados Unidos)<br /><br />
+$txt["termsandconditionsDesc"] = " INFORMACIÓN RELEVANTE<br /><br />
 
-Estos Términos de servicio (los “Términos”) rigen su acceso y uso de nuestros servicios, incluyendo nuestras distintas páginas web, SMS, API, notificaciones de correo electrónico, aplicaciones, botones widgets, anuncios, servicios de comercio y nuestros demás servicios vinculados a estos Términos (denominados de forma colectiva los “Servicios”), y cualquier información, texto, enlace, gráfico, foto, vídeo o material o disposición de material cargados o que aparezcan en los Servicios (denominados de forma colectiva el “Contenido”). Al hacer uso de estos Servicios, usted accede a vincularse a estos Términos.<br /><br />
-1. Quién puede hacer uso de los Servicios<br />
-Puede hacer uso de los Servicios solo si accede a firmar un contrato vinculante con Mowisat y no es usted una persona vetada para hacer uso de los servicios de conformidad con la legislación de su jurisdicción aplicable. Si acepta estos Términos y usa los Servicios en nombre de una empresa, organización, gobierno u otra entidad jurídica, afirma y garantiza que está autorizado a hacerlo.<br /><br />
+Es requisito necesario para la adquisición de los productos que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas los productos  que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir un producto, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña.<br /><br />
 
-2. Privacidad<br />
-Nuestra Política de privacidad describe cómo manejamos la información que nos proporciona al hacer uso de nuestros Servicios. Comprende que mediante el uso que usted hace de nuestros Servicios, usted consiente a la recopilación y uso (tal y como se recoge en la Política de privacidad) de esta información, incluida su transferencia a los Estados Unidos, Irlanda y/o a otros países para su almacenamiento, procesamiento y uso por parte de Mowisat y sus filiales.<br /><br />
-<br /><br />
-3. Contenido de los Servicios<br />
-Usted es responsable de su uso de Los Servicios y de cualquier Contenido que proporcione, incluyendo el cumplimiento con las leyes, reglas y normas aplicables. Solo debe proporcionarnos contenido que desee compartir con otros.
-<br /><br />
-Cualquier confianza que deposite en cualquier Contenido o material publicado por medio de los Servicios u obtenido mediante los mismos, o cualquier uso que haga de ellos, lo hace por su propia cuenta y riesgo. No ratificamos, apoyamos, reafirmamos ni garantizamos la compleción, veracidad, precisión o fiabilidad de ningún Contenido o comunicación publicada por medio de los Servicios, ni ratificamos ninguna opinión expresada por medio de los Servicios. Comprende que al hacer uso de los Servicios, puede exponerse a Contenido que puede resultar ofensivo, dañino, inexacto o inapropiado de cualquier otra forma, o en algunos casos, a publicaciones que puedan haber sido intepretadas erroneamente o que puedan ser engañosas de cualquier otra forma. Todo el Contenido es responsabilidad única de la persona que lo produce. No monitorizamos ni controlamos el Contenido publicado por medio de los Servicios, y no podemos hacernos responsables de dicho Contenido.
-<br /><br />
-4. Uso de los Servicios<br />
-Repase las Reglas de Mowisat, que son parte del Acuerdo de usuario y que describen las prohibiciones respecto a los Servicios. Usted puede usar los Servicios solo si cumple con estos Términos y con todas las leyes, reglas y normas aplicables.
-<br /><br />
-Nuestros Servicios están en constante evolución. Como tal, los Servicios pueden cambiar de vez en cuando, a nuestra discreción. Podremos dejar de proporcionarle a usted o a otros usuarios, de forma general, los Servicios (de forma permanente o temporal) o cualquier característica de los mismos. También conservaremos el derecho a establecer límites sobre el uso y almacenamiento a nuestro único criterio en cualquier momento. También podremos eliminar o negarnos a distribuir cualquier Contenido que se encuentre en los Servicios, suspender o cancelar a usuarios y reclamar nombres de usuario sin ninguna responsabilidad hacia usted.
-<br /><br />
-5. Limitaciones de responsabilidad<br />
-Al hacer uso de los Servicios usted acepta que la responsabilidad de Mowisat, así como de sus empresas matriz, filiales, sociedades relacionadas, responsables, directivos, empleados, agentes, representantes, socios y licenciatarios, estará limitada a la máxima medida permitida en su país de residencia.
-<br /><br />
-6. General<br />
-Puede que revisemos estos Términos de vez en cuando. Los cambios no tendrán efecto retroactivo y la versión más actual de los Términos, regirá nuestra relación con usted. Al margen de cambios dirigidos a nuevas funciones o que se lleven a cabo por motivos legales, le informaremos con 30 días de antelación de cualquier cambio que entre en vigor respecto a estos Términos y que afecte a los derechos u obligaciones de alguna de las partes en estos Términos, por ejemplo a través de una notificación de servicio o de un correo electrónico a la dirección de correo electrónico asociada a su cuenta. Al continuar accediendo o utilizando los Servicios después de que dichos cambios se hagan efectivos, usted acepta estar sujeto a los Términos revisados.
-<br /><br />
-En caso de que cualquier disposición de estos Términos se considere inválida o no pueda entrar en vigor, entonces, dicha disposición se verá limitada o eliminada en la menor medida necesaria, y las restantes disposiciones de estos Términos seguirán en vigor y mantendrán su pleno efecto. El hecho de que Mowisat no obligue al cumplimiento de alguno de los derechos o disposiciones de estos Términos no se considerará una omisión de dicho derecho o disposición.
+El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la compra de alguno de nuestros productos. Mowisat Corp no asume la responsabilidad en caso de que entregue dicha clave a terceros.<br /><br />
 
-";
+Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la verificación del stock y disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico.<br /><br />
+
+Los precios de los productos ofrecidos en esta Tienda Online es válido solamente en las compras realizadas en este sitio web.<br /><br />
+
+LICENCIA<br /><br />
+
+ Mowisat Corp a través de su sitio web concede una licencia para que los usuarios utilicen  los productos que son vendidos en este sitio web de acuerdo a los Términos y Condiciones que se describen en este documento.<br /><br />
+
+USO NO AUTORIZADO<br /><br />
+
+En caso de que aplique (para venta de software, templetes, u otro producto de diseño y programación) usted no puede colocar uno de nuestros productos, modificado o sin modificar, en un CD, sitio web o ningún otro medio y ofrecerlos para la redistribución o la reventa de ningún tipo.<br /><br />
+
+PROPIEDAD<br /><br />
+
+Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros productos, modificado o sin modificar. Todos los productos son propiedad  de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan  sin ningún tipo de garantía, expresa o implícita. En ningún esta compañía será  responsables de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros productos.<br /><br />
+
+POLÍTICA DE REEMBOLSO Y GARANTÍA<br /><br />
+
+En el caso de productos que sean  mercancías irrevocables no-tangibles, no realizamos reembolsos después de que se envíe el producto, usted tiene la responsabilidad de entender antes de comprarlo.  Le pedimos que lea cuidadosamente antes de comprarlo. Hacemos solamente excepciones con esta regla cuando la descripción no se ajusta al producto. Hay algunos productos que pudieran tener garantía y posibilidad de reembolso pero este será especificado al comprar el producto. En tales casos la garantía solo cubrirá fallas de fábrica y sólo se hará efectiva cuando el producto se haya usado correctamente. La garantía no cubre averías o daños ocasionados por uso indebido. Los términos de la garantía están asociados a fallas de fabricación y funcionamiento en condiciones normales de los productos y sólo se harán efectivos estos términos si el equipo ha sido usado correctamente. Esto incluye:<br /><br />
+
+– De acuerdo a las especificaciones técnicas indicadas para cada producto.<br />
+– En condiciones ambientales acorde con las especificaciones indicadas por el fabricante.<br />
+– En uso específico para la función con que fue diseñado de fábrica.<br />
+– En condiciones de operación eléctricas acorde con las especificaciones y tolerancias indicadas.<br /><br />
+
+COMPROBACIÓN ANTIFRAUDE<br /><br />
+
+La compra del cliente puede ser aplazada para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar transacciones fraudulentas.<br /><br />
+
+PRIVACIDAD<br /><br />
+
+Este sitio web garantiza que la información personal que usted envía cuenta con la seguridad necesaria. Los datos ingresados por usuario o en el caso de requerir una validación de los pedidos no serán entregados a terceros, salvo que deba ser revelada en cumplimiento a una orden judicial o requerimientos legales.<br /><br />
+
+La suscripción a boletines de correos electrónicos publicitarios es voluntaria y podría ser seleccionada al momento de crear su cuenta.<br /><br />
+
+Mowisat Corp reserva los derechos de cambiar o de modificar estos términos sin previo aviso.<br /><br />";
+
+//privacy.php 
 
 $txt["privacy"] = "Política de Privacidad";
-$txt["privacyDesc"] = "";
-$txt["privacyDesc"] = "".$txt["privacyDesc"] ."Nuestros Servicios conectan instantáneamente a personas de todo el mundo con aquello que más les importa. Por ejemplo, cualquier usuario registrado de Mowisat.
-<br /><br />
-Lo que se publica en Mowisat puede verse en todo el mundo de manera instantánea.
-Esta Política de Privacidad describe cómo y cuándo recopilamos, empleamos y compartimos su información en nuestras páginas web, SMS, API, notificaciones de correo electrónico, aplicaciones, botones, inserciones, anuncios y en nuestros otros servicios vinculados con esta Política (denominados de forma colectiva los “Servicios”), y cómo lo hacen nuestros socios y terceros. Por ejemplo, usted nos envía información cuando utiliza nuestros Servicios a través de Internet, SMS o una aplicación como Mowisat para Mac, Mowisat para Android. Al utilizar cualquiera de nuestros Servicios, usted da su consentimiento para la recopilación, la transferencia, la manipulación, el almacenamiento, la revelación y otros usos de su información según lo descrito en esta Política de Privacidad. Esto incluye cualquier información que elija proporcionar que se considere sensible según la legislación vigente.
-<br /><br />
-Cuando en esta política se hace referencia a “nosotros” o “nuestro”, se refiere a los responsables del control de su información según esta política. Si vive en los Estados Unidos de América, el responsable del tratamiento de su información será Mowisat. A pesar de ello, usted es el único responsable y el único que controla la publicación y otros contenidos que pueda enviar a través de los Servicios, según lo establecido en los Términos de servicio y en las Reglas de Mowisat.
-Sea cual sea el país en el que reside, usted nos autoriza a transferir, almacenar y usar su información en los Estados Unidos de América, Irlanda, y en cualquier otro país en el que operemos. En algunos de estos países, las leyes de protección de datos y privacidad y las normativas acerca de cuándo las autoridades gubernamentales pueden acceder a los datos pueden ser distintas de las del país en el que vive. 
-<br /><br />
-Recopilación y uso de información<br />
-Nosotros recopilamos y usamos la información personal descrita a continuación para proporcionar, comprender y mejorar nuestros Servicios.
-Información básica de la cuenta: si opta por crear una cuenta de Mowisat, debe promocionar cierta información personal, como su nombre, nombre de usuario, contraseña, dirección de correo electrónico o número de teléfono. En Mowisat, su nombre y nombre de usuario siempre se hacen públicos, incluso en su página de perfil y en los resultados de búsqueda, y puede utilizar su nombre real o un seudónimo. Usted puede crear y gestionar múltiples cuentas de Mowisat. Si emplea Digits by Mowisat, la información de contacto que proporciona para iniciar sesión no es pública. Algunas de las características de nuestro producto, como la búsqueda y visionado de los perfiles de usuarios de Mowisat públicos o el visionado de una emisión en la página Periscope en Mowisat no le exigen que cree una cuenta.
-<br /><br />
-Sesión y revelación de información<br />
-No revelamos sus datos personales excepto en las limitadas circunstancias descritas a continuación.
-Consentimiento o indicación del usuario: podemos compartir o revelar su información siguiendo sus instrucciones, como cuando usted autoriza a un cliente o una aplicación web de un tercero a acceder a su cuenta o cuando nos indica que compartamos sus comentarios con un negocio. Cuando utilice Digits by Mowisat para registrarse o iniciar sesión en una aplicación externa, está indicándonos que compartamos su información de contacto, como su número de teléfono, con esa aplicación. Si ha compartido información, como Mensajes directos o tuits protegidos, con otro usuario que acceda a Mowisat a través de un servicio de terceros, tenga en cuenta que la información se puede compartir con el servicio de terceros.
-<br /><br />
-Acceso y modificación de su información personal<br />
-Si usted es un usuario registrado de nuestros Servicios, ponemos a su disposición herramientas y posibilidades de configuración de cuenta para acceder, corregir, eliminar o modificar la información personal que nos ha facilitado y que se encuentra asociada a su cuenta. Puede descargar determinada información de la cuenta, Puede obtener más información acerca de los intereses que hemos deducido acerca de usted en Sus datos Mowisat.
-<br /><br />
-También puede eliminar su cuenta de Mowisat de forma permanente. Ssu cuenta se desactivará y se eliminará. Cuando se desactive, su cuenta, incluyendo su nombre, nombre de usuario y perfil público, ya no será visible en Mowisat. En caso de que su cuenta se desactivara accidentalmente o por error, todavía será posible restaurarla durante los 30 días posteriores a la desactivación. Pasados 30 días sin que se haya acordado entre usted y nosotros la ampliación del periodo de desactivación, empezaremos el proceso para eliminar su cuenta de nuestros sistemas, lo cual puede llevar hasta una semana.
-Tenga en cuenta que los motores de búsqueda y otros terceros pueden mantener copias de su información pública, como información de su perfil de usuario y sus tuits públicos, incluso después de haber eliminado la información de los Servicios de Mowisat o desactivado su cuenta.";
-
+$txt["privacyDesc"] = "MOWISAT CORP está especialmente sensibilizada en la protección de los datos de los USUARIOS de los servicios a los que se accede a través de su web. Mediante la presente Política de Privacidad (en adelante , la Política) MOWISAT CORP informa a los USUARIOS del sitio web: www.mowisat.mx del tratamiento y usos a los que se someten los datos de carácter personal que se recaban en la web, con el fin de que decidan, libre y voluntariamente, si desean facilitar la información solicitada.<br /><br />
+MOWISAT CORP se reserva la facultad de modificar esta Política con el objeto de adaptarla a novedades legislativas, criterios jurisprudenciales, prácticas del sector, o intereses de la entidad. Cualquier modificación en la misma será anunciada con la debida antelación, a fin de que tengas perfecto conocimiento de su contenido.<br /><br />
+Ciertos servicios prestados en el portal pueden contener condiciones particulares con previsiones en materia de protección de Datos Personales. De ellos puedes informarte en los correspondientes apartados.<br /><br />
+TITULARIDAD DEL TRATAMIENTO<br /><br />
+En dichos supuestos, los datos recabados por MOWISAT CORP serán incorporados a ficheros titularidad de MOWISAT CORP, debidamente inscritos en el Registro General de Protección de Datos.<br /><br />
+USOS Y FINALIDADES<br /><br />
+La finalidad de la recogida y tratamiento de los datos personales es la gestión, prestación y personalización de los servicios y contenidos del mismo que el USUARIO utilice y de la cual se informará en cada apartado.<br /><br />
+COMUNICACIÓN DE LOS DATOS<br /><br />
+Los datos recabados a través de la web sólo serán cedidos en aquellos casos en que expresamente se informe de ello al USUARIO.
+ACTUALIZACIÓN DE LOS DATOS<br /><br />
+Con el fin de que los datos obrantes en nuestras bases de datos siempre correspondan a tu situación real deberás mantenerlos actualizados, bien actualizándolos tú directamente en los caso en que ello sea posible, o bien, comunicándolo al departamento correspondiente.<br /><br />
+UTILIZACIÓN DE COOKIES<br /><br />
+Con el objeto de proteger la intimidad de los usuarios de su página web MOWISAT CORP no emplea cookies cuando los mismos navegan por la misma.
+SEGURIDAD DE LOS DATOS<br /><br />
+MOWISAT CORP ha adoptado en su sistema de información las medidas técnicas y organizativas legalmente requeridas, a fin de garantizar la seguridad y confidencialidad de los datos almacenados, evitando así, en la medida de lo posible, su alteración, pérdida, tratamiento o acceso no autorizado.<br /><br />
+DERECHOS DE LOS USUARIOS<br /><br />
+En todo caso podrás acceder a tus datos, rectificarlos, cancelarlos y en su caso, oponerte a su tratamiento:<br /><br />
+a) bien mediante solicitud acompañada de una fotocopia de una identificación con validez oficial, remitida a la siguiente dirección postal: Calle Bahía de las Palmas 1, Verónica Anzures, 113000, Ciudad de México, CDMX.<br />
+b) bien mandando un e-mail a la siguiente dirección de correo electrónico: info@mowisatcorp.com
+";
 ?>

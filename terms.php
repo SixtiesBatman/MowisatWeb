@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Our Mission</title>
+        <title>Policies and Terms</title>
 
         <?PHP
             include ''.dirname(__FILE__).'/template/meta.php';

@@ -47,11 +47,11 @@ include ''.dirname(__FILE__).'/template/header.php';
 
     <section class='container-fluid'>
                 
-        <div class='row box-size blue'>
+        <div class='row box-size'>
 
             <div class="col-md-1"></div>
 
-            <div class='col-md-3 big-box'>
+            <div class='col-md-3 big-box logos'>
 
                 <div>
                     <img src="images/hughes_logo.png" /> 
@@ -64,7 +64,7 @@ include ''.dirname(__FILE__).'/template/header.php';
                 <div>
                     <p><?PHP echo $txt["hughes"]; ?></p>  
                     <a href="https://www.hughes.com/">
-                        <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                        <button class="black-b"><?PHP echo $txt["botonMasInfo"]; ?></button>
                     </a>
                 </div>
 
@@ -75,20 +75,20 @@ include ''.dirname(__FILE__).'/template/header.php';
         </div>  
    
 
-        <div class="row box-size">
+        <div class="row box-size blue">
 
             <div class="col-md-1"></div>
             
             
                     
-            <div style="background-color: white !important;" class="col-md-7 black big-box">
+            <div  class="col-md-7 big-box">
 
                 <div>
-                    <p><?PHP echo $txt["piggi"]; ?></p>
-                    <a href="https://pig.gi/">
+                    <p><?PHP echo $txt["stargo"]; ?></p>
+                    <a href="http://www.stargomexico.com/">
                         <button><?PHP echo $txt["botonMasInfo"]; ?></button>
                     </a>
-                </div>    
+                </div>
 
             </div>
 
@@ -96,7 +96,7 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class='col-md-3 logos big-box'>
 
                 <div>
-                <img src="images/piggi_logo.png" />
+                    <img src="images/stargo_logo.png" />
                 </div>
 
             </div>
@@ -109,14 +109,14 @@ include ''.dirname(__FILE__).'/template/header.php';
         </div>
 
        
-        <div class="row box-size blue">
+        <div class="row box-size">
 
             <div class="col-md-1"></div>    
             
-            <div class="col-md-3 big-box">
+            <div class="col-md-3 big-box logos">
 
                 <div>
-                    <img src="images/stargo_logo.png" />
+                    <img src="images/piggi_logo.png" />
                 </div>
 
             </div>                
@@ -124,11 +124,11 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class="col-md-7 big-box">
 
                 <div>
-                    <p><?PHP echo $txt["stargo"]; ?></p>
-                    <a href="http://www.stargomexico.com/">
-                        <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    <p><?PHP echo $txt["piggi"]; ?></p>
+                    <a href="https://pig.gi/">
+                        <button class="black-b"><?PHP echo $txt["botonMasInfo"]; ?></button>
                     </a>
-                </div>
+                </div> 
 
             </div>
   
@@ -136,6 +136,40 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class="col-md-1"></div>
 
         </div> 
+
+
+        <div class="row box-size blue">
+
+            <div class="col-md-1"></div>
+            
+            
+                    
+            <div class="col-md-7 big-box">
+
+                <div>
+                    <p style="text-transform: uppercase"><?PHP echo $txt["net"]; ?></p>
+                    <a href="https://www.netfreedompioneers.org/">
+                        <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    </a>
+                </div>    
+
+            </div>
+
+
+            <div class='col-md-3 logos big-box'>
+
+                <div>
+                <img src="images/net.png" />
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+             
+         
+
+
+        </div>
             
     </section>
 

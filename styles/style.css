@@ -79,13 +79,13 @@ a {
 }
 
 @media only screen and (min-width: 420px) {
-
-    .header-two img {
-        width: 13em;
-        margin: 1em 0;
+    
+        .header-two img {
+            width: 13em;
+            margin: 1em 0;
+        }
+    
     }
-
-}
 
 
 li {
@@ -365,6 +365,7 @@ jumbotron h1, h3 {
 }
 
 /* footer styles */
+
 
 .social-network {
     text-align: center;
