@@ -153,14 +153,7 @@
             </div>
             
         </section>
-        
-        
-    
         <!-- ENDS CONTACT US BOX -->
-    
-    
-    
-    
     
         <!-- INITIATES BLOG BOX -->
         
@@ -186,10 +179,26 @@
                     <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
                     <div>
                         
-                            <div class="">
-                                <img src="images/name-location.png" />
+                        <div class="row">
+                            <img style="margin-left: 100px;" src="images/name-location.png" />
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+
+                                <div class='image col-xs-6 col-sm-6 col-md-6'>
+                                    <img style="text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.jpg" />
+                                </div>
+
+
+                                <div class='image col-xs-6 col-sm-6 col-md-6 text-center'>
+                                    <b>Josefina<br />
+                                    Tizilingo, CDMX</b>
+                                </div>
+
                             </div>
-                         
+                        </div>
                         
                     </div>
                 </div>
