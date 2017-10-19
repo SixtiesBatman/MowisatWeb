@@ -47,6 +47,9 @@
                     <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx"><?PHP echo $txt["toInvestors"]; ?></a></li>
                     <li style="margin-top: 7px;" class="hidden-xs hidden-sm round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=en">EN</a></li>
                     <li style="margin-top: 7px;" class="hidden-xs hidden-sm round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=es">ES</a></li>
+
+                    <li style="text-align: center; text-align: -webkit-center;"><a class="hidden-md hidden-lg round" style="width: 39px; padding: 5px 5px 5px 5px; color: black; border-radius: 100%; text-align: center; text-align: -webkit-center; border: 2px solid gray; color: black;" href="?idiom=es">ES</a></li>
+                    <li style="text-align: center; text-align: -webkit-center;"><a class="hidden-md hidden-lg round" style="width: 39px; padding: 5px 5px 5px 5px; color: black; border-radius: 100%; text-align: center; text-align: -webkit-center; border: 2px solid gray; color: black;" href="?idiom=en">EN</a></li>
                 </ul>
             </div>
 
