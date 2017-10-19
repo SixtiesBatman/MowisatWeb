@@ -244,7 +244,7 @@
                     </div>
 
                     <div class='description'>
-                        <p style="text-align: left;" id="textoSocial"><?PHP echo $txt["aboutusTxt13"]; ?></p>
+                        <p style="text-align: center;" id="textoSocial"><?PHP echo $txt["aboutusTxt13"]; ?></p>
                     </div>
                 </div>
 
