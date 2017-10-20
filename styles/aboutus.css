@@ -96,12 +96,13 @@ section.aboutus-pic {
 .team h2 {
     font-size: 3.2em;
 }
-
+/*
 .team h3 {
     font-size: 1.5em;
     padding: 0 10em;
     line-height: inherit;
 }
+*/
 
 .box {
     text-align: justify; 

@@ -119,7 +119,14 @@ $txt["contactForm"] = "Forma de Contacto";
 $txt["aboutusTitle"] = "Acerca de nosotros";
 $txt["aboutusTitle2"] = "<center><h2 style='color: white;'>Acerca de nosotros</h2></center>";
 $txt["aboutusTxt1"] = "Más acerca de nosotros:";
-$txt["aboutusTxt2"] = "MOWISAT CORPORATION ESTÁ COMPREMETIDO EN LA COMERCIALIZACIÓN DEL BANDA ANCHA DEL INTERNET SATELITAL Y LAS SOLUCIONES TECNOLÓGICAS A MEDIDA.";
+$txt["aboutusTxt2"] = "Mowisat Corporation es una compañía canadiense que trabaja con internet satelital, internet de las cosas y servicios digitales. Mowisat Corporation es
+fundada por jóvenes empresarios con experiencia en telecomunicaciones y
+industria tecnológica";
+$txt["aboutusTxt22"] = "Proporcionamos servicios de Internet por satélite basados ​​en la última tecnología de banda KA,
+jugando en el mercado con mayor capacidad con precios más baratos. Gracias al internet de
+las cosas, hemos desarrollado una plataforma propietaria como servicio (PaaS) que
+a través de la configuración que se adaptará para responder a las necesidades de toda la industria
+verticales mediante la solución de software como servicio (SaaS).";
 $txt["aboutusTxt3"] = "Administración y Equipo";
 $txt["aboutusTxt4"] = "Estamos conformados por un grupo experimentado con amplia experiencia en telecomunicaciones, operaciones de banda ancha por satélite, administración y desarrollo social.";
 $txt["aboutusTxt5"] = "Presidente del Consejo de Administración: fundador de LEAP, ex presidente de EchoStar Satellite Corporation y vicepresidente de EchoStar Communications Corporation.";

@@ -31,13 +31,13 @@
 
     <!-- INITIATES CONTAINER SECTION -->
 
-    <section class='container-fluid aboutus-pic' style="padding-top: 0; margin-top: 0; height: 300px !important; margin-bottom: 0; background-image: url('images/aboutus-sat.jpg')">
+    <section class='container-fluid aboutus-pic' style="padding-top: 0; margin-top: 0; height: 300px !important; margin-bottom: 0;"  class="parallax-window" data-parallax="scroll" data-image-src="images/aboutus-sat.jpg">
         <div style="margin-right: 0; margin-top: 0px; height: 300px; background-color: black;  background: rgba(0,0,0,0.5)" class='row'>
 
             <div class="xs-hidden col-md-1"></div>
             
             <div class='col-xs-12 col-md-10'>
-                <h1 style="font-weight: 200; color: white; margin: 0; padding-top: 100px;"><?PHP echo $txt["aboutusTitle2"]; ?></h1>
+                <h3 style="color: white; margin: 0; padding-top: 100px;"><?PHP echo $txt["aboutusTitle2"]; ?></h3>
             </div>
                 
             <div class="xs-hidden col-md-1"></div>
@@ -45,29 +45,43 @@
         </div>
     </section>
 
-    <section class='container-fluid know-more'>
+    <section style="background-color: #569EB6; color: white;" class='container-fluid know-more'>
 
         <div class='row'>
 
-            <div class="col-md-1"></div>
-
-            <div class='col-xs-12 col-sm-3 image'>
+<!--
+            <div class='col-xs-12 col-sm-3 image'><br />
                 <img src="images/dish1.jpg" />
             </div>
 
-            <div class='col-xs-12 col-sm-7 letter-size'>
-                <h3 style="color: black !important;" class="big"><?PHP echo $txt["aboutusTxt1"]; ?></h3>
-                <hr class='margin-line' />
-                <h4 style="color: black !important;" class="small"><?PHP echo $txt["aboutusTxt2"]; ?></h3>
+-->
+
+            <div class="xs-hidden col-sm-1 col-md-1"></div>
+
+            <div class='col-xs-12 col-sm-10 col-md-10 letter-size'>
+                
+                <h3 style="margin-top: 40px; margin-bottom: 40px; color: white !important; font-size: 2em;"><?PHP echo $txt["aboutusTxt2"]; ?></h3>
+                <h3 style="margin-top: 40px; margin-bottom: 40px; color: white !important; font-size: 1.3em;"><?PHP echo $txt["aboutusTxt22"]; ?></h3>
+            
             </div>
 
-            <div class="col-md-1"></div>
+            <div class="xs-hidden col-sm-1 col-md-1"></div>
 
         </div>
 
     </section>
 
+    <section class='container-fluid know-more'>
 
+        <div class='row'>
+
+            <div class='col-xs-12 col-sm-12 col-md-12 text-center'><br />
+                <img style="margin-top: 40px; margin-bottom: 40px; min-height: 350px; min-width: 350px; width: 50% !important;" src="images/Corporate Structure.png" />
+            </div>
+
+        </div>
+
+    </section>
 
 
     <section class='container-fluid big-box'>
@@ -77,8 +91,8 @@
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
 
             <div class='col-xs-10 col-sm-10 col-md-10 team z-depth-4 card-panel'>
-                <h2 style="font-size: 2.5em !important;"><?PHP echo $txt["aboutusTxt3"]; ?></h2>
-                <h3 style="text-align: left !important; padding: 0 0 0 10px !important;"><?PHP echo $txt["aboutusTxt4"]; ?></h3>
+                <h3><?PHP echo $txt["aboutusTxt3"]; ?></h3>
+                <p style="color: black !important; text-align: center !important; padding: 0 0 0 10px !important;"><?PHP echo $txt["aboutusTxt4"]; ?></p>
             </div>
 
             <div class="col-xs-1 col-sm-1 col-md-1"></div>
@@ -414,20 +428,21 @@
 
     </section>
 
-
     <section class='container-fluid'>
         <div class='row vision-sec'>
-            <div class="col-md-1"></div>
-            <div class='col-sx-12 col-md-7 vision-text'>
-                <h2><?PHP echo $txt["our-vision"]; ?></h2>
+            <div class="xs-hidden col-sm-1 col-md-1"></div>
+            <div class='col-sx-12 col-sm-5 col-md-5 vision-text'>
+                <h3 style="color: white;"><?PHP echo $txt["our-mission"]; ?></h3>
+                <hr class='margin-line' />
+                <p><?PHP echo $txt["description-mission"]; ?></p>
+            </div>
+
+            <div class='col-sx-12 col-sm-5 col-md-5 vision-text'>
+                <h3 style="color: white;"><?PHP echo $txt["our-vision"]; ?></h3>
                 <hr class='margin-line' />
                 <p><?PHP echo $txt["description-vision"]; ?></p>
             </div>
-
-            <div class='col-sx-12 col-md-3 image'>
-                <img src="images/dish2.jpg" />
-            </div>
-            <div class="col-md-1"></div>
+            <div class="xs-hidden col-sm-1 col-md-1"></div>
         </div>
 
     </section>

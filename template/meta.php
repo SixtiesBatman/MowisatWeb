@@ -26,6 +26,10 @@
 <link rel="stylesheet" href="styles/font-awesome.css">
 <link rel="stylesheet" href="styles/fonts-apply.css">
 
+
+<!-- jQuery library -->
+<script src="js/parallax.min.js"></script>
+
 <style>
 .container-fluid{
     padding-right: 0 !important;

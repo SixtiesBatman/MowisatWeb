@@ -125,7 +125,15 @@ $txt["contactForm"] = "Contact Form";
 $txt["aboutusTitle"] = "About us";
 $txt["aboutusTitle2"] = "<center><h2 style='color: white;'>About us</h2></center>";
 $txt["aboutusTxt1"] = "Know more about us:";
-$txt["aboutusTxt2"] = "MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.";
+$txt["aboutusTxt2"] = "Mowisat Corporation is a Canadian based company that works with satellite
+inter- net, the internet of things and digital services. Mowisat Corporation is
+founded by young entrepreneurs with expertise in the telecommunications and
+technological industry.";
+$txt["aboutusTxt22"] = "We provide satellite internet services based on the latest KA-Band technology,
+brin- ging to the market more capacity with cheaper prices. In the internet of
+things, we have developed a proprietary platform as a service (PaaS) that
+through configurability can be tailored to respond to the needs across all industry
+verticals through software as service (SaaS) solution. ";
 $txt["aboutusTxt3"] = "Management and Team";
 $txt["aboutusTxt4"] = "We are conformed by an experienced group with extensive expertise in telecommunications, satellite broadband operations, management, and social development. ";
 $txt["aboutusTxt5"] = "PRESIDENT OF THE BOARD OF DIRECTORS - Founder of LEAP, former Chairman of EchoStar Satellite Corporation and Vice Chairman of EchoStar Communications Corporation.";
