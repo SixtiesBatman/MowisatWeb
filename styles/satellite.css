@@ -1,7 +1,34 @@
-p {
-    margin: 0;
+h2 {
+    margin: 1em 0;
+    font-size: 3em;
     text-align: center;
-    font-size: 2.5em;
+    color: #569EB6
+}
+
+h3 {
+    margin: 1em 0 1.8em 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.list-ul ul {
+    margin: 0 0 8em 0;
+}
+
+.list-li li {
+    margin: 2em 0;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding: 0 2em 0 2em;
+}
+
+.border-l {
+    border: 5px solid #569EB6; 
+    margin: 8em 0 2em 0;
+}
+
+.more-mar {
+    margin-top: 2em;
 }
 
 .sat {
@@ -32,11 +59,11 @@ p {
 }
 
 .logos img {
-    height: 15em;
-    width: 15em;
-    margin: 1em;
+    height: 12em;
+    width: 12em;
     border-radius: 100%;  
 }
+
 
 .blue {
     background-color: #569EB6;

@@ -19,6 +19,18 @@ Broadband in Latin America for versatile use.<br />
 Powered by cutting edge connectivity solutions<br />
 for business processes optimization.";
 
+$txt["sat1"] = "Satellite Broadband";
+$txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AREAS. OUR OBJECTIVE IS TO CONNECT THE REST OF MEXICO TO THE INTERNET.";
+$txt["sat3"] = "Know our project!";
+
+$txt["soc1"] = "Social Project";
+$txt["soc2"] = "Connectivity allows the access to different services.";
+$txt["soc3"] = "Know more!";
+
+$txt["mow1"] = "Meet Mowisat Corp";
+$txt["mow2"] = "We are a highly experienced group of people in telecommunications with a great sense of social responsability.";
+$txt["mow3"] = "Meet the team";
+
 $txt["botonAprendeMas"] = "Learn more.";
 
 $txt["schedular"] = "Schedular";
@@ -36,7 +48,10 @@ $txt["botonEnviar"] = "SEND";
 $txt["blogPost"] = "Mowisat Corporation is a company which works with satellite internet connectivity
 to deliver digital services and versatile platforms for human capacity
 development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities.";
+such as marginalized communities. Mowisat Corporation is a company which
+works with satellite internet connectivity to deliver digital services and versatile
+platforms for human capacity development to different sectors, industries,
+and sociocultural initiatives such as marginalized communities.";
 
 $txt["workWith"] = "WANT TO WORK WITH US?";
 $txt["botonVacantes"] = "See our vacancies";
@@ -126,7 +141,7 @@ $txt["aboutusTxt13"] = "SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former memb
 $txt["aboutusTxt14"] = "SALES DIRECTOR – Extensive management experience across multi-functional Commercial, Latin America and Sales. Experience in international markets and cultures. Competent in liaising, negotiating and reporting at B2B and Government level. Strong skills in process development and implementation, as well as analysis, strategy planning and staff development. ";
 $txt["aboutusTxt15"] = "PROJECT MANAGER - Specialized in social development, sustainability and technology with more than 9 years of experience volunteering and working in periurban, rural and urban communities. Educated in U.A.M, he is responsible to identify and create bonds with new communities for business opportunities, as well as links between social and technological organizations.";
 $txt["aboutusTxt16"] = "BUSINESS DEVELOPMENT - Young talented executive with a diverse background in technology, business development strategies, market research, and financial economics. Trained as an economist at ITAM, Mexico, he is responsible for identifying new sales leads, pitching Mowisat´s services, and maintaining fruitful relationships with existing customers";
-$txt["aboutusTxt17"] = "INDUSTRIAL DESIGN -Trained as a designer at CIDI UNAM, Mexico. With previous experience at solutions for products, services and executive presentations, as well as social rural projects for CCADET. She is responsible of design matters such as web design, corporate identity, and products or services research within the strategic planning process.";
+$txt["aboutusTxt17"] = "INDUSTRIAL DESIGN -Trained as a designer at CIDI UNAM, México. With previous experience at solutions for products, services and executive presentations, as well as social rural projects for CCADET. She is responsible of design matters such as web design, corporate identity, and products or services research within the strategic planning process.";
 $txt["aboutusTxt18"] = "MARKETING COMMUNICATION - Recieved his education at the National Autonomous University of Mexico (UNAM) with studies in communications, marketing and advertisement. Experienced in Digital Marketing projects and self-thought programmer.";
 
 
@@ -138,6 +153,26 @@ $txt["satelliteTxt1"] = "Localization of rural low-income communities with no in
 $txt["satelliteTxt2"] = "Installation of Wifi hotspots powered by satellite internet manage by the community";
 $txt["satelliteTxt3"] = "Access to the Wi-Fi network via different methods";
 $txt["satelliteTxt4"] = "Internet brings different services and integrated communities to the Digital Economy";
+
+$txt["residentHead"] = "Residential, Goverment & Business";
+$txt["residentSubHead"] = "Facility access to broadband in conjunction with our partner.";
+
+$txt["residentList1"] = "Residential";
+$txt["residentList2"] = "Affordable residential packages with different capacities";
+$txt["residentList3"] = "Fixed monthly fees";
+$txt["residentList4"] = "Monthly capacity packages available from 3 Gb to 40Gb";
+
+$txt["busList1"] = "Business";
+$txt["busList2"] = "Wi-Fi Hotspots in stores";
+$txt["busList3"] = "Advertising Module";
+$txt["busList4"] = "Advertisement revenue generation model";;
+$txt["busList5"] = "Redundancy, Backhaul";
+$txt["busList6"] = "Hotspots Mobile Banking";
+
+$txt["govList1"] = "Goverment";
+$txt["govList2"] = "General Government broadband tenders";
+$txt["govList3"] = "170,000 hotspots broadband";
+$txt["govList4"] = "30,000 satellite hotspots in rural areas";
 
 //terms.php 
 
@@ -184,26 +219,25 @@ Subscription to e-mail bulletins is voluntary and could be selected at the time 
 
  Mowisat Corp reserves the right to change or modify these terms without prior notice.<br /><br />";
 
-
-$txt["privacy"] = "Privacy Policies";
-$txt["privacyDesc"] = "MOWISAT CORP is especially sensible in the protection of USERS’ data generated by our services that are accessed through its web. By means of this Privacy Policy (hereinafter the Policy), MOWISAT CORP informs the USERS of the website: www.mowisat.mx of the treatment and uses to which the personal data that are collected on the web are submitted, with so that they decide, freely and voluntarily, if they wish to provide the requested information.<br /><br />
-MOWISAT CORP reserves the right to modify this Policy in order to adapt it to new legislation, jurisprudential criteria, practices of the sector, or interests of the entity. Any modification in the same will be announced in advance, so that you have a perfect knowledge of its contents. <br /><br />
-Certain services provided on the portal may contain particular conditions with provisions regarding the protection of Personal Data. Of them you can inform in the corresponding sections. <br /><br />
-TREATMENT OWNERSHIP<br /><br />
-In such cases, the data collected by MOWISAT CORP will be incorporated into files owned by MOWISAT CORP, duly registered in the General Registry of Data Protection. <br /><br />
-USES AND PURPOSES<br /><br />
-The purpose of the collection and processing of personal data is the management, provision and customization of the services and contents of the same that the USER uses and which will be reported in each section. <br /><br />
-COMMUNICATION OF DATA<br /><br />
-The data collected through the web will only be given in those cases in which it expressly informs the USER. <br /><br />
-UPDATING THE DATA<br /><br />
-In order that the data in our databases always correspond to your real situation you must keep them updated, either by updating them directly in the case where this is possible, or by communicating it to the corresponding department. <br /><br />
-USING COOKIES<br /><br />
-In order to protect the privacy of the users of its web page, MOWISAT CORP does not use cookies when they navigate by the same. <br /><br />
-DATA SAFETY<br /><br />
-MOWISAT CORP has adopted in its information system the legally required technical and organizational measures in order to guarantee the security and confidentiality of the stored data, thus avoiding, as far as possible, its alteration, loss, processing or unauthorized access. <br /><br />
-USER RIGHTS<br /><br />
-In any case you can access your data, rectify, cancel and, if applicable, oppose your treatment: <br /><br />
-a) Either by application accompanied by a photocopy of an identification with official validity, sent to the following postal address: Calle Bahía de las Palmas 1, Veronica Anzures, 113000, Mexico City, CDMX. <br /><br />
-b) Or by sending an e-mail to the following e-mail address: info@mowisatcorp.com<br /><br />";
-
+ $txt["privacy"] = "Privacy Policies";
+ $txt["privacyDesc"] = "MOWISAT CORP is especially sensible in the protection of USERS’ data generated by our services that are accessed through its web. By means of this Privacy Policy (hereinafter the Policy), MOWISAT CORP informs the USERS of the website: www.mowisat.mx of the treatment and uses to which the personal data that are collected on the web are submitted, with so that they decide, freely and voluntarily, if they wish to provide the requested information.<br /><br />
+ MOWISAT CORP reserves the right to modify this Policy in order to adapt it to new legislation, jurisprudential criteria, practices of the sector, or interests of the entity. Any modification in the same will be announced in advance, so that you have a perfect knowledge of its contents. <br /><br />
+ Certain services provided on the portal may contain particular conditions with provisions regarding the protection of Personal Data. Of them you can inform in the corresponding sections. <br /><br />
+ TREATMENT OWNERSHIP<br /><br />
+ In such cases, the data collected by MOWISAT CORP will be incorporated into files owned by MOWISAT CORP, duly registered in the General Registry of Data Protection. <br /><br />
+ USES AND PURPOSES<br /><br />
+ The purpose of the collection and processing of personal data is the management, provision and customization of the services and contents of the same that the USER uses and which will be reported in each section. <br /><br />
+ COMMUNICATION OF DATA<br /><br />
+ The data collected through the web will only be given in those cases in which it expressly informs the USER. <br /><br />
+ UPDATING THE DATA<br /><br />
+ In order that the data in our databases always correspond to your real situation you must keep them updated, either by updating them directly in the case where this is possible, or by communicating it to the corresponding department. <br /><br />
+ USING COOKIES<br /><br />
+ In order to protect the privacy of the users of its web page, MOWISAT CORP does not use cookies when they navigate by the same. <br /><br />
+ DATA SAFETY<br /><br />
+ MOWISAT CORP has adopted in its information system the legally required technical and organizational measures in order to guarantee the security and confidentiality of the stored data, thus avoiding, as far as possible, its alteration, loss, processing or unauthorized access. <br /><br />
+ USER RIGHTS<br /><br />
+ In any case you can access your data, rectify, cancel and, if applicable, oppose your treatment: <br /><br />
+ a) Either by application accompanied by a photocopy of an identification with official validity, sent to the following postal address: Calle Bahía de las Palmas 1, Veronica Anzures, 113000, Mexico City, CDMX. <br /><br />
+ b) Or by sending an e-mail to the following e-mail address: info@mowisatcorp.com<br /><br />";
+ 
 ?>

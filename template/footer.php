@@ -17,7 +17,7 @@
             <div class="xs-hidden sm-hidden col-md-2"></div>
         </div>
 
-        <div class="row">
+        <div class="row mediaquery">
 
             <div class="col-sm-1"></div>
 
@@ -49,6 +49,8 @@
                           Toronto, ON<br />
                           M5X 1C7</div>
                   </div>
+
+                  <div></div>
 
                   <div style="padding-left: 0;" class="col-sm-6">
 
