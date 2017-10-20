@@ -1,5 +1,4 @@
 <?php
-
     include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
     include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
@@ -169,7 +168,7 @@
                 <div class="col-sm-5 blog-new">
                     <h4 class="margin">BLOG</h4>
 
-                    <?
+                    <?php
 
                     base_de_datos_utf_8($conn);
                     $query = $conn->query("select post_content, post_title, guid from wp_posts WHERE post_type='post' ORDER BY ID DESC LIMIT 5") OR DIE(mysqli_error($conn));
@@ -177,8 +176,10 @@
                         while($row=$query->fetch_assoc()){
                             $title = $row["post_title"];
                             ?>
-
-                            <h5 class="blue" id="titleBlog"><a style="color: #85A0CF;" href="<?PHP echo $row["guid"]; ?>"><?PHP echo $title; ?></a></h5>
+                            
+                            <h5 class="blue" id="titleBlog">
+                                <a style="color: #85A0CF;" href="<?PHP echo $row["guid"]; ?>"><?PHP echo $title; ?></a>
+                            </h5>
 
                             <?PHP
                         }
