@@ -19,6 +19,18 @@ Broadband in Latin America for versatile use.<br />
 Powered by cutting edge connectivity solutions<br />
 for business processes optimization.";
 
+$txt["sat1"] = "Satellite Broadband";
+$txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AREAS. OUR OBJECTIVE IS TO CONNECT THE REST OF MEXICO TO THE INTERNET.";
+$txt["sat3"] = "Know our project!";
+
+$txt["soc1"] = "Social Project";
+$txt["soc2"] = "Connectivity allows the access to different services.";
+$txt["soc3"] = "Know more!";
+
+$txt["mow1"] = "Meet Mowisat Corp";
+$txt["mow2"] = "We are a highly experienced group of people in telecommunications with a great sense of social responsability.";
+$txt["mow3"] = "Meet the team";
+
 $txt["botonAprendeMas"] = "Learn more.";
 
 $txt["schedular"] = "Schedular";
@@ -141,6 +153,26 @@ $txt["satelliteTxt1"] = "Localization of rural low-income communities with no in
 $txt["satelliteTxt2"] = "Installation of Wifi hotspots powered by satellite internet manage by the community";
 $txt["satelliteTxt3"] = "Access to the Wi-Fi network via different methods";
 $txt["satelliteTxt4"] = "Internet brings different services and integrated communities to the Digital Economy";
+
+$txt["residentHead"] = "Residential, Goverment & Business";
+$txt["residentSubHead"] = "Facility access to broadband in conjunction with our partner.";
+
+$txt["residentList1"] = "Residential";
+$txt["residentList2"] = "Affordable residential packages with different capacities";
+$txt["residentList3"] = "Fixed monthly fees";
+$txt["residentList4"] = "Monthly capacity packages available from 3 Gb to 40Gb";
+
+$txt["busList1"] = "Business";
+$txt["busList2"] = "Wi-Fi Hotspots in stores";
+$txt["busList3"] = "Advertising Module";
+$txt["busList4"] = "Advertisement revenue generation model";;
+$txt["busList5"] = "Redundancy, Backhaul";
+$txt["busList6"] = "Hotspots Mobile Banking";
+
+$txt["govList1"] = "Goverment";
+$txt["govList2"] = "General Government broadband tenders";
+$txt["govList3"] = "170,000 hotspots broadband";
+$txt["govList4"] = "30,000 satellite hotspots in rural areas";
 
 //terms.php 
 

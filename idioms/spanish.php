@@ -20,10 +20,17 @@ Optimizamos procesos de negocio con lo<br />
 último en tecnología de punta.";
 $txt["botonAprendeMas"] = "APRENDE MÁS";
 
-$txt["schedular"] = "Cronograma";
-$txt["iot"] = "IoT en tiempo real";
-$txt["wifi"] = "Conectividad Wi-Fi";
-$txt["onlineEdu"] = "Plataformas Educativas";
+$txt["sat1"] = "Internet Satelital";
+$txt["sat2"] = "LLEVAMOS INTERNET POR SATELITE A LAS COMUNIDADES RURALES. QUEREMOS CONECTAR LO QUE RESTA DE MÉXICO AL INTERNET.";
+$txt["sat3"] = "¡Conoce el proyecto!";
+
+$txt["soc1"] = "Proyectos Sociales";
+$txt["soc2"] = "La conectividad permite el acceso a servicios diversos";
+$txt["soc3"] = "¡Conoce más!";
+
+$txt["mow1"] = "Somos Mowisat Corp";
+$txt["mow2"] = "Un equipo de profesionales experimentados en telecomunicaciones con un gran sentido de la responsabilidad social.";
+$txt["mow3"] = "Conoce a nuestro equipo";
 
 $txt["blogPost"] ="Mowisat Corporation es una compañía que trabaja con internet satelital
 para brindar servicios digitales y plataformas versátiles para la capacitación humana
@@ -139,6 +146,26 @@ $txt["satelliteTxt1"] = "Localización de comunidades rurales de bajos ingresos 
 $txt["satelliteTxt2"] = "Instalación de hotspots Wi-Fi por medio de internet satelital administrados por la comunidad";
 $txt["satelliteTxt3"] = "Acceso a la red Wi-Fi a través de diferentes métodos.";
 $txt["satelliteTxt4"] = "El internet trae diferentes servicios y comunidades integradas a la economía digital";
+
+$txt["residentHead"] = "Residencial, Gobierno y Negocios";
+$txt["residentSubHead"] = "Tenemos facilidad para conectar a internet en conjunto con nuestros socios";
+
+$txt["residentList1"] = "Residencial";
+$txt["residentList2"] = "Paquetes residenciales accesibles con diferentes capacidades";
+$txt["residentList3"] = "Cuotas mensuales fijos";
+$txt["residentList4"] = "Paquetes disponibles mensuales desde 3 GB a 40 GB";
+
+$txt["busList1"] = "Negocios";
+$txt["busList2"] = "Hotspots Wi-Fi en las tiendas";
+$txt["busList3"] = "Módulos publicitarios";
+$txt["busList4"] = "Modelo de generación de ingresos publicitarios";
+$txt["busList5"] = "Redundancia y backhaul";
+$txt["busList6"] = "Hotspots para Banca Móvil";
+
+$txt["govList1"] = "Gobierno";
+$txt["govList2"] = "Licitaciones de banda ancha del gobierno general";
+$txt["govList3"] = "170,000 hotspots de banda ancha";
+$txt["govList4"] = "30,000 hotspots satelitales en áreas rurales";
 
 //terms.php 
 

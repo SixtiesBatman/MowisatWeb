@@ -62,6 +62,36 @@
 
     <section class='container-fluid'>
 
+    <div class="row box-size blue">
+
+        <div class="col-md-1"></div>
+        
+        
+                
+        <div class="col-md-7 big-box margin-big">
+
+            <div>
+                <p><?PHP echo $txt["satelliteTxt2"]; ?></p>
+            </div>    
+
+        </div>
+
+
+        <div class='col-md-3 logos big-box'>
+
+            <div>
+            <img src="images/wifi.jpg" />
+            </div>
+
+        </div>
+
+        <div class="col-md-1"></div>
+            
+        
+
+
+    </div>
+
     <div class='row box-size'>
     
         <div class="col-md-1"></div>
@@ -117,23 +147,62 @@
 
     </div>
 
+    <!-- target market -->
 
     <div class='row box-size'>
     
         <div class="col-md-1"></div>
 
-        <div class='col-md-3 big-box'>
+        <div class="col-md-10 middle">
 
-            <div class="logos">
-                <img src="images/phone.jpg" /> 
+            <div class="border-l">
+            <h2><?PHP echo $txt["residentHead"]; ?></h2>
+            <h3><?PHP echo $txt["residentSubHead"]; ?></h3>
             </div>
 
-        </div>    
+            <div class="row">
 
-        <div class="col-md-7 big-box margin-short">
+                <div class="col-md-4 box-center">
 
-            <div>
-                <p><?PHP echo $txt["satelliteTxt3"]; ?></p>  
+                    <h2 class="more-mar"><?PHP echo $txt["residentList1"]; ?></h2>
+                    <div class="list-lu">
+                        <ul class="list-li">
+                            <li style="display: block;"><?PHP echo $txt["residentList2"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["residentList3"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["residentList4"]; ?></li>
+                            <li class="logos"><img src="images/house.jpg" /></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 box-center">
+                    <h2 class="more-mar"><?PHP echo $txt["busList1"]; ?></h2>
+                    <div class="list-lu">
+                        <ul class="list-li">
+                            <li style="display: block;"><?PHP echo $txt["busList2"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["busList3"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["busList4"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["busList5"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["busList6"]; ?></li>
+                            <li class="logos" style="text-align: center;"><img src="images/bus.jpg" /></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 box-center">
+                    <h2 class="more-mar"><?PHP echo $txt["govList1"]; ?></h2>
+                    <div class="list-lu">    
+                        <ul class="list-li">
+                                <li style="display: block;"><?PHP echo $txt["govList2"]; ?></li>
+                                <li style="display: block;"><?PHP echo $txt["govList3"]; ?></li>
+                                <li style="display: block;"><?PHP echo $txt["govList4"]; ?></li>
+                                <li class="logos" style="text-align: center;"><img src="images/gov.jpg" /></li>
+                            </ul>
+                        </div>    
+                    </div>
+                    
+                </div> 
+
             </div>
 
         </div>

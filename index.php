@@ -62,34 +62,171 @@
     
         <!-- INITIATES INFO-BAR -->
     
-        <section class="container-fluid info-bar">
+    
+        
+        <!-- FIRST INFO-BAR LINE -->
+        <section class='container-fluid info-bar'>
+        
+            <div class='row'>
+                <div class='col-xs-12 col-md-12'>
+                    <h3 style="text-align: center; font-size: 4em; margin: 1em 0;">Get in touch with Mowisat's projects</h3>
+                </div>
+            </div>
+    
+        </section>
+    
+    
+        <!-- ENDS INFO-BAR -->
+    
+
+        <section class="container-fluid">
+
+            <div class="row" style="background-color: #569EB6; color: white; margin-top: 0;  text-align: center;">                
+                <div class="hidden-sm-1 col-md-1"></div>
+
+                <div class="col-sm-12 col-md-3 big-box logos">
+                
+                        <div class="transform" style="text-align: center;">
+                            <img src="images/dish3.jpg" />
+                        </div>
+        
+                </div>                
+        
+                <div class="col-sm-12 col-md-7 big-box">
+    
+                    <div class="pad">
+                        <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["sat1"]; ?></h3>
+                        <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["sat2"]; ?></p>
+                        <a href="https://pig.gi/">
+                            <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["sat3"]; ?></button>
+                        </a>
+                    </div> 
+    
+                </div>
+
+                <div class="hidden-sm-1 col-md-1"></div>
+
+                </div>        
+               
+                
+                
+                
+            </div>
+
+        </section>
+
+        <!--- AQUIE MERO -->
+
+        <section class="container-fluid">
+
+            <div class="row" style="background-color: white; color: black; margin-top: 0;  text-align: center;">                
+                <div class="hidden-sm-1 col-md-1"></div>
+
+                    <div class="col-sm-12 col-md-7 big-box">
+        
+                        <div class="pad">
+                            <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["soc1"]; ?></h3>
+                            <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["soc2"]; ?></p>
+                            <a href="https://pig.gi/">
+                                <button style="color: black; background-color: transparent; border: 4px solid black; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["soc3"]; ?></button>
+                            </a>
+                        </div> 
+        
+                    </div>
             
-            <!-- FIRST INFO-BAR LINE -->
-            <div class="row">
+                    <div class="col-sm-12 col-md-3 big-box logos">
+                    
+                            <div class="transform" style="text-align: center;">
+                                <img src="images/dish3.jpg" />
+                            </div>
+            
+                    </div>                
+    
+                <div class="hidden-sm-1 col-md-1"></div>
+            
                 
-                <div class="col-sm-2"></div>
-                
-                <div class="col-sm-4 inline-box">
-                    <div><a href="how-works.php"><img src="images/icon1.png" alt="schedular" /><?PHP echo $txt["schedular"]; ?></a></div>
-                    <div><a href="mission.php"><img src="images/icon2.png" alt="IoT" /><?PHP echo $txt["iot"]; ?></a></div>
-                </div>
-                <div class="col-sm-4 inline-box">
-                    <div><a href="satellite.php"><img src="images/icon4.png" alt="Wi-Fi" /><?PHP echo $txt["wifi"]; ?></div>
-                    <div><a href="social.php"><img src="images/icon5.png" alt="education" /><?PHP echo $txt["onlineEdu"]; ?></a></div>                
-                </div>
-                
-                <div class="col-sm-2"></div>
                 
             </div>
                     
           
         </section>
     
+        <section class="container-fluid">
+        
+            <div class="row" style="background-color: #569EB6; color: white; margin-top: 0;  text-align: center;">                
+                <div class="hidden-sm-1 col-md-1"></div>
+
+                <div class="col-sm-12 col-md-3 big-box logos">
+                
+                        <div class="transform" style="text-align: center;">
+                            <img src="images/dish3.jpg" />
+                        </div>
+        
+                </div>                
+        
+                <div class="col-sm-12 col-md-7 big-box">
     
-        <!-- ENDS INFO-BAR -->
+                    <div class="pad">
+                        <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["mow1"]; ?></h3>
+                        <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["mow2"]; ?></p>
+                        <a href="https://pig.gi/">
+                            <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["mow3"]; ?></button>
+                        </a>
+                    </div> 
     
+                </div>
+
+                <div class="hidden-sm-1 col-md-1"></div>
+
+                </div>        
+                
+                
+                
+                
+            </div>
+
+        </section>
+
     
-    
+        
+        <!-- INITIATES BLOG BOX -->
+        
+        <!-- FIRST BLOG BOX -->
+        <section class="container-fluid blog-box">
+            <div class="row">
+                
+                <div class="col-sm-1"></div>
+                
+                <div class="col-sm-5 blog-new">
+                    <h4 class="margin">BLOG</h4>
+                    <h5 class="blue" id="titleBlog">Loading....</h5>
+                    <p class="blog-p padding-right" id="contentBlog"></p>
+                    <a style="display: none;" href="" id="readBlog">
+                        <button>Read more</button>
+                    </a>
+                </div>
+                
+                
+                
+        <!-- SECOND BLOG BOX -->        
+                <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
+                    <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
+                    <div>
+                        
+                            <div class="">
+                                <img src="images/name-location.png" />
+                            </div>
+                         
+                        
+                    </div>
+                </div>
+        
+                <div class="col-sm-1"></div>
+                 
+            </div>
+        </section>
+        
+        <!-- ENDS BLOG BOX -->
         
         <!-- INITIATES CONTACT US BOX -->
         
@@ -157,51 +294,9 @@
         
     
         <!-- ENDS CONTACT US BOX -->
+
+
     
-    
-    
-    
-    
-        <!-- INITIATES BLOG BOX -->
-        
-        <!-- FIRST BLOG BOX -->
-        <section class="container-fluid blog-box">
-            <div class="row">
-                
-                <div class="col-sm-1"></div>
-                
-                <div class="col-sm-5 blog-new">
-                    <h4 class="margin">BLOG</h4>
-                    <h5 class="blue" id="titleBlog">Loading....</h5>
-                    <p class="blog-p padding-right" id="contentBlog"></p>
-                    <a style="display: none;" href="" id="readBlog">
-                        <button>Read more</button>
-                    </a>
-                </div>
-                
-                
-                
-        <!-- SECOND BLOG BOX -->        
-                <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
-                    <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
-                    <div>
-                        
-                            <div class="">
-                                <img src="images/name-location.png" />
-                            </div>
-                         
-                        
-                    </div>
-                </div>
-        
-                <div class="col-sm-1"></div>
-                 
-            </div>
-        </section>
-        
-        <!-- ENDS BLOG BOX -->
-        
-        
         <!-- INITIATES WORK WITH US BOX -->
         
         <section class="container-fluid work-with-us-box">
