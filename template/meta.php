@@ -111,9 +111,9 @@ function getLastPostBlog(){
 
                         var readBlog = response.guid.split("/blog/");
 
-                        $("#titleBlog").html(response.title);
-                        $("#contentBlog").html(response.content + "...");
-                        $("#readBlog").attr("href","blog/" + readBlog[1]);
+                        //$("#titleBlog").html(response.title);
+                        //$("#contentBlog").html(response.content + "...");
+                        $("#readBlog").attr("href","blog/" ); //+ readBlog[1]
                         $("#readBlog").css("display","");
                         } else {
                         $("#titleBlog").html("Error :( we connot load the blog right now.");

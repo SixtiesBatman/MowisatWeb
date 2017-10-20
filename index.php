@@ -2,7 +2,7 @@
 
     include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
     include ''.dirname(__FILE__).'/scripts/utils/log.php';
-    
+    include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
     $log = new LoggerPhp();
     $log->write_log("[Index]","Debug");
 ?>
@@ -153,8 +153,11 @@
             </div>
             
         </section>
-        <!-- ENDS CONTACT US BOX -->
+        
+        
     
+        <!-- ENDS CONTACT US BOX -->
+        
         <!-- INITIATES BLOG BOX -->
         
         <!-- FIRST BLOG BOX -->
@@ -165,7 +168,24 @@
                 
                 <div class="col-sm-5 blog-new">
                     <h4 class="margin">BLOG</h4>
-                    <h5 class="blue" id="titleBlog">Loading....</h5>
+
+                    <?
+
+                    base_de_datos_utf_8($conn);
+                    $query = $conn->query("select post_content, post_title, guid from wp_posts WHERE post_type='post' ORDER BY ID DESC LIMIT 5") OR DIE(mysqli_error($conn));
+                    if($query->num_rows>0){
+                        while($row=$query->fetch_assoc()){
+                            $title = $row["post_title"];
+                            ?>
+
+                            <h5 class="blue" id="titleBlog"><a style="color: #85A0CF;" href="<?PHP echo $row["guid"]; ?>"><?PHP echo $title; ?></a></h5>
+
+                            <?PHP
+                        }
+                    }
+
+                    ?>
+                    
                     <p class="blog-p padding-right" id="contentBlog"></p>
                     <a style="display: none;" href="" id="readBlog">
                         <button>Read more</button>
@@ -178,30 +198,30 @@
                 <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
                     <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
                     <div>
-                        
-                        <div class="row">
-                            <img style="margin-left: 100px;" src="images/name-location.png" />
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-xs-12 col-sm-12 col-md-12">
-
-                                <div class='image col-xs-6 col-sm-6 col-md-6'>
-                                    <img style="text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.jpg" />
-                                </div>
-
-
-                                <div class='image col-xs-6 col-sm-6 col-md-6 text-center'>
-                                    <b>Josefina<br />
-                                    Tizilingo, CDMX</b>
-                                </div>
-
-                            </div>
-                        </div>
-                        
+                    
+                    <div class="row">
+                        <img style="margin-left: 100px;" src="images/name-location.png" />
                     </div>
+
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+
+                            <div class='image col-xs-6 col-sm-6 col-md-6'>
+                                <img style="text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.jpg" />
+                            </div>
+
+
+                            <div class='image col-xs-6 col-sm-6 col-md-6 text-center'>
+                                <b>Josefina<br />
+                                Tizilingo, CDMX</b>
+                            </div>
+
+                        </div>
+                    </div>
+                    
                 </div>
+            </div>
         
                 <div class="col-sm-1"></div>
                  

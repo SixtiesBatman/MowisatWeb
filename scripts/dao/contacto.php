@@ -19,7 +19,7 @@ $obj->description = "";
 
 if($nameContact!="" && $numberContact!="" && $emailContact!="" && $commentContact!=""){
 
-    $query = $conn->query("INSERT INTO contactoForm (`name`,`number`,`mail`,`comments`) VALUES ('".$nameContact."','".$numberContact."','".$emailContact."','".$commentContact."')");
+    $query = $conn->query("INSERT INTO contactoform (`name`,`number`,`mail`,`comments`) VALUES ('".$nameContact."','".$numberContact."','".$emailContact."','".$commentContact."')");
     if($query===true){
         $obj->success = "true";
         $obj->description = "";
@@ -40,7 +40,7 @@ if($nameContact!="" && $numberContact!="" && $emailContact!="" && $commentContac
         $SendMail->sendMail();
     } else {
         $obj->success = "false";
-        $obj->description = "Error. Contact your administrator";
+        $obj->description = "Error. Please Contact your administrator";
     }
 } else {
     $obj->success = "false";

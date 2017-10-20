@@ -21,7 +21,7 @@ class SendMail {
     $asunto = "New User!";
     $body = "You have a new user from Mowisatinvest.mx";
     $mailQueRecibe = "manlioelnum1@hotmail.com";
-    $from    = "hi@mowisatinvest.com";                             // mail que verá el receptor
+    $from    = "hi@mowisat.mx";                             // mail que verá el receptor
     $nombreQueEnvia  = "Mowisat";
     */
 
@@ -82,12 +82,12 @@ class SendMail {
       $mail->Username = 'manlioelnum1@hotmail.com';         // Usuario
       $mail->Password = 'rh2MdhYLZFpIphC5bMl-Ew';           // Password OJO! Es confidencial
     } else if($this->server=="godaddy"){                              
-        $mail->Host = 'p3plcpnl0773.prod.phx3.secureserver.net';                  // Specify main and backup server
-        //$mail->Host = 'mail.mowisatinvest.mx';
+        $mail->Host = 'n1plcpnl0047.prod.ams1.secureserver.net';                  // Specify main and backup server
+        //$mail->Host = 'mail.mowisat.mx';
         $mail->Port = 465;                                                       // Set the SMTP port
         $mail->SMTPAuth = true;                                                  // Enable SMTP authentication
-        $mail->Username = 'hi@mowisatinvest.mx';                                // SMTP username
-        $mail->Password = 'HYCddfrek84389';                                       // SMTP password
+        $mail->Username = 'hi@mowisat.mx';                                // SMTP username
+        $mail->Password = 'UYuyw983289rwe';                                       // SMTP password
         $mail->SMTPSecure = 'ssl';                                              // Enable encryption, 'ssl' also accepted
     }
 
