@@ -41,8 +41,7 @@ a {
 @media only screen and (min-width: 420px) {
 
     .header-two img {
-        width: 18em;
-        height: 4em;
+        width: 14em;
         margin: 1em 0;
     }
 
@@ -247,10 +246,6 @@ jumbotron h1, h3 {
     text-align: center;
     margin: 2em;
     font-size: 4em;
-}
-
-.big-box div {
-    margin: 4.4em 0;
 }
 
 .pad {

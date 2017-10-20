@@ -166,7 +166,7 @@
 
                     <h2 class="more-mar"><?PHP echo $txt["residentList1"]; ?></h2>
                     <div class="list-lu">
-                        <ul class="list-li">
+                        <ul style="text-align: center;" class="list-li">
                             <li style="display: block;"><?PHP echo $txt["residentList2"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["residentList3"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["residentList4"]; ?></li>
@@ -178,7 +178,7 @@
                 <div class="col-md-4 box-center">
                     <h2 class="more-mar"><?PHP echo $txt["busList1"]; ?></h2>
                     <div class="list-lu">
-                        <ul class="list-li">
+                        <ul style="text-align: center;" class="list-li">
                             <li style="display: block;"><?PHP echo $txt["busList2"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["busList3"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["busList4"]; ?></li>
@@ -192,7 +192,7 @@
                 <div class="col-md-4 box-center">
                     <h2 class="more-mar"><?PHP echo $txt["govList1"]; ?></h2>
                     <div class="list-lu">    
-                        <ul class="list-li">
+                        <ul style="text-align: center;" class="list-li">
                                 <li style="display: block;"><?PHP echo $txt["govList2"]; ?></li>
                                 <li style="display: block;"><?PHP echo $txt["govList3"]; ?></li>
                                 <li style="display: block;"><?PHP echo $txt["govList4"]; ?></li>

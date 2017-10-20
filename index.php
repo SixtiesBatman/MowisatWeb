@@ -20,6 +20,9 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
         <style>
             a {color: gray}
             a:hover {text-decoration: none; color: gray};
+            .big-box div {
+                margin: 4.4em 0;
+            }
         </style>
 
     </head>
