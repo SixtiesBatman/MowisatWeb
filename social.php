@@ -34,6 +34,118 @@
     
     <!-- SECTION BEGINS -->
 
+
+
+
+
+    <section class='container-fluid'>
+
+        <div style="background-color: #DADADA;" class='row'>
+            <div style="text-align: center;" class='col-xs-12 col-md-12 description'>
+                <h3 style="text-align: center;"><?PHP echo $txt["description-how"]; ?></h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section class='container-fluid'>
+
+        <div style="height: 100px; background-color: #569EB6;" class='row'>
+        
+            <div class="col-md-1"></div>
+
+            <div style="text-align: center; color: white;" class='col-md-10'>
+
+                kyugbubikgnihukgk
+
+            </div>    
+
+            <div class="col-md-1"></div>
+
+        </div>  
+
+
+        <div style="height: 100px;" class="row">
+
+            <div class="col-md-1"></div>
+
+            <div class='col-md-10'>
+
+                <div style="text-align: center;">
+                    <img style="margin-top: 5px; width: 200px;" src="images/step by step.png" />
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+                
+        </div>
+        <div style="height: 100px; background-color: #569EB6;" class='row'>
+        
+            <div class="col-md-1"></div>
+
+            <div style="text-align: center; color: white;" class='col-md-10'>
+
+                kyugbubikgnihukgk
+
+            </div>    
+
+            <div class="col-md-1"></div>
+
+        </div>  
+
+
+        <div style="height: 100px;" class="row">
+
+            <div class="col-md-1"></div>
+
+            <div class='col-md-10'>
+
+                <div style="text-align: center;">
+                    <img style="margin-top: 5px; width: 200px;" src="images/step by step.png" />
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+                
+        </div>
+        <div style="height: 100px; background-color: #569EB6;" class='row'>
+        
+            <div class="col-md-1"></div>
+
+            <div style="text-align: center; color: white;" class='col-md-10'>
+
+                kyugbubikgnihukgk
+
+            </div>    
+
+            <div class="col-md-1"></div>
+
+        </div>  
+
+
+        <div style="height: 100px;" class="row">
+
+            <div class="col-md-1"></div>
+
+            <div class='col-md-10'>
+
+                <div style="text-align: center;">
+                    <img style="margin-top: 5px; width: 200px;" src="images/step by step.png" />
+                </div>
+
+            </div>
+
+            <div class="col-md-1"></div>
+                
+        </div>
+
+    </section>
+
+
+
+
     <section class='container-fluid'>
 
         <div class='row'>
