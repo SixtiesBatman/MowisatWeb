@@ -161,7 +161,7 @@
         <div class="col-md-1"></div>
 
             <div class="col-md-10 border-w">
-                <h2 class="color: white;"><?PHP echo $txt["residentHead"]; ?></h2>
+                <h2 style="color: white !important;"><?PHP echo $txt["residentHead"]; ?></h2>
                 <h3><?PHP echo $txt["residentSubHead"]; ?></h3>
             </div>
 
