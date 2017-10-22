@@ -1,3 +1,15 @@
+.careers-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.careers-img h1 {
+    text-align: center;
+    color: white;
+    margin: 5em 0;
+}
+
 .box {
     padding: 4em;
     height: 40em;

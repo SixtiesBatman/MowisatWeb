@@ -34,15 +34,25 @@
     
     <!-- SECTION BEGINS -->
 
+    <section class='container-fluid'>
+            
+       <div class='row'>
+            <div class='col-xs-12 careers-img' style="background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url('images/ini.jpg');">
+                <div>
+                    <h1><?PHP echo $txt["socialInit"]; ?></h1>
+                </div>
+            </div>           
+        </div>
 
+    </section>
 
 
 
     <section class='container-fluid'>
 
         <div style="background-color: #DADADA;" class='row'>
-            <div style="text-align: center;" class='col-xs-12 col-md-12 description'>
-                <h3 style="text-align: center;"><?PHP echo $txt["description-how"]; ?></h3>
+            <div style="text-align: center; padding: 4em" class='col-xs-12 col-md-12 description'>
+                <h3 style="text-align: center;"><?PHP echo $txt["socialInit-desc"]; ?></h3>
             </div>
         </div>
 
@@ -56,7 +66,8 @@
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
-                kyugbubikgnihukgk
+                <?PHP echo $txt["connect1"]; ?>
+                <?PHP echo $txt["connect2"]; ?>
 
             </div>    
 
@@ -65,14 +76,14 @@
         </div>  
 
 
-        <div style="height: 100px;" class="row">
+        <div class="row">
 
             <div class="col-md-1"></div>
 
             <div class='col-md-10'>
 
                 <div style="text-align: center;">
-                    <img style="margin-top: 5px; width: 200px;" src="images/step by step.png" />
+                    <img style="height: 500px; width: 1000px;" src="images/step by step.png" />
                 </div>
 
             </div>
@@ -146,25 +157,7 @@
 
 
 
-    <section class='container-fluid'>
-
-        <div class='row'>
-            
-            <div class='col-xs-12 col-md-6 box dg'>
-                <h2 style="font-size: 3em;"><?PHP echo $txt["digitalLib"]; ?></h2>
-                <p id="textoSocial"><?PHP echo $txt["dlText"]; ?></p>               
-            </div>
-
-            <div class='col-xs-12 col-md-6 box cc'>
-                <h2 style="font-size: 3em;"><?PHP echo $txt["codecademy"]; ?></h2>
-                <p id="textoSocial"><?PHP echo $txt["cText"]; ?></p>               
-            </div>
-
-            <div class="clearfix col-md-12"></div>
-
-        </div>
-
-    </section>
+  
 
 
     <!-- SECTION ENDS -->

@@ -76,9 +76,35 @@ $txt["policiesTerms"] = "Policies and Terms";
 //social.php
 
 $txt["socialInit"] = "Social Initiatives";
+$txt["socialInit-desc"] = "Our core belief is that through digital inclusion we can increase the wellbeing of
+marginalized communities. Integrate them in the Digital Economy and through
+online platforms for workshops and training to employ them<br /><br />
 
-$txt["digitalLib"] = "Digital Library";
-$txt["dlText"] = "The Digital Library acts as a time capsule, downloading selected content, which is delivered to the customers through a new generation of hardware. It is a storage device, serving as an intermediary between real-time internet connectivity and access to information in rural areas. Our solution is a substitute to cabling vast areas with internet connectivity, the Digital Library provides internet content previously stored in servers distributed through box receivers.";
+Digital Services go hand in hand with Satellite Broadband. We intend to provide
+them and deliver them to areas without connectivity in Mexico";
+
+$txt["connect1"] = "Mowisat Corporation is bringing broadband connectivity to areas of difficult access in
+Mexico with the aim to connect and integrate them into the digital economy. Access to
+the digital economy will help rural population generate income from their communities
+and stop economic migration.y";
+
+$txt["connect2"] = "Our aim is to empower a market of 57.1 million people who currently don’t have access
+to connectivity in Mexico. We believe we can facilitate new trends and help bring people
+out of poverty, by giving them the tools to provide training and liquidity
+for entrepreneurial ventures via loans, investment, online working and crypto- financing
+as well as create new opportunities in the digital economy, locally, nationally and
+internationally.";
+
+$txt["eduRu1"] = "The Rural Education Program symbolizes an innovative response
+to the commitment to bring rural population in Mexico online by
+ameliorating their skillsets and enabling them to become active
+participants in the digital economy.";
+$txt["eduRu2"] = "";
+$txt["eduRu3"] = "We are currently transforming the lives of 120 students from the
+Unidad Pedagógica Alejo Peralta (UPAP) and the Tecnológico de
+Estudios Superiores de Jocotitlán (TESJo) from the rural
+community of Pastejé teaching coding abilities and connecting
+them with online freelancing platforms.";
 
 $txt["codecademy"] = "Codecademy";
 $txt["cText"] = "Codecademy is an education initiative aimed at developing programming professionals through unconventional methods of learning. It is a web platform, both with offline and online abilities that is geared towards creating professionals within six months. Mowisat is bringing tailored education for the future programmers of Mexico.";
@@ -156,11 +182,22 @@ $txt["aboutusTxt18"] = "MARKETING COMMUNICATION - Recieved his education at the 
 //satellite.php
 $txt["satelliteTitle"] = "Satellite Broadband";
 $txt["satelliteImageTitle"] = "Connectivity";
-$txt["satelliteSubTitle"] = "Connecting the last mile of Mexico to internet";
+$txt["satelliteSubTitle"] = "State-of-the-art internet satellite broadband";
 $txt["satelliteTxt1"] = "Localization of rural low-income communities with no internet connectivity";
 $txt["satelliteTxt2"] = "Installation of Wifi hotspots powered by satellite internet manage by the community";
 $txt["satelliteTxt3"] = "Access to the Wi-Fi network via different methods";
 $txt["satelliteTxt4"] = "Internet brings different services and integrated communities to the Digital Economy";
+
+$txt["intro"] = "Introduction";
+$txt["introSub"] = "The launching of Jupiter 2 satellite makes available the new Ka broadband which exceeds any other satellite tecnology on the market";
+
+$txt["howHead"] = "How it works";
+$txt["howP1"] = "Our model makes possible bringing internet to areas of difficult access.<br /><br />
+
+We provide quality internet connectivity through linking the satellite with our dish antennas which spread the connexion through Wi-Fi hotspots.";
+$txt["howP2"] = "The fleixibility of creating any kind of Wi-Fi network suits different needs.<br /><br />
+
+Also our packages make internet connectivity affordable for any project, wether you want to connect a house or to connect a factory.";
 
 $txt["residentHead"] = "Residential, Goverment & Business";
 $txt["residentSubHead"] = "Facility access to broadband in conjunction with our partner.";

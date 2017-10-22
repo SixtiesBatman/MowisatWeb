@@ -62,80 +62,73 @@
 
     <section class='container-fluid'>
 
-    <div class="row box-size blue">
-
-        <div class="col-md-1"></div>
-        
-        
-                
-        <div class="col-md-7 big-box margin-big">
-
-            <div>
-                <p><?PHP echo $txt["satelliteTxt2"]; ?></p>
-            </div>    
-
-        </div>
-
-
-        <div class='col-md-3 logos big-box'>
-
-            <div>
-            <img src="images/wifi.jpg" />
-            </div>
-
-        </div>
-
-        <div class="col-md-1"></div>
-            
-        
-
-
-    </div>
-
-    <div class='row box-size'>
+        <div class='row box-size blue'>
     
-        <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
 
-        <div class='col-md-3 big-box'>
+            <div class="col-md-10">
 
-            <div class="logos">
-                <img src="images/ruralcom.jpg" /> 
+                <div class="border-w">
+                    <h2 style="color: white;"><?PHP echo $txt["intro"]; ?></h2>
+                    <h3 style="padding-bottom: 1.5em;"><?PHP echo $txt["introSub"]; ?></h3>
+                </div>
+
             </div>
+            
+            <div class="col-md-1"></div>
 
-        </div>    
-
-        <div class="col-md-7 big-box margin-short">
-
-            <div>
-                <p><?PHP echo $txt["satelliteTxt1"]; ?></p>  
-            </div>
 
         </div>
 
-        <div class="col-md-1"></div>
+    
+    
+        
+        <div class="row box-size">
 
-    </div>  
+            <div class="col-md-1"></div>
+
+        <div class="col-md-10">
+                <div style="text-align: center;">
+                <img class="comp" src="images/Old-New.png" /> 
+                </div>
+        </div>
+                
+        <div class="col-md-1"></div>
+        </div>  
 
 
     <div class="row box-size blue">
 
         <div class="col-md-1"></div>
-        
-        
-                
-        <div class="col-md-7 big-box margin-big">
+
+
+
+        <div class='col-md-10 big-box'>
 
             <div>
-                <p><?PHP echo $txt["satelliteTxt2"]; ?></p>
-            </div>    
+                <h2 style="color: white;"><?PHP echo $txt["howHead"]; ?></h2>
 
-        </div>
+                <div class="row">
 
 
-        <div class='col-md-3 logos big-box'>
+                    <div class="col-md-6 border-w2">
 
-            <div>
-            <img src="images/wifi.jpg" />
+                        <p style="padding: 2em; text-align: center; font-size: 1.3em;"}>
+                        <?PHP echo $txt["howP1"]; ?> 
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-6 border-w2">
+
+                        <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+                        <?PHP echo $txt["howP2"]; ?>
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -147,6 +140,35 @@
 
     </div>
 
+
+
+    <div class="row box-size">
+    <div class="col-md-1"></div>
+
+
+
+    <div class="col-md-10">
+        <div style="text-align: center;">
+            <img class="comp" src="images/key-comp.png" /> 
+        </div>
+    </div>
+
+        <div class="col-md-1"></div>
+    </div>
+
+    <div class="row box-size blue">
+
+        <div class="col-md-1"></div>
+
+            <div class="col-md-10 border-w">
+                <h2 class="color: white;"><?PHP echo $txt["residentHead"]; ?></h2>
+                <h3><?PHP echo $txt["residentSubHead"]; ?></h3>
+            </div>
+
+        <div class="col-md-1"></div>
+
+    </div>    
+    
     <!-- target market -->
 
     <div class='row box-size'>
@@ -154,11 +176,6 @@
         <div class="col-md-1"></div>
 
         <div class="col-md-10 middle">
-
-            <div class="border-l">
-            <h2><?PHP echo $txt["residentHead"]; ?></h2>
-            <h3><?PHP echo $txt["residentSubHead"]; ?></h3>
-            </div>
 
             <div class="row">
 
@@ -211,35 +228,24 @@
 
     </div>  
 
-
     <div class="row box-size blue">
 
         <div class="col-md-1"></div>
-        
-        
-                
-        <div class="col-md-7 big-box margin-big">
+
+
+
+        <div class='col-md-10 big-box'>
 
             <div>
-                <p><?PHP echo $txt["satelliteTxt4"]; ?></p>
-            </div>    
-
-        </div>
-
-
-        <div class='col-md-3 big-box'>
-
-            <div class="logos">
-            <img src="images/dollar.jpg" />
+            papantla
             </div>
 
         </div>
 
         <div class="col-md-1"></div>
             
-        
 
-
+    
     </div>
         
 

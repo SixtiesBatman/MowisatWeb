@@ -70,12 +70,17 @@ $txt["policiesTerms"] = "Términos y Condiciones";
 //social.php
 
 $txt["socialInit"] = "Iniciativas Sociales";
+$txt["socialInit-desc"] = "Creemos profundamente que a través de la Inclusión Digital podemos aumentar el bienestar de comunidades marginadas.
+Integrarlas en la Economía Digital y a través de plataformas en línea entranarlos y emplearlos.<br /><br />
 
-$txt["digitalLib"] = "Biblioteca Digital";
-$txt["dlText"] = "La Biblioteca Digital es un dispositivo de almacenamiento, que sirve como un intermediario entre la conectividad a internet en tiempo real y el acceso a la información en las áreas rurales. Ésta actúa como una cápsula del tiempo, descargando contenido seleccionado, que se entrega a los clientes a través de una nueva generación de hardware. Nuestra solución es un sustituto para el cableado, la Biblioteca Digital proporciona contenido de Internet previamente almacenado en servidores distribuidos a través de receptores de caja.";
+Los Servicios Digitales van de la mano con el Internet Satelital. Llevaremos estos servicios a las zonas sin conectividad en México.";
 
-$txt["codecademy"] = "Codecademy";
-$txt["cText"] = "Codecademy es una iniciativa educativa destinada a desarrollar profesionales de la programación a través de métodos de aprendizaje no convencionales. Es una plataforma web, que desarrolla habilidades dentro y fuera de línea orientada a la creación de profesionales de TI en sólo seis meses. Mowisat lleva educación personalizada para los futuros programadores de México";
+$txt["connect1"] = "Mowisat Corp lleva Internet Satelital a áreas de difícil acceso con el opjetivo de conectar 
+comunidades rurales a la Economía Digital. Esta ayudará a que la población genere ingresos por medio de sus 
+habilidades y detenga la migración economómica.";
+$txt["connect2"] = "Nuestra meta es empoderar un mercado de 57.1 millones de personas que actualmente no tienen acceso a internet.
+Creemos poder facilitar nuevas formas de sacar a la gente de la pobreza dandoles las herramientas para capacitarlos en emprendimiento con prestamos, inversión, trabajo en línea y financiemiento con critpomonedas así como crear oportunidades en la Economía Digital local, nacional e internacionalmente.";
+
 
 //how-works.php 
 
@@ -148,11 +153,18 @@ $txt["aboutusTxt18"] = "Comunicación y Marketing - Recibió su educación en la
 //satellite.php
 $txt["satelliteTitle"] = "Banda ancha por satélite";
 $txt["satelliteImageTitle"] = "Conectividad";
-$txt["satelliteSubTitle"] = "Conectando la última milla de México a internet";
-$txt["satelliteTxt1"] = "Localización de comunidades rurales de bajos ingresos sin conectividad a internet";
-$txt["satelliteTxt2"] = "Instalación de hotspots Wi-Fi por medio de internet satelital administrados por la comunidad";
-$txt["satelliteTxt3"] = "Acceso a la red Wi-Fi a través de diferentes métodos.";
-$txt["satelliteTxt4"] = "El internet trae diferentes servicios y comunidades integradas a la economía digital";
+$txt["satelliteSubTitle"] = "Internet Satelital de última generación";
+
+$txt["intro"] = "Introducción";
+$txt["introSub"] = "El lanzamiento del satelite Jupiter 2 satellite la nueva banda Ka que supera cualquier otra tecnología satelital en el mercado";
+
+$txt["howHead"] = "¿Cómo funciona?";
+$txt["howP1"] = "Nuestro modelo hace posible llevar conexión a internet a zonas de difícil acceso.<br /><br />
+
+Proveemos internet de calidad por medio de la conexión del satelite con las antenas Dish, que a su vez, esparcen la señal a través de hotspots Wi-Fi.";
+$txt["howP2"] = "La felixibilidad de crear cualquier tipo de red Wi-Fi se ajusta a cualquier tipo de necesidad.<br /><br />
+
+Además nuestros diferentes paquetes hacen de la conexión a internet algo accesible, ya sea que se desee conectar una casa o una fábrica entera.";
 
 $txt["residentHead"] = "Residencial, Gobierno y Negocios";
 $txt["residentSubHead"] = "Tenemos facilidad para conectar a internet en conjunto con nuestros socios";
