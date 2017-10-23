@@ -36,7 +36,7 @@ include ''.dirname(__FILE__).'/template/header.php';
     <section class='container-fluid'>
             
        <div class='row'>
-            <div class='col-xs-12 partners-img bgMeshParent' style="background-image: url('images/partners.jpg')">
+            <div class='col-xs-12 partners-img bgMeshParent'  class="parallax-window" data-parallax="scroll" data-image-src="images/partners.jpg">
                 <div class="bgMesh">
                     <h1 style="margin: 0; padding-top: 150px;"><?PHP echo $txt["part-ners"]; ?></h1>
                 </div>
@@ -51,10 +51,12 @@ include ''.dirname(__FILE__).'/template/header.php';
 
             <div class="col-md-1"></div>
 
-            <div class='col-md-3 big-box logos'>
+            <div class='col-md-3 big-box'>
 
-                <div>
-                    <img src="images/hughes_logo.png" /> 
+                <div style="text-align: center; padding: 0; margin: 0;">
+                
+                    <img style="margin-top: 20px; width: 20em;" src="images/net.png" />
+                    <!--<img src="images/hughes_logo.png" /> -->
                 </div>
 
             </div>    
@@ -62,8 +64,12 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class="col-md-7 big-box">
 
                 <div>
-                    <p><?PHP echo $txt["hughes"]; ?></p>  
+                    <!--<p><?PHP echo $txt["hughes"]; ?></p>  
                     <a href="https://www.hughes.com/">
+                        <button class="black-b"><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    </a>-->
+                    <p style="text-transform: uppercase"><?PHP echo $txt["net"]; ?></p>
+                    <a href="https://www.netfreedompioneers.org/">
                         <button class="black-b"><?PHP echo $txt["botonMasInfo"]; ?></button>
                     </a>
                 </div>
@@ -95,7 +101,7 @@ include ''.dirname(__FILE__).'/template/header.php';
 
             <div class='col-md-3 logos big-box'>
 
-                <div>
+                <div style="text-align: center;">
                     <img src="images/stargo_logo.png" />
                 </div>
 
@@ -115,7 +121,7 @@ include ''.dirname(__FILE__).'/template/header.php';
             
             <div class="col-md-3 big-box logos">
 
-                <div>
+                <div style="text-align: center;">
                     <img src="images/piggi_logo.png" />
                 </div>
 
@@ -147,9 +153,15 @@ include ''.dirname(__FILE__).'/template/header.php';
             <div class="col-md-7 big-box">
 
                 <div>
+                    <!--
                     <p style="text-transform: uppercase"><?PHP echo $txt["net"]; ?></p>
                     <a href="https://www.netfreedompioneers.org/">
                         <button><?PHP echo $txt["botonMasInfo"]; ?></button>
+                    </a>
+                    -->
+                    <p><?PHP echo $txt["hughes"]; ?></p>
+                    <a href="https://www.hughes.com/">
+                        <button class="black-b"><?PHP echo $txt["botonMasInfo"]; ?></button>
                     </a>
                 </div>    
 
@@ -158,8 +170,10 @@ include ''.dirname(__FILE__).'/template/header.php';
 
             <div class='col-md-3 logos big-box'>
 
-                <div>
-                <img src="images/net.png" />
+                <div style="text-align: center;">
+                <!--<img src="images/net.png" />-->
+                <img src="images/hughes_logo.png" />
+                
                 </div>
 
             </div>

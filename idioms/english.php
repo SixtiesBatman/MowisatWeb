@@ -25,12 +25,12 @@ $txt["sat1"] = "Satellite Broadband";
 $txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AREAS. OUR OBJECTIVE IS TO CONNECT THE REST OF MEXICO TO THE INTERNET.";
 $txt["sat3"] = "Know our project!";
 
-$txt["soc1"] = "Social Project";
-$txt["soc2"] = "Connectivity allows the access to different services.";
+$txt["soc1"] = "Social Projects";
+$txt["soc2"] = "CONNECTIVITY ALLOWS THE ACCESS TO DIFFERENT SERVICES. WE INTENT TO BRING THEM AND IMPROVE COMMUNITIES QUALITY OF LIFE";
 $txt["soc3"] = "Know more!";
 
 $txt["mow1"] = "Meet Mowisat Corp";
-$txt["mow2"] = "We are a highly experienced group of people in telecommunications with a great sense of social responsability.";
+$txt["mow2"] = "WE ARE A HIGHLY EXPERIENCED GROUP OF PEOPLE IN TELECOMMUNICATIONS WITH A GREAT SENSE OF SOCIAL RESPONSABILITY.";
 $txt["mow3"] = "Meet the team";
 
 $txt["botonAprendeMas"] = "Learn more.";
@@ -50,10 +50,7 @@ $txt["botonEnviar"] = "SEND";
 $txt["blogPost"] = "Mowisat Corporation is a company which works with satellite internet connectivity
 to deliver digital services and versatile platforms for human capacity
 development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities. Mowisat Corporation is a company which
-works with satellite internet connectivity to deliver digital services and versatile
-platforms for human capacity development to different sectors, industries,
-and sociocultural initiatives such as marginalized communities.";
+such as marginalized communities.";
 
 $txt["workWith"] = "WANT TO WORK WITH US?";
 $txt["botonVacantes"] = "See our vacancies";
@@ -67,7 +64,7 @@ $txt["team"] = "Our Team";
 $txt["sec-partners"] = "Section Partners";
 
 $txt["news"] = "NEWS";
-$txt["carrers"] = "CARRERS";
+$txt["carrers"] = "CAREERS";
 $txt["stayInTouch"] = "STAY IN TOUCH";
 $txt["canada"] = "CANADA";
 $txt["mexico"] = "MEXICO";
@@ -242,7 +239,7 @@ $txt["govList2"] = "General Government broadband tenders";
 $txt["govList3"] = "170,000 hotspots broadband";
 $txt["govList4"] = "30,000 satellite hotspots in rural areas";
 
-$txt["buttonSatelliteSocialRes"] = "Meet our social initiatives";
+$txt["buttonSatelliteSocialRes"] = "See social initiatives";
 
 //terms.php 
 

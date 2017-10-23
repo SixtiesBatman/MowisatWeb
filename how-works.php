@@ -76,9 +76,7 @@
     <div class="row box-size blue">
 
         <div class="col-md-1"></div>
-        
-        
-                
+            
         <div class="col-md-10 big-box">
 
             <div>
@@ -91,9 +89,24 @@
 
         <div class="col-md-1"></div>
             
-        
+    </div>
+    
+    <div style="margin-top: 40px;" class="row box-size text-center">
 
+        <div class="col-md-1"></div>
 
+        <div class='col-md-10 big-box text-center'>
+
+            <div class="col-md-12">
+                <a href="social.php">
+                    <button style="" class="btn btn-primary text-center"><?PHP echo $txt["buttonSatelliteSocialRes"]; ?></button>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-md-1"></div>
+            
     </div>
 
 

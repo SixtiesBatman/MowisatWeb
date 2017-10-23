@@ -32,8 +32,16 @@
             </div>
 
             <div class="col-sm-2">
-                <div class="blue-letter special"><?PHP echo $txt["news"]; ?></div>
-                <div class="blue-letter special"><?PHP echo $txt["carrers"]; ?></div>
+                <div class="blue-letter special">
+                    <a href="/blog" style="color: #85A0CF;">
+                        <?PHP echo $txt["news"]; ?>
+                    </a>
+                </div>
+                <div class="blue-letter special">
+                <a href="careers.php" style="color: #85A0CF;">
+                        <?PHP echo $txt["carrers"]; ?>
+                    </a>
+                </div>
 
             </div>
 

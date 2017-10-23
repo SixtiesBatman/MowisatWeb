@@ -41,15 +41,15 @@
 
             <div style="border: 0 !important;" class="collapse navbar-collapse" id="myNavbar">
                 <ul style="margin: 0.8em 0 0 0 !important;" class="nav navbar-nav navbar-right nav-style-header">
-                    <li><a style="color: black;" href="satellite.php"><?PHP echo $txt["toSatellite"]; ?></a></li>
-                    <li><a style="color: black;" href="social.php"><?PHP echo $txt["toSocial"]; ?></a></li>
-                    <li><a style="color: black;" href="./blog"><?PHP echo $txt["toNews"]; ?></a></li>
-                    <li><a target="_blank" style="color: black;" href="http://mowisatinvest.mx"><?PHP echo $txt["toInvestors"]; ?></a></li>
-                    <li style="margin-top: 7px;" class="hidden-xs hidden-sm round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=en">EN</a></li>
-                    <li style="margin-top: 7px;" class="hidden-xs hidden-sm round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=es">ES</a></li>
+                    <li><a class="ahover" style="color: black;" href="satellite.php"><?PHP echo $txt["toSatellite"]; ?></a></li>
+                    <li><a class="ahover" style="color: black;" href="social.php"><?PHP echo $txt["toSocial"]; ?></a></li>
+                    <li><a class="ahover" style="color: black;" href="./blog"><?PHP echo $txt["toNews"]; ?></a></li>
+                    <li><a class="ahover" target="_blank" style="color: black;" href="http://mowisatinvest.mx"><?PHP echo $txt["toInvestors"]; ?></a></li>
+                    <li style="margin-top: 7px;" class="hidden-xs hidden-sm hidden-md round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=en">EN</a></li>
+                    <li style="margin-top: 7px;" class="hidden-xs hidden-sm hidden-md round"><a style="padding: 5px 5px 5px 5px; color: black;" href="?idiom=es">ES</a></li>
 
-                    <li style="text-align: center; text-align: -webkit-center;"><a class="hidden-md hidden-lg round" style="width: 39px; padding: 5px 5px 5px 5px; color: black; border-radius: 100%; text-align: center; text-align: -webkit-center; border: 2px solid gray; color: black;" href="?idiom=es">ES</a></li>
-                    <li style="text-align: center; text-align: -webkit-center;"><a class="hidden-md hidden-lg round" style="width: 39px; padding: 5px 5px 5px 5px; color: black; border-radius: 100%; text-align: center; text-align: -webkit-center; border: 2px solid gray; color: black;" href="?idiom=en">EN</a></li>
+                    <li class="ahover" style="text-align: center; text-align: -webkit-center;"><a class="hidden-lg round" style="width: 39px; padding: 5px 5px 5px 5px; color: black; border-radius: 100%; text-align: center; text-align: -webkit-center; border: 2px solid gray; color: black;" href="?idiom=es">ES</a></li>
+                    <li class="ahover" style="text-align: center; text-align: -webkit-center;"><a class="hidden-lg round" style="width: 39px; padding: 5px 5px 5px 5px; color: black; border-radius: 100%; text-align: center; text-align: -webkit-center; border: 2px solid gray; color: black;" href="?idiom=en">EN</a></li>
                 </ul>
             </div>
 
@@ -64,15 +64,15 @@
     <nav class="row header-three-style">
         <div style="z-index: 9999; padding: 0; margin: 0; -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); " class="col-md-12" id="third-header">
 
-            <div class="col-xs-12 col-sm-4 col-md-4 style-box">
+            <div class="col-xs-12 col-sm-12 col-md-4 style-box text-center">
                 <div class="inline-display"><a href="./aboutus.php"><img src="images/icon7.png" alt="question mark" /><?PHP echo $txt["whyMowisat"]; ?></a></div>
             </div>
 
-            <div class="col-xs-12 col-sm-4 col-md-4 style-box">
+            <div class="col-xs-12 col-sm-12 col-md-4 style-box text-center">
                 <div class="inline-display"><a href="./how-works.php"><img src="images/icon8.png" alt="gears" /><?PHP echo $txt["howWorks"]; ?></a></div>
             </div>
 
-            <div class="col-xs-12 col-sm-4 col-md-4 style-box">
+            <div class="col-xs-12 col-sm-12 col-md-4 style-box text-center">
                 <div class="inline-display"><a href="./partners.php"><img style="margin-right: 15px;" src="images/icon9.png" alt="partners" /><?PHP echo $txt["partners"]; ?></a></div>
             </div>
 

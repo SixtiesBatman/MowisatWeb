@@ -33,7 +33,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
     ?>
 
     <!-- INITIATES SLIDER -->        
-    <section class="jumbotron" style="padding-top: 0; margin-top: 0; height: 600px !important; margin-bottom: 0; background-image: url('images/tablet3.jpg')">
+    <section class="jumbotron" style="padding-top: 0; margin-top: 0; height: 600px !important; margin-bottom: 0; background-image: url('images/tablet4.jpg')">
 
         <div style="margin-right: 0; margin-top: 0px; height: 600px; background-color: black;  background: rgba(0,0,0,0.5)" class="row">
             <div class="col-sm-1"></div>
@@ -103,7 +103,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                 <div class="col-sm-12 col-md-7 big-box">
     
                     <div class="pad">
-                        <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["sat1"]; ?></h3>
+                        <h3 class="textoIndex" style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["sat1"]; ?></h3>
                         <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["sat2"]; ?></p>
                         <a href="satellite.php">
                             <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["sat3"]; ?></button>
@@ -133,7 +133,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="col-sm-12 col-md-7 big-box">
         
                         <div class="pad">
-                            <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["soc1"]; ?></h3>
+                            <h3 class="textoIndex" style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["soc1"]; ?></h3>
                             <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["soc2"]; ?></p>
                             <a href="social.php">
                                 <button style="color: black; background-color: transparent; border: 4px solid black; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["soc3"]; ?></button>
@@ -145,7 +145,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="col-sm-12 col-md-3 big-box logos">
                     
                             <div class="transform" style="text-align: center;">
-                                <img src="images/dish3.jpg" />
+                                <img src="images/ruralcom.jpg" />
                             </div>
             
                             <div class="md-hidden lg-hidden">
@@ -176,7 +176,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     </div>
 
                     <div class="transform" style="text-align: center;">
-                        <img src="images/dish3.jpg" />
+                        <img src="images/press_release_01_president.png" />
                     </div>
         
                 </div>                
@@ -184,7 +184,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                 <div class="col-sm-12 col-md-7 big-box">
     
                     <div class="pad">
-                        <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["mow1"]; ?></h3>
+                        <h3 class="textoIndex" style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["mow1"]; ?></h3>
                         <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["mow2"]; ?></p>
                         <a href="aboutus.php">
                             <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["mow3"]; ?></button>
@@ -258,7 +258,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="col-xs-12 col-sm-12 col-md-12">
 
                         <div class='image col-xs-6 col-sm-6 col-md-6'>
-                            <img style="text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.jpg" />
+                            <img style="text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.png" />
                         </div>
 
 
@@ -286,7 +286,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
         <section class="container contact-us-box">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4><?PHP echo $txt["contactUs"]; ?></h4>
+                    <h4 style="margin-top: 40px; margin-bottom: 40px;"><?PHP echo $txt["contactUs"]; ?></h4>
                 </div>
             </div>
             

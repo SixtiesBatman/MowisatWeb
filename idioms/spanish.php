@@ -27,17 +27,14 @@ $txt["sat2"] = "LLEVAMOS INTERNET POR SATELITE A LAS COMUNIDADES RURALES. QUEREM
 $txt["sat3"] = "¡Conoce el proyecto!";
 
 $txt["soc1"] = "Proyectos Sociales";
-$txt["soc2"] = "La conectividad permite el acceso a servicios diversos";
+$txt["soc2"] = "LA CONECTIVIDAD PERMITE EL ACCESO A SERVICIOS DIVERSOS PLANEAMOS LLEVARLOS Y MEJORAR LA CALIDAD DE VIDA DE LAS COMUNIDADES.";
 $txt["soc3"] = "¡Conoce más!";
 
 $txt["mow1"] = "Somos Mowisat Corp";
-$txt["mow2"] = "Un equipo de profesionales experimentados en telecomunicaciones con un gran sentido de la responsabilidad social.";
+$txt["mow2"] = "UN EQUIPO DE PROFESIONALES EXPERIMENTADOS EN TELECOMUNICACIONES CON UN GRAN SENTIDO DE LA RESPOSABILIDAD SOCIAL.";
 $txt["mow3"] = "Conoce a nuestro equipo";
 
 $txt["blogPost"] ="Mowisat Corporation es una compañía que trabaja con internet satelital
-para brindar servicios digitales y plataformas versátiles para la capacitación humana
-en diferentes sectores, industrias e iniciativas socioculturales
-como las comunidades marginadas. Mowisat Corporation es una compañía que trabaja con internet satelital
 para brindar servicios digitales y plataformas versátiles para la capacitación humana
 en diferentes sectores, industrias e iniciativas socioculturales
 como las comunidades marginadas.";
@@ -181,7 +178,7 @@ $txt["howHead"] = "¿Cómo funciona?";
 $txt["howP1"] = "Nuestro modelo hace posible llevar conexión a internet a zonas de difícil acceso.<br /><br />
 
 Proveemos internet de calidad por medio de la conexión del satelite con las antenas Dish, que a su vez, esparcen la señal a través de hotspots Wi-Fi.";
-$txt["howP2"] = "La felixibilidad de crear cualquier tipo de red Wi-Fi se ajusta a cualquier tipo de necesidad.<br /><br />
+$txt["howP2"] = "La fleixibilidad de crear cualquier tipo de red Wi-Fi se ajusta a distintos tipos de necesidades.<br /><br />
 
 Además nuestros diferentes paquetes hacen de la conexión a internet algo accesible, ya sea que se desee conectar una casa o una fábrica entera.";
 
@@ -205,7 +202,7 @@ $txt["govList2"] = "Licitaciones de banda ancha del gobierno general";
 $txt["govList3"] = "170,000 hotspots de banda ancha";
 $txt["govList4"] = "30,000 hotspots satelitales en áreas rurales";
 
-$txt["buttonSatelliteSocialRes"] = "Conoce nuestras iniciativas sociales";
+$txt["buttonSatelliteSocialRes"] = "ver iniciativas sociales";
 //terms.php 
 
 $txt["termsandconditions"] = "Términos y Condiciones";
