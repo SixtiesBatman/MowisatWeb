@@ -107,7 +107,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/zimmer.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/zimmer.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -126,7 +126,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -152,7 +152,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/chris.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/chris.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -171,7 +171,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='name'>
@@ -201,7 +201,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -220,7 +220,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='name'>
@@ -249,7 +249,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='nombre'>
@@ -268,7 +268,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/empresario.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/empresario.jpg" />
                     </div>
 
                     <div class='name'>
@@ -297,7 +297,7 @@
                 <div class="box-important z-depth-4 card-panel">
                     
                     <div class='image'>
-                        <img src="images/team/vlatko.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/vlatko.jpg" />
                     </div>
 
                     <div class='name'>
@@ -318,7 +318,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/emiliano.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/emiliano.jpg" />
                     </div>
 
                     <div class='name'>
@@ -343,7 +343,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/eder.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/eder.jpg" />
                     </div>
 
                     <div class='name'>
@@ -363,7 +363,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/david.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/david.jpg" />
                     </div>
 
                     <div class='name'>
@@ -388,7 +388,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/fabiola.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/fabiola.jpg" />
                     </div>
 
                     <div class='name'>
@@ -408,7 +408,7 @@
 
                 <div class="box-important z-depth-4 card-panel">
                     <div class='image'>
-                        <img src="images/team/ricardo.jpg" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/team/ricardo.jpg" />
                     </div>
 
                     <div class='name'>

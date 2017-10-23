@@ -74,7 +74,7 @@ include ''.dirname(__FILE__).'/template/header.php';
                     </a>
                 </div>
 
-            </div>
+            </div>3
 
             <div class="col-md-1"></div>
 

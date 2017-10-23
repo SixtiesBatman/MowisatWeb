@@ -95,7 +95,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                         </div>
 
                         <div class="transform" style="text-align: center;">
-                            <img src="images/dish3.jpg" />
+                            <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/dish3.jpg" />
                         </div>
         
                 </div>                
@@ -145,7 +145,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="col-sm-12 col-md-3 big-box logos">
                     
                             <div class="transform" style="text-align: center;">
-                                <img src="images/ruralcom.jpg" />
+                                <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/ruralcom.jpg" />
                             </div>
             
                             <div class="md-hidden lg-hidden">
@@ -176,7 +176,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     </div>
 
                     <div class="transform" style="text-align: center;">
-                        <img src="images/press_release_01_president.png" />
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/press_release_01_president.png" />
                     </div>
         
                 </div>                
@@ -258,7 +258,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="col-xs-12 col-sm-12 col-md-12">
 
                         <div class='image col-xs-6 col-sm-6 col-md-6'>
-                            <img style="text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.png" />
+                            <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.png" />
                         </div>
 
 
@@ -283,7 +283,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
     
         <!-- INITIATES CONTACT US BOX -->
         
-        <section class="container contact-us-box">
+        <section style="margin-bottom: 40px;" class="container contact-us-box">
             <div class="row">
                 <div class="col-sm-12">
                     <h4 style="margin-top: 40px; margin-bottom: 40px;"><?PHP echo $txt["contactUs"]; ?></h4>

@@ -182,7 +182,7 @@
                             <li style="display: block;"><?PHP echo $txt["residentList2"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["residentList3"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["residentList4"]; ?></li>
-                            <li class="logos"><img src="images/house.jpg" /></li>
+                            <li class="logos"><img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/house.jpg" /></li>
                         </ul>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                             <li style="display: block;"><?PHP echo $txt["busList4"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["busList5"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["busList6"]; ?></li>
-                            <li class="logos" style="text-align: center;"><img src="images/bus.jpg" /></li>
+                            <li class="logos" style="text-align: center;"><img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);"  src="images/bus.jpg" /></li>
                         </ul>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
                             <li style="display: block;"><?PHP echo $txt["govList2"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["govList3"]; ?></li>
                             <li style="display: block;"><?PHP echo $txt["govList4"]; ?></li>
-                            <li class="logos" style="text-align: center;"><img src="images/gov.jpg" /></li>
+                            <li class="logos" style="text-align: center;"><img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/gov.jpg" /></li>
                         </ul>
 
                     </div>
