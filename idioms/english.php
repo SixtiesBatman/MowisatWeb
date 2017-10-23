@@ -19,6 +19,8 @@ Broadband in Latin America for versatile use.<br />
 Powered by cutting edge connectivity solutions<br />
 for business processes optimization.";
 
+$txt["indexSubTitle"] = "Get in touch with Mowisat's projects";
+
 $txt["sat1"] = "Satellite Broadband";
 $txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AREAS. OUR OBJECTIVE IS TO CONNECT THE REST OF MEXICO TO THE INTERNET.";
 $txt["sat3"] = "Know our project!";
@@ -86,7 +88,7 @@ them and deliver them to areas without connectivity in Mexico";
 $txt["connect1"] = "Mowisat Corporation is bringing broadband connectivity to areas of difficult access in
 Mexico with the aim to connect and integrate them into the digital economy. Access to
 the digital economy will help rural population generate income from their communities
-and stop economic migration.y";
+and stop economic migration.<br /><br />";
 
 $txt["connect2"] = "Our aim is to empower a market of 57.1 million people who currently don’t have access
 to connectivity in Mexico. We believe we can facilitate new trends and help bring people
@@ -94,6 +96,29 @@ out of poverty, by giving them the tools to provide training and liquidity
 for entrepreneurial ventures via loans, investment, online working and crypto- financing
 as well as create new opportunities in the digital economy, locally, nationally and
 internationally.";
+
+$txt["connect3"] = "The Rural Education Program symbolizes an innovative response
+to the commitment to bring rural population in Mexico online by
+ameliorating their skillsets and enabling them to become active
+participants in the digital economy. <br /> <br />
+";
+
+$txt["connect4"] = "We are teaching how to code with Codecademy online platform. Our program consist in empowering the young through code, ability the can later offer in online freelancing platforms. At the same time, we will create the opportunities for enterprises to hire our students. <br /> <br />";
+
+$txt["connect5"] = "We are currently transforming the lives of 120 students from the
+Unidad Pedagógica Alejo Peralta (UPAP) and the Tecnológico de
+Estudios Superiores de Jocotitlán (TESJo) from the rural
+community of Pastejé teaching coding abilities and connecting
+them with online freelancing platforms. <br /> <br />";
+
+$txt["connect6"] = "Since more than
+57 million people are currently unconnected, this initiative
+introduces the benefits of the Digital Economy, such as:
+education, financial services, jobs, medical solutions, among
+others, generating more value to the communities at the same
+time that we open the door for new business opportunities.<br /><br />";
+
+$txt["connect7"] = "Our goal is to deploy a fully internet integrated economy supported by the deployment of Mexicoin ecosystem. This digital currency will be the corner stone for future initiatives development and will empowered the people with better and faster services that are currently unavailable or are poored quality.";
 
 $txt["eduRu1"] = "The Rural Education Program symbolizes an innovative response
 to the commitment to bring rural population in Mexico online by
@@ -112,11 +137,14 @@ $txt["cText"] = "Codecademy is an education initiative aimed at developing progr
 //how-works.php 
 
 $txt["how"] = "How it works?";
-$txt["description-how"] = "Improving Mexico's quality of life";
+$txt["description-how"] = "We connect rural communities to the internet";
 $txt["how-text1"] = "Connecting Mexico's unconnected areas to the internet";
 $txt["how-text2"] = "Bringing digital services: banking, saving, news, entertainment...";
 $txt["how-text3"] = "Educational initiatives: learning how to code, freelancing jobs...";
 $txt["how-text4"] = "Deployment of Mexicoin criptocurrency to fully integrate a rural Digital Economy";
+$txt["how-text5"] = "With the help of our partners, we bring internet connectivity to rural areas. First, we identify communities with no access to connectivity and work with them for the instalation of our Wi-Fi hotspots through an active management supported by the member of the community. Then, we provide the access to Mowisat network via different methods (data usage by time or through mobile apps like Pig.gi). After the internet is up and ready, we start our social initiatives aimed to improve the quality of life of their inhabitats.
+<br /><br />
+We are always in the search for partners that wish to make the vision of a fully connected Mexico a reality. Wether you are a business trying to get a rural market or a NGO that wants to make a really powerfull social impact, we are eager to meet you.";
 
 //partners.php 
 
@@ -155,13 +183,8 @@ $txt["aboutusTxt2"] = "Mowisat Corporation is a Canadian based company that work
 inter- net, the internet of things and digital services. Mowisat Corporation is
 founded by young entrepreneurs with expertise in the telecommunications and
 technological industry.";
-$txt["aboutusTxt22"] = "We provide satellite internet services based on the latest KA-Band technology,
-brin- ging to the market more capacity with cheaper prices. In the internet of
-things, we have developed a proprietary platform as a service (PaaS) that
-through configurability can be tailored to respond to the needs across all industry
-verticals through software as service (SaaS) solution. ";
 $txt["aboutusTxt3"] = "Management and Team";
-$txt["aboutusTxt4"] = "We are conformed by an experienced group with extensive expertise in telecommunications, satellite broadband operations, management, and social development. ";
+$txt["aboutusTxt4"] = "We are conformed by a professional group with extensive expertise in telecommunications, satellite broadband operations, management, and social development. ";
 $txt["aboutusTxt5"] = "PRESIDENT OF THE BOARD OF DIRECTORS - Founder of LEAP, former Chairman of EchoStar Satellite Corporation and Vice Chairman of EchoStar Communications Corporation.";
 $txt["aboutusTxt6"] = "CFO – Chief Financial Officer and Board Member for Mowisat. Director and Board Member of of Bridgemark Financial & Advisors Ltd., a boutique Private Equity & advisory firm with operations in Canada and London, UK. Entrepreneurial and founder of a collection of companies in the Renewable Energy, Encryption and Energy Storage companies (Both Private, Public).";
 $txt["aboutusTxt7"] = "COO - Formerly Officer for Economic affairs at UNOG Mission in Geneva. Has worked as project leader in charge of communications projects at Sovereign Solutions. Experienced in business development and telecommunications related projects";
@@ -218,6 +241,8 @@ $txt["govList1"] = "Goverment";
 $txt["govList2"] = "General Government broadband tenders";
 $txt["govList3"] = "170,000 hotspots broadband";
 $txt["govList4"] = "30,000 satellite hotspots in rural areas";
+
+$txt["buttonSatelliteSocialRes"] = "Meet our social initiatives";
 
 //terms.php 
 

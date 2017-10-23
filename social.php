@@ -34,12 +34,12 @@
     
     <!-- SECTION BEGINS -->
 
-    <section class='container-fluid'>
+    <section class='container-fluid connectivity-img'>
             
        <div class='row'>
-            <div class='col-xs-12 careers-img' style="background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url('images/ini.jpg');">
-                <div>
-                    <h1><?PHP echo $txt["socialInit"]; ?></h1>
+            <div class='col-xs-12 bgMeshParent' class="parallax-window" data-parallax="scroll" data-image-src="images/ini.jpg">
+                <div class="bgMesh">
+                    <h1 style="text-align: center; color: white; font-size: 2.0em !important; margin: 0; padding-top: 140px;"><?PHP echo $txt["socialInit"]; ?></h1>
                 </div>
             </div>           
         </div>
@@ -60,14 +60,16 @@
 
     <section class='container-fluid'>
 
-        <div style="height: 100px; background-color: #569EB6;" class='row'>
+        <div style="background-color: #569EB6;" class='row'>
         
             <div class="col-md-1"></div>
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
+            <p style="padding: 2em; text-align: center; font-size: 1.3em;">
                 <?PHP echo $txt["connect1"]; ?>
                 <?PHP echo $txt["connect2"]; ?>
+                </p>
 
             </div>    
 
@@ -83,7 +85,7 @@
             <div class='col-md-10'>
 
                 <div style="text-align: center;">
-                    <img style="height: 500px; width: 1000px;" src="images/step by step.png" />
+                    <img style="padding-top: 20px; padding-bottom: 20px; width: 80%;" src="images/step by step.png" />
                 </div>
 
             </div>
@@ -91,13 +93,17 @@
             <div class="col-md-1"></div>
                 
         </div>
-        <div style="height: 100px; background-color: #569EB6;" class='row'>
+        <div style="background-color: #569EB6;" class='row'>
         
             <div class="col-md-1"></div>
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
-                kyugbubikgnihukgk
+                <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+                <?PHP echo $txt["connect3"]; ?>
+                <?PHP echo $txt["connect4"]; ?>
+                <?PHP echo $txt["connect5"]; ?>
+                </p>
 
             </div>    
 
@@ -106,14 +112,14 @@
         </div>  
 
 
-        <div style="height: 100px;" class="row">
+        <div style="" class="row">
 
             <div class="col-md-1"></div>
 
             <div class='col-md-10'>
 
                 <div style="text-align: center;">
-                    <img style="margin-top: 5px; width: 200px;" src="images/step by step.png" />
+                    <img style="padding-top: 20px; padding-bottom: 20px; width: 80%;" src="images/codecademy rural.jpg" />
                 </div>
 
             </div>
@@ -121,13 +127,17 @@
             <div class="col-md-1"></div>
                 
         </div>
-        <div style="height: 100px; background-color: #569EB6;" class='row'>
+        <div style="background-color: #569EB6;" class='row'>
         
             <div class="col-md-1"></div>
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
-                kyugbubikgnihukgk
+                <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+                    
+                    <?PHP echo $txt["connect6"]; ?>
+                    <?PHP echo $txt["connect7"]; ?>
+                </p>
 
             </div>    
 
@@ -136,14 +146,14 @@
         </div>  
 
 
-        <div style="height: 100px;" class="row">
+        <div class="row">
 
             <div class="col-md-1"></div>
 
             <div class='col-md-10'>
 
                 <div style="text-align: center;">
-                    <img style="margin-top: 5px; width: 200px;" src="images/step by step.png" />
+                    <img style="padding-top: 20px; padding-bottom: 20px; width: 80%;" src="images/mexicoin.png" />
                 </div>
 
             </div>

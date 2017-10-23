@@ -73,7 +73,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
         
             <div class='row'>
                 <div class='col-xs-12 col-md-12'>
-                    <h3 style="text-align: center; font-size: 4em; margin: 1em 0;">Get in touch with Mowisat's projects</h3>
+                    <h3 style="text-align: center; font-size: 4em; margin: 1em 0;"><?PHP echo $txt["indexSubTitle"]; ?></h3>
                 </div>
             </div>
     
@@ -90,6 +90,10 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
 
                 <div class="col-sm-12 col-md-3 big-box logos">
                 
+                        <div class="md-hidden lg-hidden">
+                            <br /><br />
+                        </div>
+
                         <div class="transform" style="text-align: center;">
                             <img src="images/dish3.jpg" />
                         </div>
@@ -101,7 +105,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="pad">
                         <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["sat1"]; ?></h3>
                         <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["sat2"]; ?></p>
-                        <a href="https://pig.gi/">
+                        <a href="satellite.php">
                             <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["sat3"]; ?></button>
                         </a>
                     </div> 
@@ -131,7 +135,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                         <div class="pad">
                             <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["soc1"]; ?></h3>
                             <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["soc2"]; ?></p>
-                            <a href="https://pig.gi/">
+                            <a href="social.php">
                                 <button style="color: black; background-color: transparent; border: 4px solid black; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["soc3"]; ?></button>
                             </a>
                         </div> 
@@ -144,6 +148,10 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                                 <img src="images/dish3.jpg" />
                             </div>
             
+                            <div class="md-hidden lg-hidden">
+                                <br /><br />
+                            </div>
+                            
                     </div>                
     
                 <div class="hidden-sm-1 col-md-1"></div>
@@ -162,9 +170,14 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
 
                 <div class="col-sm-12 col-md-3 big-box logos">
                 
-                        <div class="transform" style="text-align: center;">
-                            <img src="images/dish3.jpg" />
-                        </div>
+
+                    <div class="md-hidden lg-hidden">
+                        <br /><br />
+                    </div>
+
+                    <div class="transform" style="text-align: center;">
+                        <img src="images/dish3.jpg" />
+                    </div>
         
                 </div>                
         
@@ -173,7 +186,7 @@ include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
                     <div class="pad">
                         <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["mow1"]; ?></h3>
                         <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["mow2"]; ?></p>
-                        <a href="https://pig.gi/">
+                        <a href="aboutus.php">
                             <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["mow3"]; ?></button>
                         </a>
                     </div> 

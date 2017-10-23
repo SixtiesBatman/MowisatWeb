@@ -39,7 +39,7 @@
     <section class='container-fluid connectivity-img'>
 
         <div class='row'>
-            <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/sat.jpg')">
+            <div class='col-xs-12 sat bgMeshParent' class="parallax-window" data-parallax="scroll" data-image-src="images/sat.jpg">
                 <div class="bgMesh">
                     <h1 style="font-size: 2.0em !important; margin: 0; padding-top: 140px;"><?PHP echo $txt["satelliteImageTitle"]; ?></h1>
             
@@ -77,7 +77,6 @@
             
             <div class="col-md-1"></div>
 
-
         </div>
 
     
@@ -87,21 +86,20 @@
 
             <div class="col-md-1"></div>
 
-        <div class="col-md-10">
+            <div class="col-md-10">
                 <div style="text-align: center;">
-                <img class="comp" src="images/Old-New.png" /> 
+                    <img style="padding-top: 20px; padding-bottom: 20px; width: 80%;" src="images/Old-New.png" /> 
                 </div>
-        </div>
+            </div>
                 
-        <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+
         </div>  
 
 
     <div class="row box-size blue">
 
         <div class="col-md-1"></div>
-
-
 
         <div class='col-md-10 big-box'>
 
@@ -135,25 +133,22 @@
 
         <div class="col-md-1"></div>
             
-        
-
-
     </div>
 
 
 
     <div class="row box-size">
-    <div class="col-md-1"></div>
-
-
-
-    <div class="col-md-10">
-        <div style="text-align: center;">
-            <img class="comp" src="images/key-comp.png" /> 
-        </div>
-    </div>
 
         <div class="col-md-1"></div>
+
+        <div class="col-md-10">
+            <div style="text-align: center;">
+                <img style="padding-top: 20px; padding-bottom: 20px; width: 80%;" src="images/key-comp.png" /> 
+            </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
     </div>
 
     <div class="row box-size blue">
@@ -208,14 +203,15 @@
                 
                 <div class="col-md-4 box-center">
                     <h2 class="more-mar"><?PHP echo $txt["govList1"]; ?></h2>
-                    <div class="list-lu">    
+                    <div class="list-lu">   
+
                         <ul style="text-align: center;" class="list-li">
-                                <li style="display: block;"><?PHP echo $txt["govList2"]; ?></li>
-                                <li style="display: block;"><?PHP echo $txt["govList3"]; ?></li>
-                                <li style="display: block;"><?PHP echo $txt["govList4"]; ?></li>
-                                <li class="logos" style="text-align: center;"><img src="images/gov.jpg" /></li>
-                            </ul>
-                        </div>    
+                            <li style="display: block;"><?PHP echo $txt["govList2"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["govList3"]; ?></li>
+                            <li style="display: block;"><?PHP echo $txt["govList4"]; ?></li>
+                            <li class="logos" style="text-align: center;"><img src="images/gov.jpg" /></li>
+                        </ul>
+
                     </div>
                     
                 </div> 
@@ -228,32 +224,25 @@
 
     </div>  
 
-    <div class="row box-size blue">
+    <div class="row box-size text-center">
 
         <div class="col-md-1"></div>
 
+        <div class='col-md-10 big-box text-center'>
 
-
-        <div class='col-md-10 big-box'>
-
-            <div>
-            papantla
+            <div class="col-md-12">
+                <a href="social.php">
+                    <button style="" class="btn btn-primary text-center"><?PHP echo $txt["buttonSatelliteSocialRes"]; ?></button>
+                </a>
             </div>
 
         </div>
 
         <div class="col-md-1"></div>
             
-
-    
     </div>
         
-
-
     <!-- ENDS SECTION -->
-
-
-
 
     <!-- INITIATES FOOTER -->
     

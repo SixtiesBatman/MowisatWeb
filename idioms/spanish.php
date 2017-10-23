@@ -20,6 +20,8 @@ Optimizamos procesos de negocio con lo<br />
 último en tecnología de punta.";
 $txt["botonAprendeMas"] = "APRENDE MÁS";
 
+$txt["indexSubTitle"] = "Conoce los proyectos de Mowisat";
+
 $txt["sat1"] = "Internet Satelital";
 $txt["sat2"] = "LLEVAMOS INTERNET POR SATELITE A LAS COMUNIDADES RURALES. QUEREMOS CONECTAR LO QUE RESTA DE MÉXICO AL INTERNET.";
 $txt["sat3"] = "¡Conoce el proyecto!";
@@ -77,19 +79,41 @@ Los Servicios Digitales van de la mano con el Internet Satelital. Llevaremos est
 
 $txt["connect1"] = "Mowisat Corp lleva Internet Satelital a áreas de difícil acceso con el opjetivo de conectar 
 comunidades rurales a la Economía Digital. Esta ayudará a que la población genere ingresos por medio de sus 
-habilidades y detenga la migración economómica.";
+habilidades y detenga la migración economómica.<br /><br />";
 $txt["connect2"] = "Nuestra meta es empoderar un mercado de 57.1 millones de personas que actualmente no tienen acceso a internet.
 Creemos poder facilitar nuevas formas de sacar a la gente de la pobreza dandoles las herramientas para capacitarlos en emprendimiento con prestamos, inversión, trabajo en línea y financiemiento con critpomonedas así como crear oportunidades en la Economía Digital local, nacional e internacionalmente.";
 
+$txt["connect3"] = "El Programa de Educación Rural simboliza una respuesta innovadora
+al compromiso de conectar a internet a la población rural en México,
+mejorar su conjunto de habilidades y permitirles que se vuelvan
+participantes activos en la Economía Digital. <br /> <br />";
+
+$txt["connect4"] = "Estamos enseñando cómo codificar con la plataforma en línea Codecademy. Nuestro programa consiste en empoderar a los jóvenes a través del código, capacidad que luego puede ofrecer en plataformas de trabajo freelancer en línea. Al mismo tiempo, crearemos oportunidades para que las empresas contraten a nuestros estudiantes. <br /> <br />";
+
+$txt["connect5"] = "Actualmente estamos transformando las vidas de 120 estudiantes de la
+Unidad Pedagógica Alejo Peralta (UPAP) y el Tecnológico de
+Estudios Superiores de Jocotitlán (TESJo) de la  comunidad rural
+de Pastejé enseñando habilidades de codificación y poniéndolos en contacto
+con plataformas en línea freelancing. <br /> <br />";
+
+$txt["connect6"] = "57 millones de personas no están conectadas actualmente, esta iniciativa
+presenta los beneficios de la Economía Digital, tales como:
+educación, servicios financieros, empleos, soluciones médicas, entre
+otros, generando más valor a las comunidades al mismo tiempo que abrimos  la puerta a nuevas oportunidades de negocio.<br /><br />";
+
+$txt["connect7"] = "Nuestro objetivo es desplegar una economía integrada totalmente en Internet respaldada por el despliegue del ecosistema Mexicoin. Esta moneda digital será la piedra angular para el desarrollo de futuras iniciativas y habilitará a las personas con servicios mejores y más rápidos que actualmente no están disponibles o son de baja calidad.";
 
 //how-works.php 
 
 $txt["how"] = "¿Cómo funciona?";
-$txt["description-how"] = "Mejorar la calidad de vida de México";
+$txt["description-how"] = "Conectamos comunidades rurales con internet";
 $txt["how-text1"] = "Conectar las areas sin internet del país";
 $txt["how-text2"] = "Llevar servicios digitales: banca, ahorro, noticias, entretenimiento...";
 $txt["how-text3"] = "Iniciativas educativas: aprender a programar, trabajos de freelancer...";
 $txt["how-text4"] = "Despliegue de la criptomoneda Mexicoin para integrar una Economía Digital rural completa";
+$txt["how-text5"] = "Con la ayuda de nuestros socios, traemos conectividad a Internet a las áreas rurales. En primer lugar, identificamos las comunidades que no tienen acceso a la conectividad y trabajamos con ellas para la instalación de nuestros puntos de conexión Wi-Fi a través de una administración activa respaldada por miembros de la comunidad. Luego, proporcionamos el acceso a la red Mowisat a través de diferentes métodos (uso de datos por tiempo o a través de aplicaciones móviles como Pig.gi). Después de que Internet esté instalado, comenzamos nuestras iniciativas sociales destinadas a mejorar la calidad de vida de sus habitantes.
+<br /><br />
+Siempre estamos en la búsqueda de socios que deseen hacer realidad la visión de un México completamente conectado. Si eres es un negocio que trata de obtener un mercado rural o una ONG que quiere tener un impacto social realmente poderoso, estamos ansiosos por conocerte.";
 
 //partners.php 
 
@@ -127,28 +151,23 @@ $txt["aboutusTxt1"] = "Más acerca de nosotros:";
 $txt["aboutusTxt2"] = "Mowisat Corporation es una compañía canadiense que trabaja con internet satelital, internet de las cosas y servicios digitales. Mowisat Corporation es
 fundada por jóvenes empresarios con experiencia en telecomunicaciones y
 industria tecnológica";
-$txt["aboutusTxt22"] = "Proporcionamos servicios de Internet por satélite basados ​​en la última tecnología de banda KA,
-jugando en el mercado con mayor capacidad con precios más baratos. Gracias al internet de
-las cosas, hemos desarrollado una plataforma propietaria como servicio (PaaS) que
-a través de la configuración que se adaptará para responder a las necesidades de toda la industria
-verticales mediante la solución de software como servicio (SaaS).";
 $txt["aboutusTxt3"] = "Administración y Equipo";
-$txt["aboutusTxt4"] = "Estamos conformados por un grupo experimentado con amplia experiencia en telecomunicaciones, operaciones de banda ancha por satélite, administración y desarrollo social.";
-$txt["aboutusTxt5"] = "Presidente del Consejo de Administración: fundador de LEAP, ex presidente de EchoStar Satellite Corporation y vicepresidente de EchoStar Communications Corporation.";
-$txt["aboutusTxt6"] = "Director Financiero - Director Financiero y Miembro de la Junta de Mowisat. Director y miembro de la junta directiva de Bridgemark Financial & Advisors Ltd., una empresa boutique de Private Equity & Advisory con operaciones en Canadá y Londres, Reino Unido. Emprendedor y fundador de una colección de empresas de Energía Renovable, Encriptación y Almacenamiento de Energía (tanto privadas como públicas).";
-$txt["aboutusTxt7"] = "Director de operaciones - Anteriormente oficial de Asuntos Económicos en la Misión de la ONUG en Ginebra. Ha trabajado como líder del proyecto a cargo de proyectos de comunicaciones en Sovereign Solutions. Experiencia en desarrollo de negocios y proyectos relacionados con telecomunicaciones.";
-$txt["aboutusTxt8"] = "Director de tecnología: gran experiencia en redes y programación, desarrollo de infraestructura y operaciones de TI: operaciones de red, desarrollo de aplicaciones y mantenimiento. Conocimientos avanzados de tecnología, análisis competitivos, tareas tecnológicas, asociación y planificación.";
-$txt["aboutusTxt9"] = "Miembro, Junta Directiva - Ex director financiero de EchoStar Satellite Broadcasting Corporation y ex presidente de EchoStar International Corporation, una subsidiaria de Dish Network Corp (anteriormente EchoStar Communications Corporation). Ex Director Financiero de Dish Network, una compañía holding de EchoStar Corp y Director de Operaciones. Carrera de 33 años con EchoStar: se desempeñó como director en juntas en París, Hong Kong, Denver, Cheseaux y Ciudad de México. Sirvió durante más de 8 años en el tablero de Dish Mexico para EchoStar.";
-$txt["aboutusTxt10"] = "CO-FUNDADOR: inversor ángel y asesor de innovación para startups. Desarrollo comercial internacional para Dish. Amplia experiencia en comunicaciones por satélite, conectividad móvil y televisión de pago en todo el mundo.";
-$txt["aboutusTxt11"] = "Empresario en serie, filántropo, consultor y experto en telecomunicaciones, relaciones internacionales e innovación. Director Ejecutivo de Sovereign Solutions SA, empresa líder centrada en estrategias de gobernanza, soluciones de desarrollo empresarial, gestión de riesgos y estrategias de inversión extranjera directa. Anteriormente Asesor estratégico para A Human Right, una ONG internacional, abogó por la expansión de las oportunidades económicas a través del acceso a internet y para cerrar la brecha digital mediante la expansión de la cobertura global de Internet por satélite.";
-$txt["aboutusTxt12"] = "JUNTA DIRECTIVA - 30 años de experiencia en la industria financiera; En la década de los 90 trabajó en varias firmas de Bay Street como Canarim Securities (ahora Canaccord), Levesque Beaubien Securities y Research Capital (ahora Mackie Research Capital) como trader de escritorio y como asesor de inversiones. En 2000, el Sr. Mitchell se mudó a Octagon Capital como Vicepresidente y Director administró la división minorista de Toronto y realizó financiamientos para empresas de CPC y pequeñas y microcap. Fundador de la serie WhiteKnight de Capital Pool Companies (3 han salido al mercado y cotizan en el TSXV).";
+$txt["aboutusTxt4"] = "Estamos conformados por un grupo de profesionales con amplia experiencia en telecomunicaciones, operaciones de banda ancha por satélite, administración y desarrollo social.";
+$txt["aboutusTxt5"] = "PRESIDENTE DEL CONSEJO DE ADMINISTRACIÓN: Fundador de LEAP, ex presidente de EchoStar Satellite Corporation y vicepresidente de EchoStar Communications Corporation.";
+$txt["aboutusTxt6"] = "DIRECTOR FINANCIERO - Director Financiero y Miembro de la Junta de Mowisat. Director y miembro de la junta directiva de Bridgemark Financial & Advisors Ltd., una empresa boutique de Private Equity & Advisory con operaciones en Canadá y Londres, Reino Unido. Emprendedor y fundador de una colección de empresas de Energía Renovable, Encriptación y Almacenamiento de Energía (tanto privadas como públicas).";
+$txt["aboutusTxt7"] = "DIRECTOR DE OPERACIONES - Anteriormente oficial de Asuntos Económicos en la Misión de la ONUG en Ginebra. Ha trabajado como líder del proyecto a cargo de proyectos de comunicaciones en Sovereign Solutions. Experiencia en desarrollo de negocios y proyectos relacionados con telecomunicaciones.";
+$txt["aboutusTxt8"] = "DIRECTOR DE TECNOLOGÍA: Gran experiencia en redes y programación, desarrollo de infraestructura y operaciones de TI: operaciones de red, desarrollo de aplicaciones y mantenimiento. Conocimientos avanzados de tecnología, análisis competitivos, tareas tecnológicas, asociación y planificación.";
+$txt["aboutusTxt9"] = "MIEMBRO, JUNTA DIRECTIVA - Ex director financiero de EchoStar Satellite Broadcasting Corporation y ex presidente de EchoStar International Corporation, una subsidiaria de Dish Network Corp (anteriormente EchoStar Communications Corporation). Ex Director Financiero de Dish Network, una compañía holding de EchoStar Corp y Director de Operaciones. Carrera de 33 años con EchoStar: se desempeñó como director en juntas en París, Hong Kong, Denver, Cheseaux y Ciudad de México. Sirvió durante más de 8 años en el tablero de Dish Mexico para EchoStar.";
+$txt["aboutusTxt10"] = "CO-FUNDADOR: Inversionista ángel y asesor de innovación para startups. Desarrollo comercial internacional para Dish. Amplia experiencia en comunicaciones por satélite, conectividad móvil y televisión de pago en todo el mundo.";
+$txt["aboutusTxt11"] = "CO-FUNDADOR: Empresario en serie, filántropo, consultor y experto en telecomunicaciones, relaciones internacionales e innovación. Director Ejecutivo de Sovereign Solutions SA, empresa líder centrada en estrategias de gobernanza, soluciones de desarrollo empresarial, gestión de riesgos y estrategias de inversión extranjera directa. Anteriormente, Asesor estratégico para A Human Right, una ONG internacional que aboga por la expansión de las oportunidades económicas a través del acceso a internet y para cerrar la brecha digital mediante la expansión de la cobertura global de Internet por satélite.";
+$txt["aboutusTxt12"] = "JUNTA DIRECTIVA - 30 años de experiencia en la industria financiera. En la década de los 90 trabajó en varias firmas de Bay Street como Canarim Securities (ahora Canaccord), Levesque Beaubien Securities y Research Capital (ahora Mackie Research Capital) como trader de escritorio y como asesor de inversiones. En 2000, el Sr. Mitchell se mudó a Octagon Capital como Vicepresidente y Director administró la división minorista de Toronto y realizó financiamientos para empresas de CPC y pequeñas y microcap. Fundador de la serie WhiteKnight de Capital Pool Companies (3 han salido al mercado y cotizan en el TSXV).";
 //Miembro de BOD para otros dos CPC y el CEO y director, además de 3 compañías listadas en TSXV en los sectores de tecnología, salud y finanzas alternativas.
 $txt["aboutusTxt13"] = "CONSEJERO SENIOR DEL CONSEJO DE ADMINISTRACIÓN - Ex miembro del Consejo de Transferencia Tecnológica de la Universidad Autónoma de Nuevo León. Participó en numerosas entidades gubernamentales. Anteriormente Director Gerente de la Asociación de Empresas de Tecnología de la Información (AETI) y Presidente y CEO de la Asociación de Corredores de Comercio Internacional de América del Norte (NAITCP). Posee un doctorado en Filosofía con especialización en Administración. Está desarrollando la Red de Integración e Inversión de Servicios Energéticos del Mundo (Red WESII).";
 $txt["aboutusTxt14"] = "DIRECTOR DE VENTAS - Amplia experiencia de gestión Comercial, América Latina y Ventas multifuncionales. Experiencia en mercados y culturas internacionales. Competente en enlace, negociación e informes a nivel B2B y de Gobierno. Habilidades fuertes en el desarrollo e implementación de procesos, así como en el análisis, la planificación estratégica y el desarrollo del personal.";
 $txt["aboutusTxt15"] = "GERENTE DE PROYECTOS - Especializado en desarrollo social, sustentabilidad y tecnología con más de 9 años de experiencia como voluntario y trabajador en comunidades periurbanas, rurales y urbanas. Educado en U.A.M., es responsable de identificar y crear vínculos con nuevas comunidades para oportunidades de negocios y generar vínculos entre organizaciones sociales y tecnológicas.";
 $txt["aboutusTxt16"] = "DESARROLLO DE NEGOCIOS - Joven ejecutivo talentoso con una amplia experiencia en tecnología, estrategias de desarrollo de negocios, investigación de mercado y economía financiera. Formado como economista en ITAM, México, es responsable de identificar nuevas oportunidades de ventas, lanzar servicios de Mowisat y mantener relaciones fructíferas con clientes existentes";
-$txt["aboutusTxt17"] = "Diseñadora industrial en CIDI UNAM, México. Con experiencia previa en soluciones para productos, servicios y presentaciones ejecutivas; así como proyectos rurales sociales para CCADET. Responsable de los asuntos de diseño, como el diseño web, la identidad corporativa y la investigación de productos o servicios dentro del proceso de planificación estratégica.";
-$txt["aboutusTxt18"] = "Comunicación y Marketing - Recibió su educación en la Universidad Nacional Autónoma de México (UNAM) con estudios en comunicaciones, marketing y publicidad. Experimentado en proyectos de Marketing Digital y programador autodidacta.";
+$txt["aboutusTxt17"] = "DISEÑO INDISTRIAL - Educada en CIDI UNAM, México. Con experiencia previa en soluciones para productos, servicios y presentaciones ejecutivas; así como proyectos rurales sociales para CCADET. Responsable de los asuntos de diseño, como el diseño web, la identidad corporativa y la investigación de productos o servicios dentro del proceso de planificación estratégica.";
+$txt["aboutusTxt18"] = "COMUNICACIÓN Y MARKETING - Recibió su educación en la Universidad Nacional Autónoma de México (UNAM) con estudios en comunicaciones, marketing y publicidad. Experimentado en proyectos de Marketing Digital y programador autodidacta.";
 
 //satellite.php
 $txt["satelliteTitle"] = "Banda ancha por satélite";
@@ -156,7 +175,7 @@ $txt["satelliteImageTitle"] = "Conectividad";
 $txt["satelliteSubTitle"] = "Internet Satelital de última generación";
 
 $txt["intro"] = "Introducción";
-$txt["introSub"] = "El lanzamiento del satelite Jupiter 2 satellite la nueva banda Ka que supera cualquier otra tecnología satelital en el mercado";
+$txt["introSub"] = "El lanzamiento del satelite Jupiter 2 transmite la nueva banda Ka que supera cualquier otra tecnología satelital en el mercado: entrega una conexión a internet de mayor calidad";
 
 $txt["howHead"] = "¿Cómo funciona?";
 $txt["howP1"] = "Nuestro modelo hace posible llevar conexión a internet a zonas de difícil acceso.<br /><br />
@@ -186,6 +205,7 @@ $txt["govList2"] = "Licitaciones de banda ancha del gobierno general";
 $txt["govList3"] = "170,000 hotspots de banda ancha";
 $txt["govList4"] = "30,000 hotspots satelitales en áreas rurales";
 
+$txt["buttonSatelliteSocialRes"] = "Conoce nuestras iniciativas sociales";
 //terms.php 
 
 $txt["termsandconditions"] = "Términos y Condiciones";

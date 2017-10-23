@@ -38,7 +38,7 @@
     <section class='container-fluid connectivity-img'>
 
         <div class='row'>
-            <div class='col-xs-12 sat bgMeshParent' style="background-image: url('images/works.png')">
+            <div class='col-xs-12 sat bgMeshParent' class="parallax-window" data-parallax="scroll" data-image-src="images/works.png">
                 <div class="bgMesh">
                     <h1 style="font-size: 2.0em !important; margin: 0; padding-top: 110px;"><?PHP echo $txt["how"]; ?></h1>
                 </div>
@@ -61,26 +61,14 @@
     <section class='container-fluid'>
 
     <div class='row box-size'>
-    
-        <div class="col-md-1"></div>
 
-        <div class='col-md-3 big-box'>
+        <div class='col-md-12 text-center big-box'>
 
-            <div class="logos">
-                <img src="images/rural.jpg" /> 
+            <div>
+                <img style="padding-top: 20px; padding-bottom: 20px; width: 80%;" src="images/mapa.png" /> 
             </div>
 
         </div>    
-
-        <div class="col-md-7 big-box margin-short">
-
-            <div>
-                <p><?PHP echo $txt["how-text1"]; ?></p>  
-            </div>
-
-        </div>
-
-        <div class="col-md-1"></div>
 
     </div>  
 
@@ -91,20 +79,13 @@
         
         
                 
-        <div class="col-md-7 big-box margin-big">
+        <div class="col-md-10 big-box">
 
             <div>
-                <p><?PHP echo $txt["how-text2"]; ?></p>
+                <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+                  <?PHP echo $txt["how-text5"]; ?>
+                </p>
             </div>    
-
-        </div>
-
-
-        <div class='col-md-3 logos big-box'>
-
-            <div>
-            <img src="images/services.jpg" />
-            </div>
 
         </div>
 
@@ -115,62 +96,6 @@
 
     </div>
 
-
-    <div class='row box-size'>
-    
-        <div class="col-md-1"></div>
-
-        <div class='col-md-3 big-box'>
-
-            <div class="logos">
-                <img src="images/edu.jpg" /> 
-            </div>
-
-        </div>    
-
-        <div class="col-md-7 big-box margin-short">
-
-            <div>
-                <p><?PHP echo $txt["how-text3"]; ?></p>  
-            </div>
-
-        </div>
-
-        <div class="col-md-1"></div>
-
-    </div>  
-
-
-    <div class="row box-size blue">
-
-        <div class="col-md-1"></div>
-        
-        
-                
-        <div class="col-md-7 big-box margin-big">
-
-            <div>
-                <p><?PHP echo $txt["how-text4"]; ?></p>
-            </div>    
-
-        </div>
-
-
-        <div class='col-md-3 big-box'>
-
-            <div class="logos">
-            <img src="images/money.jpg" />
-            </div>
-
-        </div>
-
-        <div class="col-md-1"></div>
-            
-        
-
-
-    </div>
-        
 
 
     <!-- ENDS SECTION -->

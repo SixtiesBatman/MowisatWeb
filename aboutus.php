@@ -31,7 +31,7 @@
 
     <!-- INITIATES CONTAINER SECTION -->
 
-    <section class='container-fluid aboutus-pic' style="padding-top: 0; margin-top: 0; height: 300px !important; margin-bottom: 0;"  class="parallax-window" data-parallax="scroll" data-image-src="images/aboutus-sat.jpg">
+    <section class='container-fluid aboutus-pic' style="padding-top: 0; margin-top: 0; height: 300px !important; margin-bottom: 0;" class="parallax-window" data-parallax="scroll" data-image-src="images/aboutus-sat.jpg">
         <div style="margin-right: 0; margin-top: 0px; height: 300px; background-color: black;  background: rgba(0,0,0,0.5)" class='row'>
 
             <div class="xs-hidden col-md-1"></div>
@@ -61,7 +61,6 @@
             <div class='col-xs-12 col-sm-10 col-md-10 letter-size'>
                 
                 <h3 style="margin-top: 40px; margin-bottom: 40px; color: white !important; font-size: 2em;"><?PHP echo $txt["aboutusTxt2"]; ?></h3>
-                <h3 style="margin-top: 40px; margin-bottom: 40px; color: white !important; font-size: 1.3em;"><?PHP echo $txt["aboutusTxt22"]; ?></h3>
             
             </div>
 
