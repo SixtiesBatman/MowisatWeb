@@ -13,7 +13,7 @@ $txt["partners"] = "NUESTROS SOCIOS";
 
 //index.php
 
-$txt["propuestaDeValor"] = "Conectar cualquier cosa <br/>en cualquier lugar.";
+$txt["propuestaDeValor"] = "Connecting Anything, <br/>Anywhere.";
 $txt["descripcionPropuestaDeValor"] = "Mowisat Corp comercializa internet satelital<br /> 
 en América Latina con diferentes propósitos.<br /> 
 Optimizamos procesos de negocio con lo<br /> 
