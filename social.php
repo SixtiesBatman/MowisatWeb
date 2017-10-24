@@ -66,7 +66,9 @@
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
-            <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+            <h1 class="textoSocialTitle" style="margin-top: 60px;"><?PHP echo $txt["connectTitle1"]; ?></h1>
+
+            <p class="textoSocial2" style="padding: 2em; text-align: center;">
                 <?PHP echo $txt["connect1"]; ?>
                 <?PHP echo $txt["connect2"]; ?>
                 </p>
@@ -99,7 +101,9 @@
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
-                <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+                <h1 class="textoSocialTitle" style="margin-top: 60px;"><?PHP echo $txt["connectTitle2"]; ?></h1>
+
+                <p class="textoSocial2" style="padding: 2em; text-align: center; font-size: 1.3em;">
                 <?PHP echo $txt["connect3"]; ?>
                 <?PHP echo $txt["connect4"]; ?>
                 <?PHP echo $txt["connect5"]; ?>
@@ -133,7 +137,9 @@
 
             <div style="text-align: center; color: white;" class='col-md-10'>
 
-                <p style="padding: 2em; text-align: center; font-size: 1.3em;">
+                <h1 class="textoSocialTitle" style="margin-top: 60px;"><?PHP echo $txt["connectTitle3"]; ?></h1>
+
+                <p class="textoSocial2" style="padding: 2em; text-align: center; font-size: 1.3em;">
                     
                     <?PHP echo $txt["connect6"]; ?>
                     <?PHP echo $txt["connect7"]; ?>

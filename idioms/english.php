@@ -77,10 +77,10 @@ $txt["policiesTerms"] = "Policies and Terms";
 $txt["socialInit"] = "Social Initiatives";
 $txt["socialInit-desc"] = "Our core belief is that through digital inclusion we can increase the wellbeing of
 marginalized communities. Integrate them in the Digital Economy and through
-online platforms for workshops and training to employ them<br /><br />
+online platforms for workshops and training to employ them.<br /><br />
 
 Digital Services go hand in hand with Satellite Broadband. We intend to provide
-them and deliver them to areas without connectivity in Mexico";
+them and deliver them to areas without connectivity in Mexico.";
 
 $txt["connect1"] = "Mowisat Corporation is bringing broadband connectivity to areas of difficult access in
 Mexico with the aim to connect and integrate them into the digital economy. Access to
@@ -100,7 +100,7 @@ ameliorating their skillsets and enabling them to become active
 participants in the digital economy. <br /> <br />
 ";
 
-$txt["connect4"] = "We are teaching how to code with Codecademy online platform. Our program consist in empowering the young through code, ability the can later offer in online freelancing platforms. At the same time, we will create the opportunities for enterprises to hire our students. <br /> <br />";
+$txt["connect4"] = "We are teaching how to code with Codecademy online platform. Our program consist in empowering the young through code, ability they can later offer in online freelancing platforms. At the same time, we will create the opportunities for enterprises to hire our students. <br /> <br />";
 
 $txt["connect5"] = "We are currently transforming the lives of 120 students from the
 Unidad Pedagógica Alejo Peralta (UPAP) and the Tecnológico de
@@ -131,6 +131,10 @@ them with online freelancing platforms.";
 $txt["codecademy"] = "Codecademy";
 $txt["cText"] = "Codecademy is an education initiative aimed at developing programming professionals through unconventional methods of learning. It is a web platform, both with offline and online abilities that is geared towards creating professionals within six months. Mowisat is bringing tailored education for the future programmers of Mexico.";
 
+$txt["connectTitle1"] = "Connecting Anywhere";
+$txt["connectTitle2"] = "Educational Platforms";
+$txt["connectTitle3"] = "Digital Services";
+
 //how-works.php 
 
 $txt["how"] = "How it works?";
@@ -139,7 +143,7 @@ $txt["how-text1"] = "Connecting Mexico's unconnected areas to the internet";
 $txt["how-text2"] = "Bringing digital services: banking, saving, news, entertainment...";
 $txt["how-text3"] = "Educational initiatives: learning how to code, freelancing jobs...";
 $txt["how-text4"] = "Deployment of Mexicoin criptocurrency to fully integrate a rural Digital Economy";
-$txt["how-text5"] = "With the help of our partners, we bring internet connectivity to rural areas. First, we identify communities with no access to connectivity and work with them for the instalation of our Wi-Fi hotspots through an active management supported by the member of the community. Then, we provide the access to Mowisat network via different methods (data usage by time or through mobile apps like Pig.gi). After the internet is up and ready, we start our social initiatives aimed to improve the quality of life of their inhabitats.
+$txt["how-text5"] = "With the help of our partners, we bring internet connectivity to rural areas. First, we identify communities with no access to connectivity and work with them for the instalation of our Wi-Fi hotspots through an active management supported by the members of the community. Then, we provide the access to Mowisat network via different methods (data usage by time or through mobile apps like Pig.gi). After the internet is up and ready, we start our social initiatives aimed to improve the quality of life of their inhabitats.
 <br /><br />
 We are always in the search for partners that wish to make the vision of a fully connected Mexico a reality. Wether you are a business trying to get a rural market or a NGO that wants to make a really powerfull social impact, we are eager to meet you.";
 
@@ -177,7 +181,7 @@ $txt["aboutusTitle"] = "About us";
 $txt["aboutusTitle2"] = "<center><h2 style='color: white;'>About us</h2></center>";
 $txt["aboutusTxt1"] = "Know more about us:";
 $txt["aboutusTxt2"] = "Mowisat Corporation is a Canadian based company that works with satellite
-inter- net, the internet of things and digital services. Mowisat Corporation is
+internet, the internet of things and digital services. Mowisat Corporation is
 founded by young entrepreneurs with expertise in the telecommunications and
 technological industry.";
 $txt["aboutusTxt3"] = "Management and Team";
@@ -191,7 +195,7 @@ $txt["aboutusTxt10"] = "CO-FOUNDER – Angel investor and an innovation advisor 
 $txt["aboutusTxt11"] = "CO-FOUNDER - Serial entrepreneur, philanthropist, consultant and expert in telecommunications, international relations, and innovation. Executive Director of Sovereign Solutions SA and formerly strategic Advisor for A Human Right, an international NGO, advocated for the expansion of economic opportunities through internet access.";
 $txt["aboutusTxt12"] = "BOARD OF DIRECTORS – 30 years of experience in financial industry: has worked at a number of Bay street firms such as Canarim Securities ( now Canaccord), Levesque Beaubien Securities,  and Research Capital ( now Mackie Research Capital), Octagon Capital. Founder of the WhiteKnight series of Capital Pool Companies (3 have gone to market and listed on the TSXV).";
 // BOD member for two other CPC’s and the CEO and director in addition to 3 TSXV listed companies in the sectors of technology, healthcare and alternative finance.
-$txt["aboutusTxt13"] = "SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former member of the Council of Technological Transfer of the Autonomous University of Nuevo Leon. Participated in numerous government entities. Formerly Managing Directorof the Association of Information Technology Companies (AETI) and President and CEO of the North American International Trade Corridor Partnership (NAITCP). Holds a PhD in Philosophy with Specialization in Administration. Is developing The World Energy Services Integration and Investment Network (WESII Network).";
+$txt["aboutusTxt13"] = "SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former member of the Council of Technological Transfer of the Autonomous University of Nuevo Leon. Participated in numerous government entities. Formerly Managing Director of the Association of Information Technology Companies (AETI) and President and CEO of the North American International Trade Corridor Partnership (NAITCP).";
 $txt["aboutusTxt14"] = "SALES DIRECTOR – Extensive management experience across multi-functional Commercial, Latin America and Sales. Experience in international markets and cultures. Competent in liaising, negotiating and reporting at B2B and Government level. Strong skills in process development and implementation, as well as analysis, strategy planning and staff development. ";
 $txt["aboutusTxt15"] = "PROJECT MANAGER - Specialized in social development, sustainability and technology with more than 9 years of experience volunteering and working in periurban, rural and urban communities. Educated in U.A.M, he is responsible to identify and create bonds with new communities for business opportunities, as well as links between social and technological organizations.";
 $txt["aboutusTxt16"] = "BUSINESS DEVELOPMENT - Young talented executive with a diverse background in technology, business development strategies, market research, and financial economics. Trained as an economist at ITAM, Mexico, he is responsible for identifying new sales leads, pitching Mowisat´s services, and maintaining fruitful relationships with existing customers";

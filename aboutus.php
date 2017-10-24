@@ -75,7 +75,7 @@
         <div class='row'>
 
             <div class='col-xs-12 col-sm-12 col-md-12 text-center'><br />
-                <img style="margin-top: 40px; margin-bottom: 40px; min-height: 350px; min-width: 350px; width: 50% !important;" src="images/Corporate Structure.png" />
+                <img class="imagenAboutusStrct" style="margin-top: 40px; margin-bottom: 40px;" src="images/Corporate Structure.png" />
             </div>
 
         </div>
