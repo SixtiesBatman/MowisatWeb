@@ -26,7 +26,7 @@ $txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AR
 $txt["sat3"] = "Know our project!";
 
 $txt["soc1"] = "Social Projects";
-$txt["soc2"] = "CONNECTIVITY ALLOWS THE ACCESS TO DIFFERENT SERVICES. WE INTENT TO BRING THEM AND IMPROVE COMMUNITIES QUALITY OF LIFE";
+$txt["soc2"] = "CONNECTIVITY ALLOWS THE ACCESS TO DIFFERENT SERVICES. WE INTENT TO BRING THEM AND IMPROVE COMMUNITIES QUALITY OF LIFE.";
 $txt["soc3"] = "Know more!";
 
 $txt["mow1"] = "Meet Mowisat Corp";
@@ -219,7 +219,7 @@ $txt["howP2"] = "The fleixibility of creating any kind of Wi-Fi network suits di
 
 Also our packages make internet connectivity affordable for any project, wether you want to connect a house or to connect a factory.";
 
-$txt["residentHead"] = "Residential, Goverment & Business";
+$txt["residentHead"] = "Residential, Government & Business";
 $txt["residentSubHead"] = "Facility access to broadband in conjunction with our partner.";
 
 $txt["residentList1"] = "Residential";
@@ -234,7 +234,7 @@ $txt["busList4"] = "Advertisement revenue generation model";;
 $txt["busList5"] = "Redundancy, Backhaul";
 $txt["busList6"] = "Hotspots Mobile Banking";
 
-$txt["govList1"] = "Goverment";
+$txt["govList1"] = "Government";
 $txt["govList2"] = "General Government broadband tenders";
 $txt["govList3"] = "170,000 hotspots broadband";
 $txt["govList4"] = "30,000 satellite hotspots in rural areas";

@@ -13,17 +13,17 @@ $direccion_principal_config = "mowisatinvest.mx";
 /*Base de datos*/
 
 $db_server = "localhost";
-//$db_user = "root";
-//$db_passwd = "";
-//$db_name = "mowisatwebblog";
+$db_user = "root";
+$db_passwd = "";
+$db_name = "mowisatwebblog";
 
 //$db_user = "rtydgf345refd";
 //$db_passwd = "irutyh4879yer394";
 //$db_name = "mowisatweb";
 
-$db_user = "fguyer4398re";
-$db_passwd = "eruthr3847r9weiug";
-$db_name = "mowisatinvest";
+//$db_user = "fguyer4398re";
+//$db_passwd = "eruthr3847r9weiug";
+//$db_name = "mowisatinvest";
 
 /*Fin Base de datos*/
 
