@@ -135,7 +135,7 @@ Creemos que podemos ayudar a revertir la actual falta de conectividad en México
 //vision.php
 
 $txt["our-vision"] = "Visión";
-$txt["description-vision"] = "Nuestro objetivo es convertirnos en el proveedor más grande y más asequible de servicios de telecomunicaciones y soluciones de IoT PaaS en América Latina para optimizar procesos comerciales.<br /><br />
+$txt["description-vision"] = "Nuestro objetivo es convertirnos en el proveedor más grande y más asequible de servicios de telecomunicaciones en América Latina para optimizar procesos comerciales.<br /><br />
 
 Tenemos un fuerte compromiso con nuestros proyectos sociales: nuestro objetivo es ofrecer conectividad a internet, plataformas educativas y contenido de valor a las comunidades de bajos ingresos para que sus habitantes tengan mayores oportunidades de capacitación y crecimiento.";
 
