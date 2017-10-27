@@ -26,6 +26,10 @@
 <link rel="stylesheet" href="styles/font-awesome.css">
 <link rel="stylesheet" href="styles/fonts-apply.css">
 
+
+<!-- jQuery library -->
+<script src="js/parallax.min.js"></script>
+
 <style>
 .container-fluid{
     padding-right: 0 !important;
@@ -111,8 +115,8 @@ function getLastPostBlog(){
 
                         var readBlog = response.guid.split("/blog/");
 
-                        $("#titleBlog").html(response.title);
-                        $("#contentBlog").html(response.content + "...");
+                        //$("#titleBlog").html(response.title);
+                        //$("#contentBlog").html(response.content + "...");
                         $("#readBlog").attr("href","blog/" + readBlog[1]);
                         $("#readBlog").css("display","");
                         } else {

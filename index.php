@@ -1,8 +1,9 @@
 <?php
 
-    include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
-    include ''.dirname(__FILE__).'/scripts/utils/log.php';
-    
+include ''.dirname(__FILE__).'/scripts/utils/idiom.php';
+include ''.dirname(__FILE__).'/scripts/utils/log.php';
+//include ''.dirname(__FILE__).'/scripts/utils/conexionBlog.php';
+
     $log = new LoggerPhp();
     $log->write_log("[Index]","Debug");
 ?>
@@ -19,6 +20,9 @@
         <style>
             a {color: gray}
             a:hover {text-decoration: none; color: gray};
+            .big-box div {
+                margin: 4.4em 0;
+            }
         </style>
 
     </head>
@@ -29,7 +33,7 @@
     ?>
 
     <!-- INITIATES SLIDER -->        
-    <section class="jumbotron" style="padding-top: 0; margin-top: 0; height: 600px !important; margin-bottom: 0; background-image: url('images/tablet3.jpg')">
+    <section class="jumbotron" style="padding-top: 0; margin-top: 0; height: 600px !important; margin-bottom: 0; background-image: url('images/tablet4.jpg')">
 
         <div style="margin-right: 0; margin-top: 0px; height: 600px; background-color: black;  background: rgba(0,0,0,0.5)" class="row">
             <div class="col-sm-1"></div>
@@ -69,7 +73,7 @@
         
             <div class='row'>
                 <div class='col-xs-12 col-md-12'>
-                    <h3 style="text-align: center; font-size: 4em; margin: 1em 0;">Get in touch with Mowisat's projects</h3>
+                    <h3 style="text-align: center; font-size: 4em; margin: 1em 0;"><?PHP echo $txt["indexSubTitle"]; ?></h3>
                 </div>
             </div>
     
@@ -86,8 +90,12 @@
 
                 <div class="col-sm-12 col-md-3 big-box logos">
                 
+                        <div class="md-hidden lg-hidden">
+                            <br /><br />
+                        </div>
+
                         <div class="transform" style="text-align: center;">
-                            <img src="images/dish3.jpg" />
+                            <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/dish3.jpg" />
                         </div>
         
                 </div>                
@@ -95,9 +103,9 @@
                 <div class="col-sm-12 col-md-7 big-box">
     
                     <div class="pad">
-                        <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["sat1"]; ?></h3>
+                        <h3 class="textoIndex" style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["sat1"]; ?></h3>
                         <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["sat2"]; ?></p>
-                        <a href="https://pig.gi/">
+                        <a href="satellite.php">
                             <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["sat3"]; ?></button>
                         </a>
                     </div> 
@@ -125,9 +133,9 @@
                     <div class="col-sm-12 col-md-7 big-box">
         
                         <div class="pad">
-                            <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["soc1"]; ?></h3>
+                            <h3 class="textoIndex" style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["soc1"]; ?></h3>
                             <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["soc2"]; ?></p>
-                            <a href="https://pig.gi/">
+                            <a href="social.php">
                                 <button style="color: black; background-color: transparent; border: 4px solid black; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["soc3"]; ?></button>
                             </a>
                         </div> 
@@ -137,9 +145,13 @@
                     <div class="col-sm-12 col-md-3 big-box logos">
                     
                             <div class="transform" style="text-align: center;">
-                                <img src="images/dish3.jpg" />
+                                <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/ruralcom.jpg" />
                             </div>
             
+                            <div class="md-hidden lg-hidden">
+                                <br /><br />
+                            </div>
+                            
                     </div>                
     
                 <div class="hidden-sm-1 col-md-1"></div>
@@ -158,18 +170,23 @@
 
                 <div class="col-sm-12 col-md-3 big-box logos">
                 
-                        <div class="transform" style="text-align: center;">
-                            <img src="images/dish3.jpg" />
-                        </div>
+
+                    <div class="md-hidden lg-hidden">
+                        <br /><br />
+                    </div>
+
+                    <div class="transform" style="text-align: center;">
+                        <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);" src="images/press_release_01_president.png" />
+                    </div>
         
                 </div>                
         
                 <div class="col-sm-12 col-md-7 big-box">
     
                     <div class="pad">
-                        <h3 style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["mow1"]; ?></h3>
+                        <h3 class="textoIndex" style="font-size: 4em; margin: 1em;  text-align: center;"><?PHP echo $txt["mow1"]; ?></h3>
                         <p style="text-aling: center; padding: 0 2em;"><?PHP echo $txt["mow2"]; ?></p>
-                        <a href="https://pig.gi/">
+                        <a href="aboutus.php">
                             <button style="color: white; background-color: transparent; border: 4px solid white; border-radius: 2em; font-size: 1em; text-align: center; text-decoration: none; display: inline-block; padding: 0.35em 1.5em; margin: 2em;"><?PHP echo $txt["mow3"]; ?></button>
                         </a>
                     </div> 
@@ -193,47 +210,83 @@
         
         <!-- FIRST BLOG BOX -->
         <section class="container-fluid blog-box">
-            <div class="row">
+        <div class="row">
+            
+            <div class="col-sm-1"></div>
+            
+            <div class="col-sm-5 blog-new">
+                <h4 class="margin">BLOG</h4>
+
+                <?php
+/*
+                base_de_datos_utf_8($conn);
+                $query = $conn->query("select post_content, post_title, guid from wp_posts WHERE post_type='post' ORDER BY ID DESC LIMIT 5") OR DIE(mysqli_error($conn));
+                if($query->num_rows>0){
+                    while($row=$query->fetch_assoc()){
+                        $title = $row["post_title"];
+                        ?>
+                        
+                        <h5 id="titleBlog">
+                            <a style="color: #85A0CF;" href="<?PHP echo $row["guid"]; ?>"><?PHP echo $title; ?></a>
+                        </h5>
+
+                        <?PHP
+                    }
+                }
+*/
+                ?>
                 
-                <div class="col-sm-1"></div>
+                <p class="blog-p padding-right" id="contentBlog"></p>
+                <a style="display: none;" href="" id="readBlog">
+                    <button>Read more</button>
+                </a>
+            </div>
+            
+            
+            
+    <!-- SECOND BLOG BOX -->        
+            <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
+                <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
+                <div>
                 
-                <div class="col-sm-5 blog-new">
-                    <h4 class="margin">BLOG</h4>
-                    <h5 class="blue" id="titleBlog">Loading....</h5>
-                    <p class="blog-p padding-right" id="contentBlog"></p>
-                    <a style="display: none;" href="" id="readBlog">
-                        <button>Read more</button>
-                    </a>
+                <div class="row">
+                    <img style="margin-left: 100px;" src="images/name-location.png" />
                 </div>
-                
-                
-                
-        <!-- SECOND BLOG BOX -->        
-                <div style="margin-bottom: 20px;" class="col-sm-5 blog-second">
-                    <p class="blog-p margin padding-left"><?PHP echo $txt["blogPost"]; ?></p>
-                    <div>
-                        
-                            <div class="">
-                                <img src="images/name-location.png" />
-                            </div>
-                         
-                        
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+
+                        <div class='image col-xs-6 col-sm-6 col-md-6'>
+                            <img style="box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); text-align: center; border-radius: 100%; height: 10em; width: 10em;" src="images/people/josefina.png" />
+                        </div>
+
+
+                        <div class='image col-xs-6 col-sm-6 col-md-6 text-center'>
+                            <b>Josefina<br />
+                            Tizilingo, CDMX</b>
+                        </div>
+
                     </div>
                 </div>
-        
-                <div class="col-sm-1"></div>
-                 
+                
             </div>
-        </section>
-        
-        <!-- ENDS BLOG BOX -->
-        
+        </div>
+    
+            <div class="col-sm-1"></div>
+             
+        </div>
+    </section>
+    
+    <!-- ENDS BLOG BOX -->
+    
+    
         <!-- INITIATES CONTACT US BOX -->
         
-        <section class="container contact-us-box">
+        <section style="margin-bottom: 40px;" class="container contact-us-box">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4><?PHP echo $txt["contactUs"]; ?></h4>
+                    <h4 style="margin-top: 40px; margin-bottom: 40px;"><?PHP echo $txt["contactUs"]; ?></h4>
                 </div>
             </div>
             

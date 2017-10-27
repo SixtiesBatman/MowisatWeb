@@ -19,16 +19,18 @@ Broadband in Latin America for versatile use.<br />
 Powered by cutting edge connectivity solutions<br />
 for business processes optimization.";
 
+$txt["indexSubTitle"] = "Mowisat's projects";
+
 $txt["sat1"] = "Satellite Broadband";
 $txt["sat2"] = "WE ARE BRINGING AFFORDABLE INTERNET CONNECTIVITY TO THE RURAL AREAS. OUR OBJECTIVE IS TO CONNECT THE REST OF MEXICO TO THE INTERNET.";
 $txt["sat3"] = "Know our project!";
 
-$txt["soc1"] = "Social Project";
-$txt["soc2"] = "Connectivity allows the access to different services.";
+$txt["soc1"] = "Social Projects";
+$txt["soc2"] = "CONNECTIVITY ALLOWS THE ACCESS TO DIFFERENT SERVICES. WE INTENT TO BRING THEM AND IMPROVE COMMUNITIES QUALITY OF LIFE.";
 $txt["soc3"] = "Know more!";
 
 $txt["mow1"] = "Meet Mowisat Corp";
-$txt["mow2"] = "We are a highly experienced group of people in telecommunications with a great sense of social responsability.";
+$txt["mow2"] = "WE ARE A HIGHLY EXPERIENCED GROUP OF PEOPLE IN TELECOMMUNICATIONS WITH A GREAT SENSE OF SOCIAL RESPONSABILITY.";
 $txt["mow3"] = "Meet the team";
 
 $txt["botonAprendeMas"] = "Learn more.";
@@ -48,10 +50,7 @@ $txt["botonEnviar"] = "SEND";
 $txt["blogPost"] = "Mowisat Corporation is a company which works with satellite internet connectivity
 to deliver digital services and versatile platforms for human capacity
 development to different sectors, industries, and sociocultural initiatives
-such as marginalized communities. Mowisat Corporation is a company which
-works with satellite internet connectivity to deliver digital services and versatile
-platforms for human capacity development to different sectors, industries,
-and sociocultural initiatives such as marginalized communities.";
+such as marginalized communities.";
 
 $txt["workWith"] = "WANT TO WORK WITH US?";
 $txt["botonVacantes"] = "See our vacancies";
@@ -65,7 +64,7 @@ $txt["team"] = "Our Team";
 $txt["sec-partners"] = "Section Partners";
 
 $txt["news"] = "NEWS";
-$txt["carrers"] = "CARRERS";
+$txt["carrers"] = "CAREERS";
 $txt["stayInTouch"] = "STAY IN TOUCH";
 $txt["canada"] = "CANADA";
 $txt["mexico"] = "MEXICO";
@@ -76,21 +75,69 @@ $txt["policiesTerms"] = "Policies and Terms";
 //social.php
 
 $txt["socialInit"] = "Social Initiatives";
+$txt["socialInit-desc"] = "Our core belief is that through digital inclusion we can increase the wellbeing of
+marginalized communities. Integrate them in the Digital Economy and through
+online platforms for workshops and training to employ them.<br /><br />
 
-$txt["digitalLib"] = "Digital Library";
-$txt["dlText"] = "The Digital Library acts as a time capsule, downloading selected content, which is delivered to the customers through a new generation of hardware. It is a storage device, serving as an intermediary between real-time internet connectivity and access to information in rural areas. Our solution is a substitute to cabling vast areas with internet connectivity, the Digital Library provides internet content previously stored in servers distributed through box receivers.";
+Digital Services go hand in hand with Satellite Broadband. We intend to provide
+them and deliver them to areas without connectivity in Mexico.";
+
+$txt["connect1"] = "Mowisat Corporation is bringing broadband connectivity to areas of difficult access in
+Mexico with the aim to connect and integrate them into the digital economy. Access to
+the digital economy will help rural population generate income from their communities
+and stop economic migration.<br /><br />";
+
+$txt["connect2"] = "Our aim is to empower a market of 57.1 million people who currently don’t have access
+to connectivity in Mexico. We believe we can facilitate new trends and help bring people
+out of poverty, by giving them the tools to provide training and liquidity
+for entrepreneurial ventures via loans, investment, online working and crypto- financing
+as well as create new opportunities in the digital economy, locally, nationally and
+internationally.";
+
+$txt["connect3"] = "The Rural Education Program symbolizes an innovative response
+to the commitment to bring rural population in Mexico online by
+ameliorating their skillsets and enabling them to become active
+participants in the digital economy. <br /> <br />
+";
+
+$txt["connect4"] = "We are teaching how to code with Codecademy online platform. Our program consist in empowering the young through code, ability they can later offer in online freelancing platforms. At the same time, we will create the opportunities for enterprises to hire our students. <br /> <br />";
+
+$txt["connect5"] = "We are currently transforming the lives of 120 high-school students from rural communities of State of México, teaching coding abilities and connecting them with online freelacing platforms. <br /> <br />";
+
+$txt["connect6"] = "Since more than
+57 million people are currently unconnected, this initiative
+introduces the benefits of the Digital Economy, such as:
+education, financial services, jobs, medical solutions, among
+others, generating more value to the communities at the same
+time that we open the door for new business opportunities.<br /><br />";
+
+$txt["connect7"] = "Our goal is to deploy a fully internet integrated economy supported by the deployment of Mexicoin ecosystem. This digital currency will be the corner stone for future initiatives development and will empowered the people with better and faster services that are currently unavailable or are poored quality.";
+
+$txt["eduRu1"] = "The Rural Education Program symbolizes an innovative response
+to the commitment to bring rural population in Mexico online by
+ameliorating their skillsets and enabling them to become active
+participants in the digital economy.";
+$txt["eduRu2"] = "";
+$txt["eduRu3"] = "We are currently transforming the lives of 120 high-school students from rural communities of State of México, teaching coding abilities and connecting them with online freelacing platforms.";
 
 $txt["codecademy"] = "Codecademy";
 $txt["cText"] = "Codecademy is an education initiative aimed at developing programming professionals through unconventional methods of learning. It is a web platform, both with offline and online abilities that is geared towards creating professionals within six months. Mowisat is bringing tailored education for the future programmers of Mexico.";
 
+$txt["connectTitle1"] = "Connecting Anywhere";
+$txt["connectTitle2"] = "Educational Platforms";
+$txt["connectTitle3"] = "Digital Services";
+
 //how-works.php 
 
 $txt["how"] = "How it works?";
-$txt["description-how"] = "Improving Mexico's quality of life";
+$txt["description-how"] = "We connect rural communities to the internet";
 $txt["how-text1"] = "Connecting Mexico's unconnected areas to the internet";
 $txt["how-text2"] = "Bringing digital services: banking, saving, news, entertainment...";
 $txt["how-text3"] = "Educational initiatives: learning how to code, freelancing jobs...";
 $txt["how-text4"] = "Deployment of Mexicoin criptocurrency to fully integrate a rural Digital Economy";
+$txt["how-text5"] = "With the help of our partners, we bring internet connectivity to rural areas. First, we identify communities with no access to connectivity and work with them for the instalation of our Wi-Fi hotspots through an active management supported by the members of the community. Then, we provide the access to Mowisat network via different methods (data usage by time or through mobile apps like Pig.gi). After the internet is up and ready, we start our social initiatives aimed to improve the quality of life of their inhabitats.
+<br /><br />
+We are always in the search for partners that wish to make the vision of a fully connected Mexico a reality. Wether you are a business trying to get a rural market or a NGO that wants to make a really powerfull social impact, we are eager to meet you.";
 
 //partners.php 
 
@@ -111,7 +158,7 @@ We believe we can help reverse current lack of connectivity in Mexico and help b
 //vision.php
 
 $txt["our-vision"] = "Our Vision";
-$txt["description-vision"] = "Our goal is to become the largest and most affordable provider of telecommunication services and IoT PaaS Solution in Latin America to optimize business processes. <br /><br />
+$txt["description-vision"] = "Our goal is to become the largest and most affordable provider of telecommunication services in Latin America to optimize business processes. <br /><br />
 
 We have a strong commitment with our social projects; therefore, we aim to offer internet connectivity, educational platforms and content of value to low-income communities so that their inhabitants have greater opportunities for training and growth.";
 
@@ -125,19 +172,19 @@ $txt["contactForm"] = "Contact Form";
 $txt["aboutusTitle"] = "About us";
 $txt["aboutusTitle2"] = "<center><h2 style='color: white;'>About us</h2></center>";
 $txt["aboutusTxt1"] = "Know more about us:";
-$txt["aboutusTxt2"] = "MOWISAT CORPORATION AIMS TO COMMERCIALIZE SATELLITE BROADBAND AND TAILORED TECH SOLUTIONS.";
+$txt["aboutusTxt2"] = "Mowisat corporation is a satellite internet service provider of advanced solutions including IOT and blockchain platforms. Mowisat Corporation is founded by young entrepreneurs with expertise in the telecommunications and IT industry.";
 $txt["aboutusTxt3"] = "Management and Team";
-$txt["aboutusTxt4"] = "We are conformed by an experienced group with extensive expertise in telecommunications, satellite broadband operations, management, and social development. ";
+$txt["aboutusTxt4"] = "We are conformed by a professional group with extensive expertise in telecommunications, satellite broadband operations, management, and social development. ";
 $txt["aboutusTxt5"] = "PRESIDENT OF THE BOARD OF DIRECTORS - Founder of LEAP, former Chairman of EchoStar Satellite Corporation and Vice Chairman of EchoStar Communications Corporation.";
 $txt["aboutusTxt6"] = "CFO – Chief Financial Officer and Board Member for Mowisat. Director and Board Member of of Bridgemark Financial & Advisors Ltd., a boutique Private Equity & advisory firm with operations in Canada and London, UK. Entrepreneurial and founder of a collection of companies in the Renewable Energy, Encryption and Energy Storage companies (Both Private, Public).";
 $txt["aboutusTxt7"] = "COO - Formerly Officer for Economic affairs at UNOG Mission in Geneva. Has worked as project leader in charge of communications projects at Sovereign Solutions. Experienced in business development and telecommunications related projects";
 $txt["aboutusTxt8"] = "CTO - Vast expirience in networks and programming, developing infrastructure and IT operations: network operations, application development and maintenance. Advance technology knowledge, competitive analysis, technology assassment, partnering and planning.";
 $txt["aboutusTxt9"] = "MEMBER, BOARD OF DIRECTORS - 33 year career with EchoStar : served as a director on boards in Paris, Hong Kong, Denver, Cheseaux, and Mexico City.  Served for more than 8 years on the board of Dish Mexico for EchoStar. Has been in tops positions in Echostar and Dish.";
-$txt["aboutusTxt10"] = "CO-FOUNDER – Angel investor and an innovation advisor to startups. International business development for Dish. Extensive experience in satellite communications, mobile connectivity, and pay television around the globe.";
+$txt["aboutusTxt10"] = "CO-FOUNDER – Works in international business development for Dish, has extensive experience in satellite communications, mobile connectivity, and pay television around the globe. Advocate for consistent and inclusive connectivity. Active supporter of the arts, where he has collaborated on projects ranging from placing art on spacecraft to producing festivals. Angel investor and an innovation advisor to startups.";
 $txt["aboutusTxt11"] = "CO-FOUNDER - Serial entrepreneur, philanthropist, consultant and expert in telecommunications, international relations, and innovation. Executive Director of Sovereign Solutions SA and formerly strategic Advisor for A Human Right, an international NGO, advocated for the expansion of economic opportunities through internet access.";
 $txt["aboutusTxt12"] = "BOARD OF DIRECTORS – 30 years of experience in financial industry: has worked at a number of Bay street firms such as Canarim Securities ( now Canaccord), Levesque Beaubien Securities,  and Research Capital ( now Mackie Research Capital), Octagon Capital. Founder of the WhiteKnight series of Capital Pool Companies (3 have gone to market and listed on the TSXV).";
 // BOD member for two other CPC’s and the CEO and director in addition to 3 TSXV listed companies in the sectors of technology, healthcare and alternative finance.
-$txt["aboutusTxt13"] = "SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former member of the Council of Technological Transfer of the Autonomous University of Nuevo Leon. Participated in numerous government entities. Formerly Managing Directorof the Association of Information Technology Companies (AETI) and President and CEO of the North American International Trade Corridor Partnership (NAITCP). Holds a PhD in Philosophy with Specialization in Administration. Is developing The World Energy Services Integration and Investment Network (WESII Network).";
+$txt["aboutusTxt13"] = "SENIOR ADVICER OF THE BOARD OF DIRECTORS – Former member of the Council of Technological Transfer of the Autonomous University of Nuevo Leon. Participated in numerous government entities. Formerly Managing Director of the Association of Information Technology Companies (AETI) and President and CEO of the North American International Trade Corridor Partnership (NAITCP).";
 $txt["aboutusTxt14"] = "SALES DIRECTOR – Extensive management experience across multi-functional Commercial, Latin America and Sales. Experience in international markets and cultures. Competent in liaising, negotiating and reporting at B2B and Government level. Strong skills in process development and implementation, as well as analysis, strategy planning and staff development. ";
 $txt["aboutusTxt15"] = "PROJECT MANAGER - Specialized in social development, sustainability and technology with more than 9 years of experience volunteering and working in periurban, rural and urban communities. Educated in U.A.M, he is responsible to identify and create bonds with new communities for business opportunities, as well as links between social and technological organizations.";
 $txt["aboutusTxt16"] = "BUSINESS DEVELOPMENT - Young talented executive with a diverse background in technology, business development strategies, market research, and financial economics. Trained as an economist at ITAM, Mexico, he is responsible for identifying new sales leads, pitching Mowisat´s services, and maintaining fruitful relationships with existing customers";
@@ -148,13 +195,24 @@ $txt["aboutusTxt18"] = "MARKETING COMMUNICATION - Recieved his education at the 
 //satellite.php
 $txt["satelliteTitle"] = "Satellite Broadband";
 $txt["satelliteImageTitle"] = "Connectivity";
-$txt["satelliteSubTitle"] = "Connecting the last mile of Mexico to internet";
+$txt["satelliteSubTitle"] = "State-of-the-art internet satellite broadband";
 $txt["satelliteTxt1"] = "Localization of rural low-income communities with no internet connectivity";
 $txt["satelliteTxt2"] = "Installation of Wifi hotspots powered by satellite internet manage by the community";
 $txt["satelliteTxt3"] = "Access to the Wi-Fi network via different methods";
 $txt["satelliteTxt4"] = "Internet brings different services and integrated communities to the Digital Economy";
 
-$txt["residentHead"] = "Residential, Goverment & Business";
+$txt["intro"] = "Introduction";
+$txt["introSub"] = "The launching of Jupiter 2 satellite makes available the new Ka broadband which exceeds any other satellite tecnology on the market";
+
+$txt["howHead"] = "How it works";
+$txt["howP1"] = "Our model makes possible bringing internet to areas of difficult access.<br /><br />
+
+We provide quality internet connectivity through linking the satellite with our dish antennas which spread the connexion through Wi-Fi hotspots.";
+$txt["howP2"] = "The fleixibility of creating any kind of Wi-Fi network suits different needs.<br /><br />
+
+Also our packages make internet connectivity affordable for any project, wether you want to connect a house or to connect a factory.";
+
+$txt["residentHead"] = "Residential, Government & Business";
 $txt["residentSubHead"] = "Facility access to broadband in conjunction with our partner.";
 
 $txt["residentList1"] = "Residential";
@@ -169,10 +227,12 @@ $txt["busList4"] = "Advertisement revenue generation model";;
 $txt["busList5"] = "Redundancy, Backhaul";
 $txt["busList6"] = "Hotspots Mobile Banking";
 
-$txt["govList1"] = "Goverment";
+$txt["govList1"] = "Government";
 $txt["govList2"] = "General Government broadband tenders";
 $txt["govList3"] = "170,000 hotspots broadband";
 $txt["govList4"] = "30,000 satellite hotspots in rural areas";
+
+$txt["buttonSatelliteSocialRes"] = "See social initiatives";
 
 //terms.php 
 
@@ -219,27 +279,29 @@ Subscription to e-mail bulletins is voluntary and could be selected at the time 
 
  Mowisat Corp reserves the right to change or modify these terms without prior notice.<br /><br />";
 
+/*
+privacy.php
+*/
 
-$txt["privacy"] = "Política de Privacidad";
-$txt["privacyDesc"] = "MOWISAT CORP está especialmente sensibilizada en la protección de los datos de los USUARIOS de los servicios a los que se accede a través de su web. Mediante la presente Política de Privacidad (en adelante , la Política) MOWISAT CORP informa a los USUARIOS del sitio web: www.mowisat.mx del tratamiento y usos a los que se someten los datos de carácter personal que se recaban en la web, con el fin de que decidan, libre y voluntariamente, si desean facilitar la información solicitada.<br /><br />
-MOWISAT CORP se reserva la facultad de modificar esta Política con el objeto de adaptarla a novedades legislativas, criterios jurisprudenciales, prácticas del sector, o intereses de la entidad. Cualquier modificación en la misma será anunciada con la debida antelación, a fin de que tengas perfecto conocimiento de su contenido.<br /><br />
-Ciertos servicios prestados en el portal pueden contener condiciones particulares con previsiones en materia de protección de Datos Personales. De ellos puedes informarte en los correspondientes apartados.<br /><br />
-TITULARIDAD DEL TRATAMIENTO<br /><br />
-En dichos supuestos, los datos recabados por MOWISAT CORP serán incorporados a ficheros titularidad de MOWISAT CORP, debidamente inscritos en el Registro General de Protección de Datos.<br /><br />
-USOS Y FINALIDADES<br /><br />
-La finalidad de la recogida y tratamiento de los datos personales es la gestión, prestación y personalización de los servicios y contenidos del mismo que el USUARIO utilice y de la cual se informará en cada apartado.<br /><br />
-COMUNICACIÓN DE LOS DATOS<br /><br />
-Los datos recabados a través de la web sólo serán cedidos en aquellos casos en que expresamente se informe de ello al USUARIO.
-ACTUALIZACIÓN DE LOS DATOS<br /><br />
-Con el fin de que los datos obrantes en nuestras bases de datos siempre correspondan a tu situación real deberás mantenerlos actualizados, bien actualizándolos tú directamente en los caso en que ello sea posible, o bien, comunicándolo al departamento correspondiente.<br /><br />
-UTILIZACIÓN DE COOKIES<br /><br />
-Con el objeto de proteger la intimidad de los usuarios de su página web MOWISAT CORP no emplea cookies cuando los mismos navegan por la misma.
-SEGURIDAD DE LOS DATOS<br /><br />
-MOWISAT CORP ha adoptado en su sistema de información las medidas técnicas y organizativas legalmente requeridas, a fin de garantizar la seguridad y confidencialidad de los datos almacenados, evitando así, en la medida de lo posible, su alteración, pérdida, tratamiento o acceso no autorizado.<br /><br />
-DERECHOS DE LOS USUARIOS<br /><br />
-En todo caso podrás acceder a tus datos, rectificarlos, cancelarlos y en su caso, oponerte a su tratamiento:<br /><br />
-a) bien mediante solicitud acompañada de una fotocopia de una identificación con validez oficial, remitida a la siguiente dirección postal: Calle Bahía de las Palmas 1, Verónica Anzures, 113000, Ciudad de México, CDMX.<br />
-b) bien mandando un e-mail a la siguiente dirección de correo electrónico: info@mowisatcorp.com
-";
-
+ $txt["privacy"] = "Privacy Policies";
+ $txt["privacyDesc"] = "MOWISAT CORP is especially sensible in the protection of USERS’ data generated by our services that are accessed through its web. By means of this Privacy Policy (hereinafter the Policy), MOWISAT CORP informs the USERS of the website: www.mowisat.mx of the treatment and uses to which the personal data that are collected on the web are submitted, with so that they decide, freely and voluntarily, if they wish to provide the requested information.<br /><br />
+ MOWISAT CORP reserves the right to modify this Policy in order to adapt it to new legislation, jurisprudential criteria, practices of the sector, or interests of the entity. Any modification in the same will be announced in advance, so that you have a perfect knowledge of its contents. <br /><br />
+ Certain services provided on the portal may contain particular conditions with provisions regarding the protection of Personal Data. Of them you can inform in the corresponding sections. <br /><br />
+ TREATMENT OWNERSHIP<br /><br />
+ In such cases, the data collected by MOWISAT CORP will be incorporated into files owned by MOWISAT CORP, duly registered in the General Registry of Data Protection. <br /><br />
+ USES AND PURPOSES<br /><br />
+ The purpose of the collection and processing of personal data is the management, provision and customization of the services and contents of the same that the USER uses and which will be reported in each section. <br /><br />
+ COMMUNICATION OF DATA<br /><br />
+ The data collected through the web will only be given in those cases in which it expressly informs the USER. <br /><br />
+ UPDATING THE DATA<br /><br />
+ In order that the data in our databases always correspond to your real situation you must keep them updated, either by updating them directly in the case where this is possible, or by communicating it to the corresponding department. <br /><br />
+ USING COOKIES<br /><br />
+ In order to protect the privacy of the users of its web page, MOWISAT CORP does not use cookies when they navigate by the same. <br /><br />
+ DATA SAFETY<br /><br />
+ MOWISAT CORP has adopted in its information system the legally required technical and organizational measures in order to guarantee the security and confidentiality of the stored data, thus avoiding, as far as possible, its alteration, loss, processing or unauthorized access. <br /><br />
+ USER RIGHTS<br /><br />
+ In any case you can access your data, rectify, cancel and, if applicable, oppose your treatment: <br /><br />
+ a) Either by application accompanied by a photocopy of an identification with official validity, sent to the following postal address: Calle Bahía de las Palmas 1, Veronica Anzures, 113000, Mexico City, CDMX. <br /><br />
+ b) Or by sending an e-mail to the following e-mail address: info@mowisatcorp.com<br /><br />";
+ 
 ?>

@@ -9,9 +9,9 @@
             <div class="xs-hidden sm-hidden col-md-2"></div>
             <div class="col-xs-12 col-sm-12 col-md-8 social-network">
                 <ul style="text-align: center; !important;">
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm1 col-xs-12"><a style="color: #85A0CF !important;" href="http://twitter.com/MowisatCorp"><img src="images/twitter-logo.png" alt="twitter" />@MowisatCorp</a></div></li>
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm col-xs-12"><a style="color: #85A0CF !important;" href="http://facebook.com/MowisatCorporation"><img src="images/fb-logo.png" alt="facebook" />Facebook.com/MowisatCorporation</a></div></li>
-                    <li><div style="margin: 0 0 0 10px;" class="logos-sm2 col-xs-12"><a style="color: #85A0CF !important;" href="#"><img src="images/linkedin-logo.png" alt="linkedin" />Linkedin</a></div></li>
+                    <li><div style="margin: 0 0 0 10px;" class="logos-sm1 col-xs-12"><a style="color: #85A0CF !important;" href="http://twitter.com/MowisatCorp"><img src="images/twitter-logo.png" alt="twitter" /></a></div></li>
+                    <li><div style="margin: 0 0 0 10px;" class="logos-sm col-xs-12"><a style="color: #85A0CF !important;" href="http://facebook.com/MowisatCorporation"><img src="images/fb-logo.png" alt="facebook" /></a></div></li>
+                    <li><div style="margin: 0 0 0 10px;" class="logos-sm2 col-xs-12"><a style="color: #85A0CF !important;" href="https://www.linkedin.com/company/16253852/"><img src="images/linkedin-logo.png" alt="linkedin" /></a></div></li>
                 </ul>
             </div>
             <div class="xs-hidden sm-hidden col-md-2"></div>
@@ -32,12 +32,20 @@
             </div>
 
             <div class="col-sm-2">
-                <div class="blue-letter special"><?PHP echo $txt["news"]; ?></div>
-                <div class="blue-letter special"><?PHP echo $txt["carrers"]; ?></div>
+                <div class="blue-letter special">
+                    <a href="/blog" style="color: #85A0CF;">
+                        <?PHP echo $txt["news"]; ?>
+                    </a>
+                </div>
+                <div class="blue-letter special">
+                <a href="careers.php" style="color: #85A0CF;">
+                        <?PHP echo $txt["carrers"]; ?>
+                    </a>
+                </div>
 
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <div style="" class="blue-letter"><?PHP echo $txt["stayInTouch"]; ?></div>
                 <div style="" class="special2">info@mowisatcorp.com</div>
 
@@ -62,6 +70,7 @@
                   </div>
             </div>
 
+            <div class="col-sm-1"></div>
 
         </div>
 
